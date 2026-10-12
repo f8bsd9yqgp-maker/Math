@@ -1,0 +1,113 @@
+# The shortest superstring of the binary Lyndon words of length eight
+
+**Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
+
+*Research note — 12 October 2026. This is a self-contained, AI-assisted proof with a reproducible finite certificate. Independent specialist review and publication-priority verification are pending. Its presence on GitHub does not imply formal peer review or institutional endorsement.*
+
+## Statement and definitions
+
+A binary **Lyndon word** of length eight is an eight-bit word that is lexicographically strictly smaller than each of its seven nontrivial cyclic rotations. Let `W` be the set of all such words. Direct enumeration gives `|W| = 30`.
+
+We prove that any binary string containing every element of `W` has length at least 94, and exhibit one attaining 94.
+
+## Proof
+
+### 1. Model length-eight factors as directed edges
+
+Consider the binary de Bruijn digraph of order seven. Its 128 vertices are the seven-bit strings; its 256 directed edges are the eight-bit strings. An edge `b1...b8` goes from `b1...b7` to `b2...b8`.
+
+Equivalently, identify seven-bit strings with integers `0,...,127`. The outgoing neighbors of `v` are `2v mod 128` and `(2v+1) mod 128`.
+
+A string of length `L` generates a directed walk of `m = L - 7` edges, one for each consecutive eight-bit factor.
+
+### 2. Construct a one-sided Lipschitz potential
+
+Let `d(a,b)` be the shortest directed-path length from vertex `a` to vertex `b`. Since the graph has order seven, `0 <= d(a,b) <= 7`. It can be computed by the explicit overlap formula
+
+```
+d(a,b) = min { k in {0,...,7} :
+               suffix_(7-k)(a) = prefix_(7-k)(b) }.
+```
+
+Set
+
+```
+Z = {37,39,53,59,61,87,91,95,111,127}
+
+p(v) = min( 7, 3 + d(25,v), min_{z in Z} d(z,v) ).
+```
+
+Every potential value belongs to `{0,...,7}`.
+
+**Lemma.** For every directed edge `u -> v`, we have `p(v) - p(u) <= 1`.
+
+**Proof of lemma.** Appending `u -> v` to a shortest directed path from any source `a` to `u` gives `d(a,v) <= d(a,u) + 1`. This holds for every distance function in the minimum defining `p`; it also holds for the constant function 7. Taking their pointwise minimum preserves the inequality. QED.
+
+### 3. The 30 mandatory edges have potential drop 64
+
+For vertex `v`, let `Delta(v)` be its outgoing-minus-incoming degree in the directed edge collection `W`. Enumerating the 30 Lyndon edges gives the complete list of nonzero values:
+
+| Vertices | Delta | p |
+| --- | ---: | ---: |
+| 0, 2, 4, 6, 10, 12, 14, 18, 26 | +1 each | 7 |
+| 22, 30 | +1 each | 2 |
+| 25 | -1 | 3 |
+| 37, 39, 53, 59, 61, 87, 91, 95, 111, 127 | -1 each | 0 |
+
+All other vertices have `Delta(v) = 0`. The table follows from finite enumeration and the explicit definition of `p` (and is independently checked by the accompanying Python verifier).
+
+The total decrease in potential across the 30 required edges is therefore
+
+```
+D = sum_(w in W) [p(tail(w)) - p(head(w))]
+  = sum_(v=0)^127 Delta(v) p(v)
+  = 9*7 + 2*2 - 3 - 10*0
+  = 64.
+```
+
+### 4. Lower bound for every possible superstring
+
+Let `S` contain every word in `W`, and let `m = |S| - 7` be the number of length-eight factors. Select one occurrence of each of the 30 distinct required factors. Those selected edges contribute total potential change `-64`, irrespective of their order.
+
+There are `m-30` remaining edges. By the lemma, each adds **at most** `+1` to the potential. Consequently,
+
+```
+p(end) - p(start) <= -64 + (m - 30).
+```
+
+Since `0 <= p <= 7`, the change on the left is at least `-7`. Thus
+
+```
+-7 <= -64 + (m - 30)
+m >= 87
+|S| = m + 7 >= 94.
+```
+
+This is a **global** lower bound: it does not assume any fixed ordering or merging of blocks.
+
+### 5. Matching upper-bound witness
+
+The following previously recorded string has length exactly 94:
+
+```text
+0000000111111100000101111100001001111010000110111100010101110001100100101101100011101100110101
+```
+
+It contains all 30 eight-bit binary Lyndon words as contiguous factors. The verifier regenerates the target set and checks each occurrence.
+
+Therefore the minimum possible length is both at least 94 and at most 94:
+
+**QED: the exact minimum is 94.**
+
+## Reproduce the certificate
+
+Run `python3 lyndon8_independent_check.py`. The program uses only the Python standard library. It independently builds all graph distances by breadth-first search, tests all 256 potential inequalities, regenerates the 30 Lyndon words, verifies the imbalance table and the potential drop 64, and checks all occurrences in the 94-bit witness.
+
+A useful extra check: in the witness all 57 edges beyond the selected 30 required ones increase the potential by exactly 1, and the walk goes from potential 7 to potential 0. Both lower-bound inequalities are therefore tight.
+
+## Source and scholarly status
+
+- [TheoremDB P2600 — Shortest superstring of the binary Lyndon words of length eight](https://theoremdb.org/statements/P2600/) recorded bounds of 49–94 and the 94-character witness. On 12 October 2026 the entry was marked *Solution submitted*, but the displayed submitted result covered only the 49–94 interval. The site did not provide an externally reviewed proof of the equality 94 in the record inspected.
+- The upper-bound witness is credited to the existing TheoremDB work, **not** claimed as new here.
+- This note's claimed contribution is the matching general lower-bound certificate. It was developed with ChatGPT/OpenAI assistance. The result should be independently checked before claims about priority, acceptance by the mathematical community, or publication.
+- The algorithmic field is *combinatorics on words*, with an equivalent proof in graph theory using a de Bruijn digraph.
