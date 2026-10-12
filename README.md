@@ -121,3 +121,14 @@ A useful extra check: in the witness all 57 edges beyond the selected 30 require
 - [Independent length-nine verifier (Python standard library)](lyndon9_verify.py)
 
 This is an AI-assisted research note with an explicit 185-bit construction and a matching global potential-function lower bound. The proof certificate passes exhaustive finite checks; independent specialist review and priority verification are still pending.
+
+
+## Companion result: length ten
+
+**Theorem (computationally checkable).** The shortest binary superstring containing all 99 binary Lyndon words of length ten has length **359**.
+
+- [Full length-ten proof](lyndon10_exact_359_proof.md)
+- [Independent length-ten Python verifier](lyndon10_verify.py)
+- [Explicit 359-bit witness](lyndon10_witness.txt)
+
+The proof provides a graph-potential lower bound of 359 and an explicit matching construction. This is AI-assisted research, with exhaustive computational checking but without independent specialist peer review or confirmed publication priority.
