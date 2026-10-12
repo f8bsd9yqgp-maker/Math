@@ -188,15 +188,24 @@ This is **AI-assisted mathematical research**, reproducible through finite certi
 
 Download these four files together and run `python3 lyndon15_verify.py`. The verifier regenerates the 2,182 Lyndon words by two independent methods, reconstructs the lower-bound potential, checks all 32,768 graph inequalities, and verifies the matching witness. The uploaded seed and witness SHA-256 hashes were checked against the verifier's declared values. This is AI-assisted, computationally certified research; independent specialist review and originality verification are still pending.
 
-## General framework and open all-length conjecture
+## General exact matching theorem (proof candidate, October 2026)
 
-**General theorems (every length `n >= 2`):** Binary Lyndon words have a special path structure in de Bruijn graphs. A minimum-cost terminal matching gives a rigorous lower bound
-`L_n >= (n-1) + q_n + M_n`. When an optimal matching admits a connected shortest-path realization, the bound is exact. A separate universal estimate is `2q_n <= L_n <= 2^n + n - 1`.
+**Claim, with a complete proof candidate supplied:** Let `W` be any finite set of *distinct Lyndon words of the same length* `n` over a totally ordered alphabet. Let `H(W)` be the maximum sum of proper suffix-prefix overlaps across a bipartite matching on the words. Then
 
-**Still an open conjecture:** Does such a connected optimal realization exist for every binary Lyndon length? **We have not proved this.** Please do not cite this repository as a proof of a universal exact formula.
+`ShortestSuperstring(W) = n * |W| - H(W)`.
 
-- [General structural results, proofs, and carefully labeled conjecture](lyndon_general_theorem_and_conjecture.md)
-- [General matching and connectivity algorithm (NumPy/SciPy)](lyndon_general_framework.py)
+The crucial observation is that **every positive suffix-prefix overlap `u -> v` between two distinct same-length Lyndon words implies `u < v` in lexicographic order**. Consequently positive-overlap arcs are acyclic; selecting a maximum-weight matching gives disjoint paths whose concatenation attains the universal matching lower bound.
+
+For the special case of *all binary Lyndon words of length n*, this also yields `L_n = (n-1) + q_n + M_n`, resolving the cycle-connectivity obstruction identified in the earlier general-framework notes. Here `M_n` is the minimum de Bruijn path-endpoint connector matching cost.
+
+- [Complete all-length exact matching theorem and proof candidate](lyndon_all_lengths_exact_matching_theorem_2026-10-12.md)
+- [Independent maximum-overlap solver and witness generator (NumPy/SciPy)](lyndon_all_lengths_matching_solver.py)
+- [Earlier general framework and conjecture — historical note, **superseded**](lyndon_general_theorem_and_conjecture.md)
+- [Earlier graph matching implementation](lyndon_general_framework.py)
+
+Run `python3 lyndon_all_lengths_matching_solver.py 12` to reproduce the length-12 result; the current full-overlap-matrix implementation is limited to `n <= 17` because of memory requirements, **not** because the theorem is restricted to those lengths. Earlier single-length proof certificates remain available separately.
+
+**Research status:** This work is AI-assisted. The proof candidate is public and testable; it has *not* been independently peer-reviewed, accepted, or established as previously unpublished. The former wording that the all-length connected-matching claim was still an open conjecture is superseded by this proof candidate; expert review of the new argument is still pending.
 
 ### Companion result: length sixteen (21,902 bits)
 
@@ -209,4 +218,4 @@ An exact finite certificate checks a matching cost of 17,807 for the 4,080 lengt
 
 Download the four length-16 Python files into the same folder and run `python3 lyndon16_run_all.py`. Both compressed data files are restored locally and checked against their SHA-256 hashes before the verifier checks all 2,979,076 dual inequalities and containment of all 4,080 required words.
 
-These are **AI-assisted mathematical research notes**, not externally peer-reviewed publications. The connected-matching claim for **all** lengths remains a conjecture; originality and priority of the individual finite results have not been established.
+These are **AI-assisted mathematical research notes**, not externally peer-reviewed publications. The all-length connected-matching conjecture now has a proposed proof in the matching theorem linked above; independent review, originality, and priority checks remain outstanding.
