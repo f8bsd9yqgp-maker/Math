@@ -187,3 +187,26 @@ This is **AI-assisted mathematical research**, reproducible through finite certi
 - [Explicit 11,037-bit witness](lyndon15_witness.txt)
 
 Download these four files together and run `python3 lyndon15_verify.py`. The verifier regenerates the 2,182 Lyndon words by two independent methods, reconstructs the lower-bound potential, checks all 32,768 graph inequalities, and verifies the matching witness. The uploaded seed and witness SHA-256 hashes were checked against the verifier's declared values. This is AI-assisted, computationally certified research; independent specialist review and originality verification are still pending.
+
+## General framework and open all-length conjecture
+
+**General theorems (every length `n >= 2`):** Binary Lyndon words have a special path structure in de Bruijn graphs. A minimum-cost terminal matching gives a rigorous lower bound
+`L_n >= (n-1) + q_n + M_n`. When an optimal matching admits a connected shortest-path realization, the bound is exact. A separate universal estimate is `2q_n <= L_n <= 2^n + n - 1`.
+
+**Still an open conjecture:** Does such a connected optimal realization exist for every binary Lyndon length? **We have not proved this.** Please do not cite this repository as a proof of a universal exact formula.
+
+- [General structural results, proofs, and carefully labeled conjecture](lyndon_general_theorem_and_conjecture.md)
+- [General matching and connectivity algorithm (NumPy/SciPy)](lyndon_general_framework.py)
+
+### Companion result: length sixteen (21,902 bits)
+
+An exact finite certificate checks a matching cost of 17,807 for the 4,080 length-16 Lyndon words, with a 21,902-bit matching witness.
+
+- [One-command solver-free verification](lyndon16_run_all.py)
+- [Independent assignment-dual and witness verifier](lyndon16_verify.py)
+- [Restore the SHA-256-checked assignment dual data](lyndon16_restore_dual.py)
+- [Restore the SHA-256-checked witness](lyndon16_restore_witness.py)
+
+Download the four length-16 Python files into the same folder and run `python3 lyndon16_run_all.py`. Both compressed data files are restored locally and checked against their SHA-256 hashes before the verifier checks all 2,979,076 dual inequalities and containment of all 4,080 required words.
+
+These are **AI-assisted mathematical research notes**, not externally peer-reviewed publications. The connected-matching claim for **all** lengths remains a conjecture; originality and priority of the individual finite results have not been established.
