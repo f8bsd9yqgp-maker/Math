@@ -132,3 +132,13 @@ This is an AI-assisted research note with an explicit 185-bit construction and a
 - [Explicit 359-bit witness](lyndon10_witness.txt)
 
 The proof provides a graph-potential lower bound of 359 and an explicit matching construction. This is AI-assisted research, with exhaustive computational checking but without independent specialist peer review or confirmed publication priority.
+
+## Companion result: length eleven
+
+**Theorem (computationally checkable).** The shortest binary superstring containing all **186** binary Lyndon words of length eleven has length **715**.
+
+- [Complete length-eleven mathematical proof](lyndon11_exact_715_proof.md)
+- [Independent length-eleven verification script](lyndon11_verify.py)
+- [Explicit 715-bit witness](lyndon11_witness.txt)
+
+The certificate supplies a matching general lower bound and an explicit construction. Run `python3 lyndon11_verify.py` to verify all 2,048 graph-edge potential inequalities and all 186 required substrings. This is AI-assisted research with computational verification, not independent specialist peer review; publication priority is still unconfirmed.
