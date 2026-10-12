@@ -142,3 +142,13 @@ The proof provides a graph-potential lower bound of 359 and an explicit matching
 - [Explicit 715-bit witness](lyndon11_witness.txt)
 
 The certificate supplies a matching general lower bound and an explicit construction. Run `python3 lyndon11_verify.py` to verify all 2,048 graph-edge potential inequalities and all 186 required substrings. This is AI-assisted research with computational verification, not independent specialist peer review; publication priority is still unconfirmed.
+
+## Companion result: length twelve
+
+**Theorem (computationally checkable).** The shortest binary superstring containing all **335** binary Lyndon words of length twelve has length **1,415**.
+
+- [Complete length-twelve proof](lyndon12_exact_1415_proof.md)
+- [Independent length-twelve Python verifier](lyndon12_verify.py)
+- [Explicit 1,415-bit witness](lyndon12_witness.txt)
+
+The argument gives a matching global graph-potential lower bound and an explicit construction. Run `python3 lyndon12_verify.py` to check all 4,096 graph transitions and every required word without external packages. This is AI-assisted research with computational validation, but not independent specialist peer review; scholarly priority remains unconfirmed.
