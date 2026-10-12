@@ -111,3 +111,13 @@ A useful extra check: in the witness all 57 edges beyond the selected 30 require
 - The upper-bound witness is credited to the existing TheoremDB work, **not** claimed as new here.
 - This note's claimed contribution is the matching general lower-bound certificate. It was developed with ChatGPT/OpenAI assistance. The result should be independently checked before claims about priority, acceptance by the mathematical community, or publication.
 - The algorithmic field is *combinatorics on words*, with an equivalent proof in graph theory using a de Bruijn digraph.
+
+
+## Companion result: length nine
+
+**Theorem (computationally checkable).** The minimum length of a binary superstring containing all 56 binary Lyndon words of length nine is **185**.
+
+- [Full length-nine proof](lyndon9_exact_185_proof.md)
+- [Independent length-nine verifier (Python standard library)](lyndon9_verify.py)
+
+This is an AI-assisted research note with an explicit 185-bit construction and a matching global potential-function lower bound. The proof certificate passes exhaustive finite checks; independent specialist review and priority verification are still pending.
