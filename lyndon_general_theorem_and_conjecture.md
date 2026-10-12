@@ -161,3 +161,8 @@ Possible routes:
 - M. Mucha, *Lyndon Words and Short Superstrings*, SODA 2013, https://arxiv.org/abs/1205.6787. That paper uses Lyndon words in the study of generic shortest-superstring approximation; it does not establish our conjecture.
 
 Classical ingredients such as de Bruijn graphs, min-cost flow integrality, shortest-path distances, assignment duality, and Euler trails are standard. **Do not publish this document as a proved exact all-length formula.** It consists of valid general statements, an explicit open conjecture, and finite evidence to be independently reviewed.
+
+
+### GitHub reproduction instructions for length 16
+
+The GitHub repository stores the original length-16 JSON dual certificate and 21,902-bit witness as compact, **losslessly compressed** payloads in `lyndon16_restore_dual.py` and `lyndon16_restore_witness.py`. The restore scripts verify SHA-256 checksums of the decompressed original files, and the separate verifier checks the mathematical certificate. Run `python3 lyndon16_run_all.py` with the three scripts beside it to restore both data files and verify the exact finite result without an optimizer. The claim for **every** length remains an open conjecture.
