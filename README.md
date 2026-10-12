@@ -176,3 +176,14 @@ The graph-potential certificate proves a global lower bound of 2,804, and the wi
 Download the five files into the same folder and run `python3 lyndon14_verify.py` to regenerate the 1,161 required words, reconstruct the potential, test all **16,384** directed-edge inequalities, and check the exact 5,564-bit witness. The pure-Python verifier does not require an optimizer or third-party libraries. The auxiliary assignment cross-check needs NumPy and SciPy.
 
 This is **AI-assisted mathematical research**, reproducible through finite certificate checks. Independent specialist peer review and publication-priority verification remain outstanding.
+
+## Companion result: length fifteen
+
+**Theorem (computationally checkable).** The shortest binary superstring containing all **2,182** binary Lyndon words of length fifteen has length **11,037**.
+
+- [Complete length-fifteen proof](lyndon15_exact_11037_proof.md)
+- [Independent standard-library Python verifier](lyndon15_verify.py)
+- [657-entry weighted-seed potential certificate](lyndon15_seeds.txt)
+- [Explicit 11,037-bit witness](lyndon15_witness.txt)
+
+Download these four files together and run `python3 lyndon15_verify.py`. The verifier regenerates the 2,182 Lyndon words by two independent methods, reconstructs the lower-bound potential, checks all 32,768 graph inequalities, and verifies the matching witness. The uploaded seed and witness SHA-256 hashes were checked against the verifier's declared values. This is AI-assisted, computationally certified research; independent specialist review and originality verification are still pending.
