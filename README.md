@@ -162,3 +162,17 @@ The argument gives a matching global graph-potential lower bound and an explicit
 - [Explicit 2,804-bit witness](lyndon13_witness.txt)
 
 The graph-potential certificate proves a global lower bound of 2,804, and the witness attains it. Run `python3 lyndon13_verify.py` to regenerate the potential, verify all 8,192 edge inequalities and 630 required words, and confirm the construction. The research is AI-assisted. The finite checks are reproducible; independent specialist review and publication-priority verification are still pending.
+
+## Companion result: length fourteen
+
+**Theorem (finite, independently checkable certificate).** The minimum binary superstring containing all **1,161** binary Lyndon words of length fourteen has length **5,564**.
+
+- [Complete length-fourteen mathematical proof](lyndon14_exact_5564_proof.md)
+- [Solver-free Python verifier](lyndon14_verify.py)
+- [Weighted-seed potential certificate (358 entries)](lyndon14_seeds.txt)
+- [Explicit 5,564-bit witness](lyndon14_witness.txt)
+- [Independent NumPy/SciPy assignment cross-check (optional)](lyndon14_assignment_crosscheck.py)
+
+Download the five files into the same folder and run `python3 lyndon14_verify.py` to regenerate the 1,161 required words, reconstruct the potential, test all **16,384** directed-edge inequalities, and check the exact 5,564-bit witness. The pure-Python verifier does not require an optimizer or third-party libraries. The auxiliary assignment cross-check needs NumPy and SciPy.
+
+This is **AI-assisted mathematical research**, reproducible through finite certificate checks. Independent specialist peer review and publication-priority verification remain outstanding.
