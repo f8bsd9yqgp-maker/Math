@@ -152,3 +152,13 @@ The certificate supplies a matching general lower bound and an explicit construc
 - [Explicit 1,415-bit witness](lyndon12_witness.txt)
 
 The argument gives a matching global graph-potential lower bound and an explicit construction. Run `python3 lyndon12_verify.py` to check all 4,096 graph transitions and every required word without external packages. This is AI-assisted research with computational validation, but not independent specialist peer review; scholarly priority remains unconfirmed.
+
+## Companion result: length thirteen
+
+**Theorem (computationally checkable).** The shortest binary superstring containing all **630** binary Lyndon words of length thirteen has length **2,804**.
+
+- [Complete length-thirteen mathematical proof](lyndon13_exact_2804_proof.md)
+- [Independent length-thirteen verifier (Python standard library)](lyndon13_verify.py)
+- [Explicit 2,804-bit witness](lyndon13_witness.txt)
+
+The graph-potential certificate proves a global lower bound of 2,804, and the witness attains it. Run `python3 lyndon13_verify.py` to regenerate the potential, verify all 8,192 edge inequalities and 630 required words, and confirm the construction. The research is AI-assisted. The finite checks are reproducible; independent specialist review and publication-priority verification are still pending.
