@@ -1,0 +1,36 @@
+{
+  "publication_date": "2026-10-22",
+  "scope": "Structural proofs for the reduced backchip process; full canonical limit unresolved; not peer-reviewed.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3993,
+      "sha256": "daa44aca18a3b21e8855162228f741b96b8d7054ad456ce407e9b92316917400"
+    },
+    {
+      "path": "density_phases_proof.md",
+      "bytes": 27875,
+      "sha256": "da71b915c40903a98074221d53c6243b8c657ea507fba023585f1010a67f380d"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 6169,
+      "sha256": "3d80b7efa9f9044ca123efa0bc5ab7cedcce7209df97c50a64d4307b77148f35"
+    },
+    {
+      "path": "code/verify.py",
+      "bytes": 7312,
+      "sha256": "79af8bfa8129897992434799ce42775c66b4c1533048b3f1bca36892af40a5ea"
+    },
+    {
+      "path": "code/exact_support.py",
+      "bytes": 1972,
+      "sha256": "64e899eeda515cc4a3fc5cfd385e1b7850c449b598a5aaf49c23dac7a5f06579"
+    },
+    {
+      "path": "results/verification.json",
+      "bytes": 1494,
+      "sha256": "81794f3f471a313f3c176d1755e31d85bdbf913a2e30edf61c1021080147642b"
+    }
+  ]
+}

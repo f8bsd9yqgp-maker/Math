@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "capped_discrepancy": {
+    "donor_split_identities": 5832,
+    "subadditivity_cases": 24642
+  },
+  "local_discrepancy_quadruples": 10000,
+  "ring_discrepancy_transitions": 9457,
+  "two_copy_gatherings": 2891,
+  "boundary_current_identities": 54054,
+  "fifo_initial_states_and_event_words": 97650,
+  "finite_occupation_projection": [
+    {
+      "N": 4,
+      "H": 2,
+      "P_1100": "1/10",
+      "P_1010": "1/10",
+      "difference": "0"
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "P_1100": "7/76",
+      "P_1010": "3/38",
+      "difference": "1/76"
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "P_1100": "12/149",
+      "P_1010": "39/596",
+      "difference": "9/596"
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "P_1100": "35219/476832",
+      "P_1010": "4699/79472",
+      "difference": "7025/476832"
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "P_1100": "3818225/53355722",
+      "P_1010": "3040197/53355722",
+      "difference": "389014/26677861"
+    },
+    {
+      "N": 4,
+      "H": 7,
+      "P_1100": "84710946545/1191652750428",
+      "P_1010": "16849468928/297913187607",
+      "difference": "5771023611/397217583476"
+    },
+    {
+      "N": 4,
+      "H": 8,
+      "P_1100": "1354570744905610/19078447757769219",
+      "P_1010": "2155157426355761/38156895515538438",
+      "difference": "184661354485153/12718965171846146"
+    }
+  ],
+  "limits": "Finite identities only. No numerical certification of measure-theoretic or thermodynamic claims."
+}

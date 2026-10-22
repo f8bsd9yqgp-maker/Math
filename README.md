@@ -1,5 +1,10 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
+Also in this repository: [NaSch/backchip stationary-order, synchronization,
+and density-phase proofs](nasch/README.md) (22 October 2026). These are
+AI-assisted, internally audited research results, not independently
+peer-reviewed. The fixed-density thermodynamic-limit problem remains open.
+
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 
 *Research note — 12 October 2026. This is a self-contained, AI-assisted proof with a reproducible finite certificate. Independent specialist review and publication-priority verification are pending. Its presence on GitHub does not imply formal peer review or institutional endorsement.*
@@ -219,3 +224,4 @@ An exact finite certificate checks a matching cost of 17,807 for the 4,080 lengt
 Download the four length-16 Python files into the same folder and run `python3 lyndon16_run_all.py`. Both compressed data files are restored locally and checked against their SHA-256 hashes before the verifier checks all 2,979,076 dual inequalities and containment of all 4,080 required words.
 
 These are **AI-assisted mathematical research notes**, not externally peer-reviewed publications. The all-length connected-matching conjecture now has a proposed proof in the matching theorem linked above; independent review, originality, and priority checks remain outstanding.
+
