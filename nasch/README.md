@@ -39,6 +39,14 @@ The proof includes the ordering prerequisite rather than asking the reader
 to trust earlier reports. It explicitly distinguishes a deterministic
 almost-sure spatial density from an expected density.
 
+The [22 October continuation](continuations/2026-10-22/README.md) proves the
+finite bound `q_(N,H) <= H(H-1)/[N(H+N-1)]`, with equality for `H = 1, 2`
+and strict inequality for `H >= 3`, and proves that removing a site cannot
+decrease current at fixed mass. It also proves that two explicitly stated
+dilation comparisons, even with errors of order `1/N`, would imply the
+full fixed-density limit. **Those comparisons remain unproved.** The note
+includes exact verification code and separately labelled exploratory data.
+
 ## What is not proved
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is

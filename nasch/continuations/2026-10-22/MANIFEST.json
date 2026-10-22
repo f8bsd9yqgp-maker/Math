@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-22",
+  "scope": "Proved height/current comparisons and conditional convergence theorem; dilation hypothesis UNPROVED; full problem OPEN; not peer-reviewed.",
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3830,
+      "sha256": "6e56d749991caef8f121fe372896153c8230b581aba0297b065fed7fcb397318"
+    },
+    {
+      "path": "README.md",
+      "bytes": 21200,
+      "sha256": "0b1bb5296ba31393402cdc953cfd795b005267df19e2940d9a667020dca7d3c0"
+    },
+    {
+      "path": "cross_size_probe.py",
+      "bytes": 3847,
+      "sha256": "3543c52311e6009f5e1b7b2540f9f4136de70913300f9bd3264335912189befc"
+    },
+    {
+      "path": "pile_covariance_probe.cpp",
+      "bytes": 1009,
+      "sha256": "8eae9a45e0ec005708a4a222ff497ae36e1e14469d208e42fb2f0bca801f5cec"
+    },
+    {
+      "path": "results/cross_size_probe.json",
+      "bytes": 5493,
+      "sha256": "3eadd4ced8381dee810185c4d6cf7cb76745406c9723260a733a6d61733d9e66"
+    },
+    {
+      "path": "results/pile_covariance_probe.txt",
+      "bytes": 506,
+      "sha256": "1dea738c5cd250d8e2fd4483501364097033b8a5dc49ece48b09b6929b2c2310"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 1682,
+      "sha256": "c84673221aba3531579b6ba863043bc9e83716f104ee1a8cc2573622c7c48f84"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6207,
+      "sha256": "695a8a0c0046f30041d3ef1b3da9a893bd1552b009af587c68520c857898f498"
+    }
+  ]
+}
