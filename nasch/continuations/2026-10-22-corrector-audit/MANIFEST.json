@@ -1,0 +1,54 @@
+{
+  "publication_date": "2026-10-23",
+  "scope": "Monotone finite-volume corrector, martingale bounds, and folding obstruction. Fixed-density canonical convergence remains OPEN. Internally audited; not peer-reviewed.",
+  "dependencies": [
+    "../../code/exact_support.py"
+  ],
+  "files": [
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 4116,
+      "sha256": "7e92c1adea1c46e914d5859f95eb368e85bdb147d940bfa22fa81ac37451ed39"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4850,
+      "sha256": "31216bc575712bc058fb7ea36014f81cdc9479e5bf066f54a237cf1c5f736f86"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18185,
+      "sha256": "c817d6bdadfe475bdfb35b5adc13498d34febc101139dd4da9a99c09294fae66"
+    },
+    {
+      "path": "corrector_probe.py",
+      "bytes": 3628,
+      "sha256": "3e13506535ad492a167cd8487e783cb3e9a89e8f2851db2e1094b426857a651b"
+    },
+    {
+      "path": "envelope_probe.py",
+      "bytes": 1520,
+      "sha256": "f20a0d50ac13192dc56f5381a5e106b8d4b40eac7bb3ae1295801b48bedd5332"
+    },
+    {
+      "path": "results/envelope_probe.json",
+      "bytes": 5877,
+      "sha256": "cb9077c2b88cfdaba7cd8f362937ab8a503d546fc6895fcdb4902d7fce085894"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 3545,
+      "sha256": "f70707fa2530a05359fa68b60bb2cd180cc74a3905c34037811da19090518f3b"
+    },
+    {
+      "path": "stagger_probe.py",
+      "bytes": 1608,
+      "sha256": "95221b9fc4fdcc5b87e4686492235d568fcc369b3d7ac28ab787290b320c928d"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4727,
+      "sha256": "91a0c721c5b0eeb669ec7d2b272321e11860f895b8144f45bad8c4f9c2e446c7"
+    }
+  ]
+}

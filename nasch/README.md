@@ -47,6 +47,15 @@ dilation comparisons, even with errors of order `1/N`, would imply the
 full fixed-density limit. **Those comparisons remain unproved.** The note
 includes exact verification code and separately labelled exploratory data.
 
+The [current-corrector audit](continuations/2026-10-22-corrector-audit/README.md)
+constructs monotone finite-ring current correctors and proves that a proposed
+folding certificate fails for arbitrarily large rings, even when it uses the
+exact small-ring corrector. It records an exact rounding identity and rational
+checks of alternative certificates. It also gives a uniform fluctuation bound
+for the corrected current, while proving that the correction to one-bond
+current has an order-N worst-case oscillation. **This refutes one proof mechanism, not
+the stationary comparison or the target limit.**
+
 ## What is not proved
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
