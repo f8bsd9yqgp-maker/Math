@@ -1,0 +1,80 @@
+{
+  "publication_date": "2026-10-23",
+  "scope": "Synchronized cover, buffer comparison, quantitative two-block loss bound, and exact finite counterexamples. Canonical thermodynamic limit remains OPEN. Internally audited; not peer-reviewed.",
+  "dependencies": [
+    "../../code/exact_support.py",
+    "../2026-10-22-corrector-audit/corrector_probe.py"
+  ],
+  "files": [
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 6322,
+      "sha256": "112881adc6babcc370a652a043c90d35dfcdd873d8b72ffa00955fbbc7e52cbb"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4115,
+      "sha256": "fec82219ed21114c19c61d160b9b0e26f13af19fbcde064e558778ef8b6baf1b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20592,
+      "sha256": "74b13d86444da95a053bd80ed13f809477bc1dcfa1020c0274c0a8a93a2fbb09"
+    },
+    {
+      "path": "exploratory/README.md",
+      "bytes": 1592,
+      "sha256": "f9e8617757d2dcb9dcbb44f4d2ed1b301a66c0d5f651622fddab7290b3c181fd"
+    },
+    {
+      "path": "exploratory/buffer_covariance.py",
+      "bytes": 1667,
+      "sha256": "bbecc911e6362333b88b9d001587d41e3c33026f61bb3aee85249d6cbb928099"
+    },
+    {
+      "path": "exploratory/buffer_covariance.txt",
+      "bytes": 7082,
+      "sha256": "29b4d647e33f33d2da2e7e946c09ac4f8b92d56338efa138c81e3820db8d6415"
+    },
+    {
+      "path": "exploratory/buffer_sim.cpp",
+      "bytes": 928,
+      "sha256": "71682e18470acf601352784be901b74b9d31eb4fa914b67650cdac5c8b865c92"
+    },
+    {
+      "path": "exploratory/buffer_sim.txt",
+      "bytes": 995,
+      "sha256": "ca47bd6683fea336c610fef3e4ede9fc4df52f47641a97ae523e4d005f3451d2"
+    },
+    {
+      "path": "influence_probe.py",
+      "bytes": 1397,
+      "sha256": "095629a9d7d46960d976132e923c65b5d9100ee7df6d20fced1c1aa0fd2153a8"
+    },
+    {
+      "path": "results/buffer_certificate.json",
+      "bytes": 4742,
+      "sha256": "a0776adc0c0ceef77f5fec6f883ce2c8375b11e5fdd7e59ed7e7aa8a90f36a36"
+    },
+    {
+      "path": "results/certificates.json",
+      "bytes": 95057,
+      "sha256": "0752303868b37a9a9561cf2a3e52012e93aa597da8752086b9df1fafd466941c"
+    },
+    {
+      "path": "results/influence_probe.json",
+      "bytes": 3708,
+      "sha256": "c3921a195a2be218210a66aefd854230e4f2529ed4047c5bf367d2bc7a885eec"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 4946,
+      "sha256": "153cfcd523e41c521d5e040e5df7609094b1b88c3df991edfec1d1ca2001221d"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 13295,
+      "sha256": "ae731a1ad45326a3867d4402ac3d453ecbf1e97855410fada5e75a55fb86a809"
+    }
+  ]
+}

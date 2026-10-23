@@ -56,6 +56,18 @@ for the corrected current, while proving that the correction to one-bond
 current has an order-N worst-case oscillation. **This refutes one proof mechanism, not
 the stationary comparison or the target limit.**
 
+The [23 October continuation](continuations/2026-10-23-buffer-coupling/README.md)
+proves an exact synchronized-cover construction at mass `k(H-1)+1` and a
+comparison using finite core rings and buffer particles. It supplies a
+rationally certified counterexample to monotonicity in clock correlations,
+even at fixed size and mass. A proved two-block stationary loss bound has an
+order-N reserve threshold. The stronger bound needed for sublinear reserves
+**remains unproved**; a further exact counterexample refutes discarding its
+loss-weighted correction term.
+An error of order `N^(-1/2)` in the resulting two-prime comparisons would
+already suffice for all-size convergence. Proofs, exact certificates, and
+the unsuccessful closure attempts are preserved in that continuation.
+
 ## What is not proved
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is

@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 5118,
-      "sha256": "c77d5ee78fb69a7ad4fe931dbc33caabccd83ad8a31200aedf0758a377e01141"
+      "bytes": 5898,
+      "sha256": "8c29cbbe2afc0f3456be283e624217f439442d2ae9af1a6cb0ea71b4fc0a3b9e"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 6169,
-      "sha256": "3d80b7efa9f9044ca123efa0bc5ab7cedcce7209df97c50a64d4307b77148f35"
+      "bytes": 7201,
+      "sha256": "4da03312a1112ffa5944d53265d0ccbc9ffb2126ce5e9c8c2068988a8efcb555"
     },
     {
       "path": "code/verify.py",
@@ -32,5 +32,6 @@
       "bytes": 1494,
       "sha256": "81794f3f471a313f3c176d1755e31d85bdbf913a2e30edf61c1021080147642b"
     }
-  ]
+  ],
+  "last_updated": "2026-10-23"
 }

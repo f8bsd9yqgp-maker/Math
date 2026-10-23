@@ -103,3 +103,21 @@ No claim is made that the original first-passage problem, the entire NaSch
 stationary current, condensation exclusion, or the required canonical
 selection estimate has been solved. A counterexample to a finite ansatz is
 not a counterexample to the thermodynamic limit.
+
+## Continuation of 23 October 2026
+
+The [buffer-coupling continuation](continuations/2026-10-23-buffer-coupling/README.md)
+adds complete finite-network proofs, an explicit two-block stationary loss
+bound, and exact counterexamples to two proposed comparison shortcuts. Its
+own manifest records the associated proof, verifier, certificates, and
+separately labelled exploratory programs and outputs.
+
+The exact audit passed: 2,548 labelled balance equations and 340 quotient
+equations for eight clock-correlation chains; 32 additional labelled balance
+equations for the weighted-loss counterexample; 3,900 synchronized-cover
+event identities; 9,860 physical buffer-event checks; 3,480 corrector-loss
+identities; 1,740 quadratic-generator identities; and 892 positive-loss
+support checks. These checks verify the finite algebra and certificates.
+They do not establish the missing sublinear-reserve estimate or the
+thermodynamic limit. The proofs remain internally audited working mathematics,
+not independently peer-reviewed results.
