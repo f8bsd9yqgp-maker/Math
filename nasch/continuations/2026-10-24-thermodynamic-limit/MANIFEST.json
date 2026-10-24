@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-24",
+  "scope": "Complete internally audited proof of canonical pile-probability convergence; not peer-reviewed; no unrestricted NaSch formula claimed.",
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 5919,
+      "sha256": "0ffe68b7a40aef7a785a5098c8c80682178c3d7e977763798f8926c7f6e9f9ba"
+    },
+    {
+      "path": "DISCOVERY_CHECKPOINT.md",
+      "bytes": 4641,
+      "sha256": "dfaab00b13bc34daa5c46bbd20028706c3141ced8a98c878503519a6c6c6caf9"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3809,
+      "sha256": "6f58dd80fdfcb000ea7b3e815cfca18ae38bdc86a65c2705f755bd51952f43de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16940,
+      "sha256": "cb7c7e5a746baf84a392d06621108cffe6d2fb55e8e0358da00a387ba452d0cb"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 162,
+      "sha256": "fceb2c7561a95d5578a9b7893fb937ec1d5ddbc4fa29a240f0f3d95d0ad21b58"
+    },
+    {
+      "path": "results/new_step_verification.json",
+      "bytes": 480,
+      "sha256": "374694d55bfb49d64060735420c5ccde48c23b113eb365cb4dc937ec18242d48"
+    },
+    {
+      "path": "verify_new_step.py",
+      "bytes": 4996,
+      "sha256": "db6d4b9414a77a340403d32ddf3daf1f3892348df9f2c30e88e42c1edd1617ce"
+    }
+  ]
+}

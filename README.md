@@ -1,9 +1,10 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
-Also in this repository: [NaSch/backchip stationary-order, synchronization,
-and density-phase proofs](nasch/README.md) (22 October 2026). These are
-AI-assisted, internally audited research results, not independently
-peer-reviewed. The fixed-density thermodynamic-limit problem remains open.
+Also in this repository: [NaSch/backchip canonical pile-probability
+convergence and structural proofs](nasch/README.md) (updated 24 October 2026).
+The fixed-density pile probability has a complete convergence proof with
+rate O((log(N)/N)^(1/4)). These are AI-assisted, internally audited results,
+not independently peer-reviewed. The unrestricted NaSch flow formula remains open.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 

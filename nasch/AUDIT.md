@@ -1,5 +1,28 @@
 # Proof audit and provenance
 
+## Latest result: canonical pile-probability convergence, 24 October 2026
+
+The [new continuation](continuations/2026-10-24-thermodynamic-limit/README.md)
+supplies a complete analytic proof of the scalar fixed-density limit, with
+uniform-on-compact error O_R((log(N)/N)^(1/4)). It proves the oscillation
+estimate that was left open in the immediately preceding height comparison.
+The mechanism is an averaged-height Doob martingale, a deterministic spatial
+sandwich, and localization to auxiliary rings with total mass O(t).
+
+The [new internal audit](continuations/2026-10-24-thermodynamic-limit/AUDIT.md)
+checks semigroup commutation on affine heights, the sum of predictive jump
+sizes, helical blocks, phase rounding, dependent auxiliary copies, winding
+errors, and summation over all road sizes. The new exact verifier passed
+7,724,727 predictive-jump checks, 1,194,264 commutation checks, 2,187 phase-mean
+checks, 132,696 spatial-sandwich checks, and 1,131,601 rounding checks.
+No old verifier or simulation was rerun to establish the result.
+
+This is internally audited working mathematics, not an independent referee
+report or formal proof certification. The entire stationary-measure limit,
+condensate characterization, an explicit Q formula, the T_N formula, limit
+interchange, and the unrestricted NaSch stationary flow remain unresolved.
+The older audit entries below retain their historical scope and dates.
+
 ## 24 October continuation: sharp drift and recurrent support
 
 The new continuation supplies an all-mass reduction to 320 exact integer

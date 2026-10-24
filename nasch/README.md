@@ -1,21 +1,44 @@
-# NaSch project: proved structure of the reduced backchip process
+# NaSch project: canonical pile-probability convergence
 
-Research note prepared for GitHub on 22 October 2026, from research runs 6–8
-(20–21 October 2026).
+Research record updated on 24 October 2026. Earlier structural notes were
+prepared from research runs 6–8 (20–21 October 2026).
 
-**The fixed-density thermodynamic-limit problem remains open in this
-project.** This directory supplies mathematical proofs of more limited
-structural theorems, with exact finite checks. The proofs are AI-assisted,
-internally audited, and **not independently peer-reviewed**. No claim of
-publication priority is made. The computations do not certify the
-infinite-volume measure-theoretic arguments.
+**The fixed-density limit of the canonical pile probability is proved in the
+[latest continuation](continuations/2026-10-24-thermodynamic-limit/README.md).**
+The proof is AI-assisted, internally audited, and **not independently
+peer-reviewed or formally certified**. No claim of publication priority is
+made. Full stationary-measure convergence and the unrestricted NaSch flow
+formula remain separate open questions.
 
 The process studied here is the continuous-time backchip reduction used in
 our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## What is proved
+## Latest theorem
+
+For every finite R there is a limiting function Q such that
+
+```text
+sup_(0 <= eta <= R) |pi_(N,floor(eta*N))(g_0 >= 2) - Q(eta)|
+    = O_R((log(4N)/N)^(1/4)).
+```
+
+Every sequence with N tending to infinity and H/N tending to a finite eta
+has the same limiting pile probability Q(eta). A new averaged-height Doob
+martingale bound, spatial monotonicity, and localization to auxiliary rings
+prove the previously missing finite-time oscillation estimate. The resulting
+cross-size error is summable over doublings. No stationary mass-tail or
+condensate-exclusion assumption is needed.
+
+The [complete proof](continuations/2026-10-24-thermodynamic-limit/README.md),
+[internal audit](continuations/2026-10-24-thermodynamic-limit/AUDIT.md),
+[new exact verifier](continuations/2026-10-24-thermodynamic-limit/verify_new_step.py),
+and [handoff](continuations/2026-10-24-thermodynamic-limit/HANDOFF.md)
+preserve the result and its scope. The convergence rate is an upper bound,
+not a claimed sharp exponent or a closed formula for Q.
+
+## Earlier structural results
 
 [The self-contained proof](density_phases_proof.md) establishes:
 
@@ -106,9 +129,10 @@ bounds stationary current differences across ring sizes by expected height
 oscillations at a finite time, starting from balanced deterministic mass.
 An explicit Poisson backward path controls the error from winding around a
 ring. A uniform bound `E range <= C t^(1-delta)` for times of order `sqrt(N)`
-would imply convergence along every road-size sequence, by a proved dyadic
-comparison. **That oscillation bound remains unproved.** The criterion does
-not assume stationary mass uniform integrability or absence of condensates.
+was shown to imply convergence along every road-size sequence. That note
+left the oscillation bound open; the latest continuation proves it and
+obtains a stronger rate by using times proportional to road size. The proof
+does not assume stationary mass uniform integrability or absence of condensates.
 
 The same note identifies the exact Horton–Strahler rank update and constructs
 an `N/4` failure of a maximum-envelope formula at `H=N`, even with initial
@@ -116,7 +140,7 @@ gaps in `{0,1,2}`. Exact audits and separately labelled finite-time simulations
 are preserved. Neither the rank representation nor those simulations closes
 the thermodynamic problem.
 
-## Remaining thermodynamic question
+## Scope of the closure and remaining questions
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
 
@@ -124,11 +148,16 @@ For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
 lim_(N -> infinity) pi_(N,floor(eta*N))(g_0 >= 2),  0 < eta < 2.
 ```
 
-This directory does not prove that limit, construct a counterexample, prove
-existence of infinite-volume phases at every positive density, exclude
-condensation or escaped mean mass, or give a general exact stationary traffic
-flow formula. The original first-passage quantity `T_N` also remains open.
-No interchange of rare-braking and thermodynamic limits is established here.
+The latest continuation proves this scalar limit and its independence from
+the road-size sequence. It does not prove convergence of the entire local
+canonical law, existence of every infinite-volume density phase, absence of
+condensation or escaped mean mass, or an explicit stationary traffic-flow
+formula. The original first-passage quantity `T_N` also remains open.
+No interchange of rare-braking and thermodynamic limits is established.
+
+For the established rare-braking-first reduction, the thermodynamic current
+coefficient therefore exists and equals `rho*(eta-Q(eta))`, with
+`eta=(1-rho)/rho` and `rho>1/3`. This preserves the order of limits.
 
 ## Reproduce the exact finite checks
 

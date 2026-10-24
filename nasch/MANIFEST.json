@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Structural proofs for the reduced backchip process; full canonical limit unresolved; not peer-reviewed.",
+  "scope": "Canonical pile-probability convergence and structural proofs for the reduced backchip process; full stationary law and unrestricted NaSch flow unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 8869,
-      "sha256": "d4db0369c84e965255b9e4166dc227be046a3757415c5966a0ee81907f94b84d"
+      "bytes": 10321,
+      "sha256": "05e429a9db610a8065151f3a59ff5a7097ec18fb18febe60071b65dbc7373622"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 11790,
-      "sha256": "d6e67ce7a8de544ab54f0c0fa821341e04265bc16aa1669746a188224d3b5d4b"
+      "bytes": 13209,
+      "sha256": "c6d10ae655560db54988c497f427e1cb6a437b6a3749443707897dc384e14d62"
     },
     {
       "path": "code/verify.py",
@@ -41,6 +41,11 @@
       "path": "continuations/2026-10-24-height-comparison/MANIFEST.json",
       "bytes": 1587,
       "sha256": "e0590f254bbfac9badc43c2b5cefd21b3d730a71d213d7d0711f3cfe1c96ad41"
+    },
+    {
+      "path": "continuations/2026-10-24-thermodynamic-limit/MANIFEST.json",
+      "bytes": 1263,
+      "sha256": "b62d283c6de4bb9c468804db21142f15426946172a6ac76b7d1a8e492c4154e0"
     }
   ],
   "last_updated": "2026-10-24"

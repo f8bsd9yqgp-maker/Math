@@ -1,0 +1,14 @@
+{
+  "status": "all exact assertions passed",
+  "scope": "new martingale jump, commutation, averaging, and rounding steps only",
+  "counts": {
+    "chains": 54,
+    "semigroup_observables": 432,
+    "predictive_jump_checks": 7724727,
+    "commutation_checks": 1194264,
+    "phase_mean_checks": 2187,
+    "spatial_sandwich_checks": 132696,
+    "localization_rounding_checks": 1131601
+  },
+  "proof_note": "Finite audits support but do not replace the analytic all-size argument."
+}
