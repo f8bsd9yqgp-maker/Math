@@ -1,0 +1,14 @@
+{
+  "status": "all assertions passed",
+  "exact_arithmetic": true,
+  "thermodynamic_limit_proved": false,
+  "local_identities": 651,
+  "ring_generator_states": 4995,
+  "ring_generator_edges": 27018,
+  "spine_clock_words": 26212,
+  "spine_initial_state_word_pairs": 131060,
+  "coupled_ring_word_cases": 78255,
+  "exact_current_brackets": 54,
+  "max_envelope_counterexamples": 303,
+  "largest_verified_envelope_defect": 51
+}

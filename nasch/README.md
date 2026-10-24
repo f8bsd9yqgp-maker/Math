@@ -99,6 +99,23 @@ cancellation ansatz, and give an exact counterexample to a rank-one
 empty-site matrix. Infinite-dimensional and other stationary constructions
 remain possible. **None of these results proves the thermodynamic limit.**
 
+## Finite-time height comparison, 24 October 2026
+
+The [height comparison](continuations/2026-10-24-height-comparison/README.md)
+bounds stationary current differences across ring sizes by expected height
+oscillations at a finite time, starting from balanced deterministic mass.
+An explicit Poisson backward path controls the error from winding around a
+ring. A uniform bound `E range <= C t^(1-delta)` for times of order `sqrt(N)`
+would imply convergence along every road-size sequence, by a proved dyadic
+comparison. **That oscillation bound remains unproved.** The criterion does
+not assume stationary mass uniform integrability or absence of condensates.
+
+The same note identifies the exact Horton–Strahler rank update and constructs
+an `N/4` failure of a maximum-envelope formula at `H=N`, even with initial
+gaps in `{0,1,2}`. Exact audits and separately labelled finite-time simulations
+are preserved. Neither the rank representation nor those simulations closes
+the thermodynamic problem.
+
 ## Remaining thermodynamic question
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is

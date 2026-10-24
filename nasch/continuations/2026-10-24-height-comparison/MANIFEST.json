@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-24",
+  "scope": "Proved finite-time comparison and pathwise obstruction; conditional convergence hypothesis UNPROVED; not peer-reviewed.",
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "bytes": 5088,
+      "sha256": "e18a0a4359a0a784d4c8cc8094fddecc5dafa2106dd02a61a4014e2fb4212f22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 17457,
+      "sha256": "88600351be1d0789fa4ef610a211add06649da1180e4ce3cf10f296ae4aff5dd"
+    },
+    {
+      "path": "exploratory/README.md",
+      "bytes": 1164,
+      "sha256": "b630a807df29a84fa474b569cc1453c747df41a8699a5b867c8a49f4e34b96ae"
+    },
+    {
+      "path": "exploratory/environment.json",
+      "bytes": 138,
+      "sha256": "927e7e429371185aea6c561bae416b764ec825b9806f3891190dd0b10b7b6f37"
+    },
+    {
+      "path": "exploratory/flat_oscillation.cpp",
+      "bytes": 1845,
+      "sha256": "330e17e11b5041f8d3c6ed56f4aa2ca6975eebeaebaed04753eae9e7678a026e"
+    },
+    {
+      "path": "exploratory/flat_oscillation.csv",
+      "bytes": 1274,
+      "sha256": "22879f2098cb0eb3475eb68dd43b63409293f5630613a83232475d3860251545"
+    },
+    {
+      "path": "results/current_brackets.json",
+      "bytes": 6990,
+      "sha256": "a83c6e80193425be11a94224f33106975ae432822da56c726c9f18c3d0763911"
+    },
+    {
+      "path": "results/verification.json",
+      "bytes": 423,
+      "sha256": "89abd267f7f3276fed29b40ad6f28e7d39405e538a061d995e488ef108242c11"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6902,
+      "sha256": "2eeab4b3204992f766f90717b03b46fafd307d32828dadc7b6435f0d71417c58"
+    }
+  ]
+}

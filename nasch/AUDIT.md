@@ -174,3 +174,30 @@ The eight-ring threshold-covariance probe is labelled exploratory. Neither
 negative association, uniform mass integrability, nor the main fixed-density
 limit is established by these calculations. A separate manifest preserves
 the proof, handoff, exact certificates, and exploratory output.
+
+## Finite-time height comparison, 24 October 2026
+
+The [height comparison](continuations/2026-10-24-height-comparison/README.md)
+proves an exact Poisson backward-path identity, a finite-time bracket for
+stationary current, and an explicit current comparison across ring sizes.
+It proves a conditional canonical convergence theorem: a specified uniform
+sublinear bound on balanced-start expected height oscillation implies
+all-size convergence, with a quantitative rate. **The hypothesis is not
+proved.** No absence of condensates or mass uniform integrability is assumed.
+
+The note also proves the exact Strahler-rank conjugacy and a family of
+linear-size counterexamples to a maximum-envelope comparison. The
+counterexamples are pathwise; they do not invalidate an expected oscillation
+bound or canonical convergence.
+
+The standard-library audit passed 651 local cases; 4,995 original-generator
+states and 27,018 transitions; 26,212 clock words with 131,060 initial-state
+and word pairs; 78,255 coupled-ring word cases; 54 exact rational current
+brackets; and 303 explicit envelope counterexamples. The all-parameter
+arguments are given separately in the proof. Finite tests are not an
+asymptotic argument.
+
+A separate fixed-seed C++ experiment samples exact finite times from balanced
+initial data, with no burn-in. Its observed decay of range/time is labelled
+exploratory and is not used to justify the conditional theorem's hypothesis.
+Proofs, code, exact results, the CSV, and the handoff have a separate manifest.
