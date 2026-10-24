@@ -80,7 +80,26 @@ capped bond, for arbitrarily large caps, would imply the original limit.
 full proofs, rational stationary certificates, the exact remaining targets,
 and a separate flat-negative-pressure observation.
 
-## What is not proved
+## Further finite-system results
+
+The [24 October continuation](continuations/2026-10-24-sharp-drift/README.md)
+proves the sharp uniform bound `q_(N,H) <= 5H/(17N)` for every `N >= 3`,
+with equality at `N = H = 3`. An explicit bounded local potential supplies
+an integer certificate, finite-time upper bounds and a finite-defect
+corollary. A separate exact counterexample shows that negative dependence
+of pile indicators is not preserved, even from a deterministic state.
+It does not refute negative dependence of stationary laws.
+
+The accompanying [support theorem and matrix obstructions](continuations/2026-10-24-sharp-drift/SUPPORT_AND_MATRIX_OBSTRUCTION.md)
+identify the full recurrent class as the states with at least one mass
+zero or one; in particular the chain is irreducible for `H < 2N`.
+They exclude a common finite-dimensional trace formula for all canonical
+systems, prove a linear dimension requirement for the specified local
+cancellation ansatz, and give an exact counterexample to a rank-one
+empty-site matrix. Infinite-dimensional and other stationary constructions
+remain possible. **None of these results proves the thermodynamic limit.**
+
+## Remaining thermodynamic question
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
 

@@ -1,0 +1,11 @@
+{
+  "status": "all exact assertions passed",
+  "reverse_gathering_paths": 31733,
+  "verified_reverse_edges": 552001,
+  "longest_constructed_path": 39,
+  "independent_forward_graphs": 45,
+  "full_compositions_in_graph_checks": 4995,
+  "scope": "Exact recurrent support plus constructive finite-word proof. Matrix obstructions follow algebraically; no thermodynamic limit.",
+  "rank_one_zero_counterexample_balance_equations": 462,
+  "rank_one_zero_counterexample_difference": "8030111479223579770784500683368006/49823178685960907060573907009905368591"
+}

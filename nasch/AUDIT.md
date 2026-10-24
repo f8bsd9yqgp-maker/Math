@@ -1,5 +1,34 @@
 # Proof audit and provenance
 
+## 24 October continuation: sharp drift and recurrent support
+
+The new continuation supplies an all-mass reduction to 320 exact integer
+inequalities, proving `q <= 5H/(17N)` for `N >= 3`. The N=3,H=3 exact
+stationary law establishes sharpness over that finite-system class. The
+N=2 exception is explicit. The bounded potential has range [0,15N], full
+jump bound 14, and full-minus-partial jump bound 14. Those constants are
+independently audited; the associated finite-time and modified-bond bounds
+are proved in the note. They do not compare arbitrary stationary sizes.
+
+The short-time covariance counterexample checks all 341 words of length
+at most four and has a direct analytic proof. It refutes preservation of
+negative dependence, not stationary negative dependence. The support proof
+uses explicit reverse legal edges, each checked by the original forward
+map: 31,733 paths and 552,001 edges pass, as do 45 independent forward
+reachability graphs. Its consequence for trace matrices uses nilpotence
+proved by a Vandermonde argument, allowing signed and complex matrices.
+The low-density dimension bound applies to the stated local cancellation
+ansatz; it is not a universal lower bound for all conceivable representations.
+
+The rank-one-zero obstruction is certified by the full 462-state rational
+stationary law at N=H=6, with all balances checked. Discovery LP outputs,
+uncertified longer-block coefficients, and unsuccessful finite searches are
+kept separate. The main fixed-density limit, mass retention, and phase
+selection remain open. No external peer review or priority determination
+has occurred.
+
+The earlier audit record follows unchanged.
+
 Audit date: 22 October 2026. This is an internal audit by the AI research
 assistant, not an independent human referee report, formal proof-assistant
 verification, or priority review.

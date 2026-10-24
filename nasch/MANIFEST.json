@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 6694,
-      "sha256": "9f975c4126aae7e26a442cb6f5dc93a4751bdc841a25af93917cbd2d7d5a7f5e"
+      "bytes": 7871,
+      "sha256": "ad820e831a337b10a081595585ac7e98a03545357bf78a6f7235c34b260fbae6"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 8609,
-      "sha256": "c7abe85ed9ea0f50fbfb1c59b56b2943955dacfced9b6455fc49848713e08bda"
+      "bytes": 10269,
+      "sha256": "2d793ca597a96ecb11c8589d3feb53f8f41b06179e6e53ebb7751dd116038cfa"
     },
     {
       "path": "code/verify.py",
@@ -31,6 +31,11 @@
       "path": "results/verification.json",
       "bytes": 1494,
       "sha256": "81794f3f471a313f3c176d1755e31d85bdbf913a2e30edf61c1021080147642b"
+    },
+    {
+      "path": "continuations/2026-10-24-sharp-drift/MANIFEST.json",
+      "bytes": 5108,
+      "sha256": "170f1feb1f7d4901d8017a5b37bcb4ade22edfc6aeda7a868a20a202726d0726"
     }
   ],
   "last_updated": "2026-10-24"

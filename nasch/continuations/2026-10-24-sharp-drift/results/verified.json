@@ -1,0 +1,210 @@
+{
+  "status": "all exact assertions passed",
+  "essential_integer_inequalities": 320,
+  "minimum_residual": 0,
+  "maximum_finite_residual": 14,
+  "zero_residuals": 129,
+  "minimum_tables": [
+    [
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        1,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        4,
+        3,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    [
+      [
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        5,
+        5,
+        5,
+        5
+      ],
+      [
+        9,
+        9,
+        9,
+        9
+      ],
+      [
+        14,
+        14,
+        14,
+        14
+      ]
+    ]
+  ],
+  "potential_range": [
+    0,
+    15
+  ],
+  "maximum_absolute_jump": 14,
+  "partial_defect_inequalities": 1920,
+  "maximum_partial_defect": 14,
+  "supplementary_clipping_checks": 10000,
+  "supplementary_partial_clipping_checks": 19776,
+  "global_ring_states": 4950,
+  "global_clock_events": 26928,
+  "stationary_chains": 12,
+  "stationary_balance_equations": 275,
+  "negative_dependence_short_words": 341,
+  "negative_dependence_word_counts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      9,
+      0
+    ],
+    [
+      12,
+      55,
+      1
+    ]
+  ],
+  "negative_dependence_joint_word": {
+    "word": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "terminal": [
+      4,
+      2,
+      0,
+      1
+    ]
+  },
+  "capped_current_concavity_counterexample": {
+    "N": 2,
+    "cap_at_site_zero": 2,
+    "H": [
+      1,
+      2,
+      3
+    ],
+    "currents": [
+      "1/2",
+      "2/3",
+      "1"
+    ],
+    "second_difference": "1/6"
+  },
+  "scope": "Sharp universal finite-system bound, finite-time upper envelope, and finite-defect corollaries. No thermodynamic convergence claim."
+}

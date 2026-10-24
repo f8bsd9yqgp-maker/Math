@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-24",
+  "scope": "Sharp finite drift bound, recurrent support, specified matrix obstructions, and exact transient counterexample. Thermodynamic limit open; not peer-reviewed.",
+  "files": [
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 7742,
+      "sha256": "93f1c8e1d28f0a86dd923524603b73a412174fe24e2224bb0445d2a398912a1f"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4729,
+      "sha256": "babd8b3f66e5aa458c4721de26506716fa6ff97046dd5d097a85229748d64baa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16242,
+      "sha256": "839982a453240c8521f57030fba81f78cf3957ba7b382ed4c2091d52a7b712ed"
+    },
+    {
+      "path": "SUPPORT_AND_MATRIX_OBSTRUCTION.md",
+      "bytes": 11294,
+      "sha256": "f90faf52a481f0d8d3af3b44dcc8d20022423c0a0ef384c46020204d8301ff10"
+    },
+    {
+      "path": "certificate.json",
+      "bytes": 2680,
+      "sha256": "b80a6eb431dc7474209e721171d290aa5735b3f95c5f7d2702eab5647f98be11"
+    },
+    {
+      "path": "exploratory/README.md",
+      "bytes": 2082,
+      "sha256": "a288778e76a24d10c81a7a5e309c2f34fdf132071fc8cd38c6041b72f1ac5e04"
+    },
+    {
+      "path": "exploratory/block_drift_K2_L5.json",
+      "bytes": 11345,
+      "sha256": "44a32da7e3a31b13c3d27cb3757c4abeefa8cf8aae58e25ec038c9491a905604"
+    },
+    {
+      "path": "exploratory/block_drift_K3_L2.json",
+      "bytes": 783,
+      "sha256": "c171d9b31087926ab738285ffafb066d65d9bcea33b7190c1b3ade33e4adba56"
+    },
+    {
+      "path": "exploratory/block_drift_K3_L3.json",
+      "bytes": 3070,
+      "sha256": "80c00ddd255b58068d232c7dbb2458a819f15e20e1aa2721173a9e1c32d01575"
+    },
+    {
+      "path": "exploratory/block_drift_K3_L4.json",
+      "bytes": 11584,
+      "sha256": "ba262dcd9627b4629312d43252b01195c1c495b6ea615fa4eee57f1ae793f677"
+    },
+    {
+      "path": "exploratory/block_drift_lp.py",
+      "bytes": 1468,
+      "sha256": "68cfdfe31e9a1c0111b534fd50071d3ccaa87ececae0a233713d65fc877b7555"
+    },
+    {
+      "path": "exploratory/drift_lp.py",
+      "bytes": 1716,
+      "sha256": "28957c36320ecd37e74b83c21fe56ade9c9cc732869fbaa54df8951d64d72e67"
+    },
+    {
+      "path": "exploratory/drift_lp_K2.json",
+      "bytes": 1339,
+      "sha256": "172bb26f95156c2a2605ccce698c6faa7ae4ee98c01dcf8972a2f6ede8404826"
+    },
+    {
+      "path": "exploratory/drift_lp_K3.json",
+      "bytes": 2439,
+      "sha256": "51e5ab8ffcefcd2e3c50eb20ac46312a374abd8da303c60d454a45cf97c645a7"
+    },
+    {
+      "path": "exploratory/drift_lp_K4.json",
+      "bytes": 4638,
+      "sha256": "c5d9e646a984a02c4a46ff15729ccf475add33750825e40fcd9fa10963913e05"
+    },
+    {
+      "path": "exploratory/environment.json",
+      "bytes": 153,
+      "sha256": "a3fea313681aa040b8c444b36bae68842bce8164e86545c5b4c05478e43d5e00"
+    },
+    {
+      "path": "exploratory/integer_drift_D10.json",
+      "bytes": 1381,
+      "sha256": "82fd4247d52c054ebe46a5a5dc2034a6bfa3c86c15c1e66f9ee545d72761ea45"
+    },
+    {
+      "path": "exploratory/integer_drift_D5.json",
+      "bytes": 1369,
+      "sha256": "42862c19f15f32539026e486967ed2a5ed78c22c745631ad5f1db4b5aab8229e"
+    },
+    {
+      "path": "exploratory/integer_drift_search.py",
+      "bytes": 1237,
+      "sha256": "c943f399bab0e53f94183e4766db33c9c88e99886113c2aff50a79b2ca5a24cb"
+    },
+    {
+      "path": "exploratory/rayleigh_exploration.json",
+      "bytes": 214,
+      "sha256": "5aefa0c97fb0213b6890bf8416e6cda91ce3e5d07f7180a3a1e8480f4d3a59e3"
+    },
+    {
+      "path": "exploratory/rayleigh_probe.py",
+      "bytes": 1566,
+      "sha256": "a35342242dd6aaca84e4f75715e70671be10f1c341933ed65cc5d4bcd5fbff4e"
+    },
+    {
+      "path": "exploratory/transient_dependence_probe.json",
+      "bytes": 848,
+      "sha256": "debe0c9cd6716c6c42a086169cd7be0518ccabea14f5e1eafec504c62d57de2e"
+    },
+    {
+      "path": "exploratory/transient_dependence_probe.py",
+      "bytes": 1283,
+      "sha256": "2060e21f0e2d345816ea9ddd33b68c261a5eac26d4c6b255b8755e8f38bdc6f8"
+    },
+    {
+      "path": "exploratory/zero_renewal_probe.json",
+      "bytes": 419,
+      "sha256": "35a6bace19b18e110f49b43860acbf76a0053bdc0cb97151bfef212e804f9b9a"
+    },
+    {
+      "path": "results/stationary_certificates.json",
+      "bytes": 24011,
+      "sha256": "337731181b7943f6d425b7971750c649b7d55454b0408150257bb27158925176"
+    },
+    {
+      "path": "results/support_verified.json",
+      "bytes": 553,
+      "sha256": "61b1bf8e796031ffdabf45e47968e403da73d1e55a0c7d5e6264b358e3154af3"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 2637,
+      "sha256": "457a7a3cb5f1e98c75c56f1866bf33c3a05b1d56249d2e86dff1106cd4cc7968"
+    },
+    {
+      "path": "results/zero_matrix_certificate.json",
+      "bytes": 68952,
+      "sha256": "672a77af72df7dc62507cd888e7f57f598d590175461e9e08afb34726e63c7a0"
+    },
+    {
+      "path": "support_verify.py",
+      "bytes": 5590,
+      "sha256": "270b3002fbcd5d2242316b02bd6a119136040c2438bf0a602a2a7cf581476e1e"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 8746,
+      "sha256": "5066a62f0475ae0bf36573862f78e724bd666636ada7413b1c52899d97fbcc0f"
+    }
+  ]
+}
