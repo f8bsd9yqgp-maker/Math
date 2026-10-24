@@ -68,6 +68,18 @@ An error of order `N^(-1/2)` in the resulting two-prime comparisons would
 already suffice for all-size convergence. Proofs, exact certificates, and
 the unsuccessful closure attempts are preserved in that continuation.
 
+The [capped-transfer continuation](continuations/2026-10-23-capped-bonds/README.md)
+proves a uniform comparison: capping transfers at a fixed bond at `C`
+increases reciprocal stationary current by at most `1/C`. For several caps
+the bounds add. At density at most `rho`, `k` such caps change the
+site-averaged pile probability by at most `k*rho^2/C`. An explicitly solved
+auxiliary chain, obtained by subdividing oversized transfers into legal
+chunks, proves the comparison. Consequently convergence for a single fixed
+capped bond, for arbitrarily large caps, would imply the original limit.
+**That fixed-cap convergence remains unproved.** The continuation preserves
+full proofs, rational stationary certificates, the exact remaining targets,
+and a separate flat-negative-pressure observation.
+
 ## What is not proved
 
 For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is

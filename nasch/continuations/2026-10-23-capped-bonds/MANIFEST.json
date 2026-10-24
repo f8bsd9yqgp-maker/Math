@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-24",
+  "scope": "Uniform capped-transfer current and averaged-pile comparison; original fixed-density limit remains OPEN; internally audited, not peer-reviewed.",
+  "parent_commit": "75ce673c6fb9c22e16c09f1a5d4c5781e892274b",
+  "files": [
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 6952,
+      "sha256": "2cfe68bf1700911263bc31d2c5a9bfcbd19f34a96077e3fcecf0c37064cbc070"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 5173,
+      "sha256": "1c11dec9e9e25e6658baefc18737127ba337fe99bb34a174960657e7aacfdde6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12263,
+      "sha256": "e03bce7c98e0c902b6659a508be803e49d589618ceb1587a708764150cebb779"
+    },
+    {
+      "path": "exploratory/README.md",
+      "bytes": 477,
+      "sha256": "dd33a801bdc009fd0112be8319deb3abe22f8fef3c893bd5f111e3e1a4281a5d"
+    },
+    {
+      "path": "exploratory/covariance_probe.json",
+      "bytes": 11645,
+      "sha256": "55e31ab20e794542a4fdd4d7042045e28e28ef56ea436632b95b7ae9545d9164"
+    },
+    {
+      "path": "exploratory/covariance_probe.py",
+      "bytes": 980,
+      "sha256": "4926e40f950801a4ceaa9917166649996541a02e4e30dcba40c6c8ea72e22f6b"
+    },
+    {
+      "path": "results/certificates.json",
+      "bytes": 142624,
+      "sha256": "f7440a42927803a2b30bc7d2d8a1b03f6c00acff2604c956ca0a963920e23dcb"
+    },
+    {
+      "path": "results/protocol_certificate.json",
+      "bytes": 3616,
+      "sha256": "1b236170dfa25e05e510d1428ef7814634bd91cd34f69108944dcf139e9bde94"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 344,
+      "sha256": "b4b47b5f37db814e4a1d5b49258f3d9934cc8d73478162fc29bc943e4e542447"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9578,
+      "sha256": "584a0c9014a7f3a9145b3d3b8821b17fd767e5d3d87585bab1fb42ee27927650"
+    }
+  ],
+  "shared_dependency": {
+    "path": "code/exact_support.py",
+    "bytes": 1972,
+    "sha256": "64e899eeda515cc4a3fc5cfd385e1b7850c449b598a5aaf49c23dac7a5f06579"
+  }
+}

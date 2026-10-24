@@ -121,3 +121,27 @@ support checks. These checks verify the finite algebra and certificates.
 They do not establish the missing sublinear-reserve estimate or the
 thermodynamic limit. The proofs remain internally audited working mathematics,
 not independently peer-reviewed results.
+
+## Continuation of 23–24 October 2026
+
+The [capped-transfer note](continuations/2026-10-23-capped-bonds/README.md)
+proves a stationary current comparison by explicitly subdividing selected
+generator edges into legal physical moves. Its auxiliary stationary law is
+written down and checked analytically. The resulting reciprocal-current
+error is at most the sum of reciprocal caps; the site-averaged pile
+probability has a corresponding uniform bound. The proposed capped-chain
+convergence and capped-block gluing steps remain unproved.
+
+The standard-library rational audit passed for 85 capped chains: 1,180
+stationary balance equations, 1,348 auxiliary-protocol balance equations,
+168 legal intermediate chunks, and 10,392 local checks. It also verifies
+normalization, nonnegativity, equality of bond currents, the sharpened
+current comparison, the overflow identity, and the averaged pile bounds.
+The continuation includes a complete analytic proof of the flat negative
+branch of the pile-occupation pressure. It does not claim that differentiating
+that limiting branch gives the thermodynamic pile probability.
+
+The eight-ring threshold-covariance probe is labelled exploratory. Neither
+negative association, uniform mass integrability, nor the main fixed-density
+limit is established by these calculations. A separate manifest preserves
+the proof, handoff, exact certificates, and exploratory output.

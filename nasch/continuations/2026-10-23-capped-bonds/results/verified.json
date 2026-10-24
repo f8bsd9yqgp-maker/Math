@@ -1,0 +1,9 @@
+{
+  "status": "all exact assertions passed",
+  "cases": 85,
+  "capped_balance_equations": 1180,
+  "protocol_balance_equations": 1348,
+  "intermediate_chunk_checks": 168,
+  "local_map_checks": 10392,
+  "scope": "Finite audits support, but do not replace, the analytic theorem. No thermodynamic convergence assertion is tested or proved here."
+}
