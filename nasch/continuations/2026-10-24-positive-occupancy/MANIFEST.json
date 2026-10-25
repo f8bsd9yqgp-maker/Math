@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-24",
+  "status": "Internally audited AI-assisted proofs; not independently peer reviewed.",
+  "scope": "Positive pile density; stationary phase-current identification; critical mass-loss structure; unrestricted NaSch unresolved.",
+  "files": [
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 3407,
+      "sha256": "3604643a0081f7b31ec50a2e7b77ec1a3ff88b7d6b89eaecbfa3e3593046ef2b"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 5279,
+      "sha256": "04220b57783834f66790538abed3a8c9b0fb99692fea3712aaa81cd4db667f81"
+    },
+    {
+      "path": "DISCOVERY.md",
+      "bytes": 1833,
+      "sha256": "67101307f739d9a299d0320e71498518e8acc2ad822f25f70ba960b681ddf463"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4097,
+      "sha256": "161522aff1f70ecad31495312c29059639114cc1dc2a653a15f01bb931e64dc3"
+    },
+    {
+      "path": "PHASE_SELECTION.md",
+      "bytes": 15126,
+      "sha256": "d23bdcbf2c6fb9c74db26f972a32d589bd7484f2e04c9be2461554f6d1a7a8bd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14817,
+      "sha256": "7ad2c3f4d6bcd2c69da2b79732ad13a318172d3ffe169f996d282232832a2844"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 69,
+      "sha256": "e9a0d6f0b7cefde0bd95cfdc456a58b8df65433f4d6d8c3f7e789e928765ca17"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 10908,
+      "sha256": "e548c79c2b0bd62b154fb7f78e2df66a176354f0c3c8c7ea0ded52fd30d65abb"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7573,
+      "sha256": "6080570e4ac3db3e9a547bf2aabe98d8fdf48908ccb6734c602d1ed75ba755a4"
+    }
+  ]
+}

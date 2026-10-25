@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Canonical pile-probability convergence and structural proofs for the reduced backchip process; full stationary law and unrestricted NaSch flow unresolved; not peer-reviewed.",
+  "scope": "Canonical pile-probability convergence and positivity; critical mass retention and phase selection; unrestricted NaSch unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 10321,
-      "sha256": "05e429a9db610a8065151f3a59ff5a7097ec18fb18febe60071b65dbc7373622"
+      "bytes": 12296,
+      "sha256": "80d5cf662cd2e529fcd632f0280a6243899d51488bacb09985e5cde046b267f5"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 13209,
-      "sha256": "c6d10ae655560db54988c497f427e1cb6a437b6a3749443707897dc384e14d62"
+      "bytes": 14751,
+      "sha256": "d89b82500b3adc0fa685c2b1f0653d68398d6b6d4353bef0b70330cb17a2adfd"
     },
     {
       "path": "code/verify.py",
@@ -46,6 +46,11 @@
       "path": "continuations/2026-10-24-thermodynamic-limit/MANIFEST.json",
       "bytes": 1263,
       "sha256": "b62d283c6de4bb9c468804db21142f15426946172a6ac76b7d1a8e492c4154e0"
+    },
+    {
+      "path": "continuations/2026-10-24-positive-occupancy/MANIFEST.json",
+      "bytes": 1608,
+      "sha256": "03831f97b35122d458d9f02be9c2ca0a3c5e3409876bcf35e86468a8b93349f4"
     }
   ],
   "last_updated": "2026-10-24"

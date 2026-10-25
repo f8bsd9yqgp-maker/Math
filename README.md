@@ -2,8 +2,9 @@
 
 Also in this repository: [NaSch/backchip canonical pile-probability
 convergence and structural proofs](nasch/README.md) (updated 24 October 2026).
-The fixed-density pile probability has a complete convergence proof with
-rate O((log(N)/N)^(1/4)). These are AI-assisted, internally audited results,
+The fixed-density pile probability has a convergence proof with rate
+O((log(N)/N)^(1/4)), a uniform positive lower bound, and a critical-density
+mass-retention theorem. These are AI-assisted, internally audited results,
 not independently peer-reviewed. The unrestricted NaSch flow formula remains open.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.

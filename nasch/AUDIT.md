@@ -1,5 +1,30 @@
 # Proof audit and provenance
 
+## Latest result: positivity and critical mass retention, 24 October 2026
+
+The [new continuation](continuations/2026-10-24-positive-occupancy/README.md)
+proves q_(N,H)>=min(H/N,1)^3/1152 for N>=3,H>=2. Its new weighted empty-block
+certificate is absorbed into a positive exponential-height function. This
+excludes vacuum local limits and complete condensation at every positive
+density. It is not a claim that every large pile is excluded at every density.
+
+The [phase-selection argument](continuations/2026-10-24-positive-occupancy/PHASE_SELECTION.md)
+identifies phase currents with the same Q, proves canonical selection at
+largest upper supporting-line contact points, and propagates mass uniform
+integrability by stochastic domination. It defines eta_c>1/217: mass is
+preserved at all finite eta<=eta_c, and Q is strictly increasing there.
+If eta_c is finite, the canonical local law above it is the critical phase
+and escaped mean is exactly eta-eta_c. Its finiteness remains open.
+
+The new exact audit passed 3,276 empty-block checks, 2,972 weighted rational
+generator certificates, 19,899 parameter checks, eight rigorous exponential
+enclosures, and an exact logarithm certificate giving Q(1)>1/218.
+[The audit note](continuations/2026-10-24-positive-occupancy/AUDIT.md) details
+all sign, boundary, first-moment, and phase-selection issues. No previous
+verifier or stationary solve was rerun. Independent peer review remains
+outstanding; full below-critical phase selection and the unrestricted
+NaSch stationary flow are not claimed.
+
 ## Latest result: canonical pile-probability convergence, 24 October 2026
 
 The [new continuation](continuations/2026-10-24-thermodynamic-limit/README.md)

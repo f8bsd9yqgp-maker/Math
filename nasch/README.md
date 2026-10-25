@@ -1,10 +1,11 @@
-# NaSch project: canonical pile-probability convergence
+# NaSch project: canonical convergence, positivity, and mass retention
 
 Research record updated on 24 October 2026. Earlier structural notes were
 prepared from research runs 6–8 (20–21 October 2026).
 
-**The fixed-density limit of the canonical pile probability is proved in the
-[latest continuation](continuations/2026-10-24-thermodynamic-limit/README.md).**
+**The fixed-density pile probability converges and is strictly positive.**
+The [convergence proof](continuations/2026-10-24-thermodynamic-limit/README.md)
+is now followed by a [uniform positivity and mass-retention continuation](continuations/2026-10-24-positive-occupancy/README.md).
 The proof is AI-assisted, internally audited, and **not independently
 peer-reviewed or formally certified**. No claim of publication priority is
 made. Full stationary-measure convergence and the unrestricted NaSch flow
@@ -15,7 +16,41 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest theorem
+## Latest continuation: positivity and critical mass retention
+
+The new proof gives, for N>=3 and H>=2,
+
+```text
+q_(N,H) >= min(H/N,1)^3 / 1152,
+Q(eta) >= min(eta,1)^3 / 1152 > 0.
+```
+
+It rules out a vacuum local canonical limit and complete condensation at
+every positive density. A weighted empty-block generator identity and a
+positive exponential-height function prove the bound without assuming
+stationary tail estimates.
+
+The companion [phase-selection theorem](continuations/2026-10-24-positive-occupancy/PHASE_SELECTION.md)
+identifies every existing stationary phase's current with eta-Q(eta).
+Selecting largest upper supporting-line contact points then proves:
+
+* There is a critical endpoint eta_c>1/217, possibly infinite. Canonical
+  masses are uniformly integrable at every finite eta<=eta_c, and the
+  largest mass divided by N tends to zero in probability there.
+* Q is strictly increasing up to eta_c. If eta_c is finite, Q is permanently
+  constant above it, and the entire local canonical law at every eta>=eta_c
+  converges to the critical phase of mean eta_c. Escaped mean is eta-eta_c.
+* Thus absence of an order-N pile is unconditional at least on
+  0<eta<=1/217. Finiteness of eta_c and arbitrary below-critical phase
+  selection remain unresolved.
+
+The [new audit](continuations/2026-10-24-positive-occupancy/AUDIT.md),
+[verifier](continuations/2026-10-24-positive-occupancy/verify.py), and
+[handoff](continuations/2026-10-24-positive-occupancy/HANDOFF.md) preserve the
+proof and its boundaries. No explicit general Q or finite-braking NaSch
+flow formula is claimed.
+
+## Previously proved scalar convergence
 
 For every finite R there is a limiting function Q such that
 
@@ -148,12 +183,17 @@ For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
 lim_(N -> infinity) pi_(N,floor(eta*N))(g_0 >= 2),  0 < eta < 2.
 ```
 
-The latest continuation proves this scalar limit and its independence from
-the road-size sequence. It does not prove convergence of the entire local
-canonical law, existence of every infinite-volume density phase, absence of
-condensation or escaped mean mass, or an explicit stationary traffic-flow
-formula. The original first-passage quantity `T_N` also remains open.
-No interchange of rare-braking and thermodynamic limits is established.
+Scalar convergence and positivity are proved. The new critical-density
+theorem proves mass preservation below an intrinsic endpoint eta_c and
+selects the canonical law at upper supporting-line contact points and,
+if eta_c is finite, at and above that endpoint. Complete condensation is
+excluded at every density; an order-N pile is excluded at least for
+0<eta<=1/217 and more generally for every finite eta<=eta_c.
+
+Still open: whether eta_c is finite, arbitrary below-critical local phase
+selection, an explicit general Q or stationary traffic-flow formula,
+the original first-passage quantity `T_N`, and interchange of rare-braking
+and thermodynamic limits.
 
 For the established rare-braking-first reduction, the thermodynamic current
 coefficient therefore exists and equals `rho*(eta-Q(eta))`, with
