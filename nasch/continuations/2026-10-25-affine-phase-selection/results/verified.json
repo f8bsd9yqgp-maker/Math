@@ -1,0 +1,41 @@
+{
+  "scope": "New exact audits only; no finite-ring stationary solver or prior verifier.",
+  "constants": {
+    "maximum_lower_contact_slope": "1/1048576",
+    "component_floor_coefficient": "1/4194304",
+    "large_density_exclusion_margin": "3115/4718592",
+    "small_density_squared_bound": "9/8192",
+    "constant_checks": "PASS"
+  },
+  "contacts": {
+    "candidate_moment_checks": 6206,
+    "exact_extremal_contacts": 2268,
+    "interior_extremal_contacts": 208,
+    "largest_extremizer_selection": "PASS"
+  },
+  "arcs": {
+    "cyclic_arc_checks": 467568,
+    "low_density_arcs_checked": 17147,
+    "macroscopic_window_implication": "PASS"
+  },
+  "obstructions": {
+    "mean_loss_counterexample": {
+      "chosen_contact": "1",
+      "actual_mean": "2/3",
+      "matched_Q": "1/8"
+    },
+    "affine_mixture_obstruction": {
+      "matched_one_site_law": [
+        "2/5",
+        "9/20",
+        "3/20"
+      ],
+      "pure_two_site_pile_probability": "9/400",
+      "mixed_two_site_pile_probability": "1/40",
+      "difference": "1/400",
+      "scope": "Abstract probability laws, not backchip stationary measures."
+    },
+    "obstruction_checks": "PASS"
+  },
+  "status": "PASS"
+}

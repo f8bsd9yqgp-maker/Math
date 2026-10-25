@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-25",
+  "status": "Internally audited AI-assisted proofs; not independently peer reviewed.",
+  "scope": "Small selected phases; no vacuum component; positive macroscopic backgrounds; pure canonical selection outside affine gaps. Unrestricted NaSch unresolved.",
+  "parent_commit": "34b46770173e30ada33e50ac76cb16710ae19287",
+  "files": [
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 2462,
+      "sha256": "89cb810e5109ebb2d25f417ceefdf0631511c71fd1628a2bcf1598c0af839e13"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 6274,
+      "sha256": "195f3444113b100dcafd40e3245f9dde71b98d18e0150f50278d6776669b7b3a"
+    },
+    {
+      "path": "DISCOVERY.md",
+      "bytes": 2020,
+      "sha256": "d2789e68a834d773e716ad714474dfeb5747d53faf6310ac84d38db88edeb828"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3454,
+      "sha256": "0c176cd335a701e700946d7ca81dbf81e7672b851d353a20f095bf6c5104160e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16710,
+      "sha256": "d712a8b284a80a8d77c721fd965cefefa2837f64f4329574841265c51a40c439"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 199,
+      "sha256": "346a05b7a1ba1091f7b68edc7f9f5c20f24c3155b450b450aa532af7d505e3ea"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 1186,
+      "sha256": "a98e82641810ac22e97f3b37005990b62a55e492659e7326099ad3e9b8ff2658"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7794,
+      "sha256": "923ab9f03225a4f29508d291cce7058e8a2c5db5b87a1e6cb73b808c5cf83784"
+    }
+  ]
+}

@@ -1,5 +1,31 @@
 # Proof audit and provenance
 
+## Latest result: affine phase gaps and macroscopic backgrounds, 25 October 2026
+
+The [new continuation](continuations/2026-10-25-affine-phase-selection/README.md)
+uses the already proved uniform integrability below eta_c to justify lower
+supporting-line contacts. It constructs selected positive phases approaching
+zero and gives every canonical local limit an explicit positive floor on its
+component densities. Thus vacuum mixture components are excluded at every
+positive density. A deterministic sliding-window argument proves positive
+mass and pile densities on every macroscopic arc, without a uniform mixing
+assumption and without excluding a condensate above that background.
+
+The canonically selected pure-phase set is closed. A gap must be an affine
+interval of Q, because an interior largest maximum or minimum of Q minus
+its endpoint chord would select a new pure phase. This proves selection
+wherever Q is not locally affine. It does not prove affine intervals absent,
+equate phase existence with canonical selection, or choose a mixture inside
+an affine interval.
+
+New exact checks passed: 6,206 contact moment cases, including 2,268 exact
+extremal equalities; 467,568 arc cases, including 17,147 low-density premises;
+the rational constants; and two obstruction examples. The
+[detailed audit](continuations/2026-10-25-affine-phase-selection/AUDIT.md)
+records all assumptions and boundaries. These are internally audited
+AI-assisted proofs, not independently peer-reviewed mathematics. No old
+stationary solver or verifier was rerun.
+
 ## Latest result: positivity and critical mass retention, 24 October 2026
 
 The [new continuation](continuations/2026-10-24-positive-occupancy/README.md)

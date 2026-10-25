@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Canonical pile-probability convergence and positivity; critical mass retention and phase selection; unrestricted NaSch unresolved; not peer-reviewed.",
+  "scope": "Canonical scalar convergence; positivity; critical mass retention; small selected phases and positive macroscopic backgrounds; pure selection outside affine gaps. Unrestricted NaSch unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 12296,
-      "sha256": "80d5cf662cd2e529fcd632f0280a6243899d51488bacb09985e5cde046b267f5"
+      "bytes": 14365,
+      "sha256": "c4180575ac12c291af8f82fc425a8f26b29bf6b31a650ca3d3a02f88467a9b6d"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 14751,
-      "sha256": "d89b82500b3adc0fa685c2b1f0653d68398d6b6d4353bef0b70330cb17a2adfd"
+      "bytes": 16301,
+      "sha256": "2b080aee61e13574c6dd73aeda0017bc142ee88719eac737b9810b5fc8531222"
     },
     {
       "path": "code/verify.py",
@@ -51,7 +51,12 @@
       "path": "continuations/2026-10-24-positive-occupancy/MANIFEST.json",
       "bytes": 1608,
       "sha256": "03831f97b35122d458d9f02be9c2ca0a3c5e3409876bcf35e86468a8b93349f4"
+    },
+    {
+      "path": "continuations/2026-10-25-affine-phase-selection/MANIFEST.json",
+      "bytes": 1547,
+      "sha256": "d176af9c943f7197b7a6737a15de68cb79aa42c4f1d3c8ccb28f6c2cb8214940"
     }
   ],
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-10-25"
 }

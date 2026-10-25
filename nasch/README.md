@@ -1,11 +1,12 @@
-# NaSch project: canonical convergence, positivity, and mass retention
+# NaSch project: canonical convergence, phase selection, and positive backgrounds
 
-Research record updated on 24 October 2026. Earlier structural notes were
+Research record updated on 25 October 2026. Earlier structural notes were
 prepared from research runs 6–8 (20–21 October 2026).
 
 **The fixed-density pile probability converges and is strictly positive.**
 The [convergence proof](continuations/2026-10-24-thermodynamic-limit/README.md)
-is now followed by a [uniform positivity and mass-retention continuation](continuations/2026-10-24-positive-occupancy/README.md).
+is followed by [uniform positivity and mass retention](continuations/2026-10-24-positive-occupancy/README.md)
+and the new [phase-selection and macroscopic-background theorem](continuations/2026-10-25-affine-phase-selection/README.md).
 The proof is AI-assisted, internally audited, and **not independently
 peer-reviewed or formally certified**. No claim of publication priority is
 made. Full stationary-measure convergence and the unrestricted NaSch flow
@@ -16,7 +17,37 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: positivity and critical mass retention
+## Latest continuation: affine phase gaps and a positive background everywhere
+
+The [25 October proof](continuations/2026-10-25-affine-phase-selection/README.md)
+uses lower supporting contacts, now justified by preserved first moments,
+to construct positive selected pure phases arbitrarily close to zero.
+For every target eta>0 it constructs a selected density c_eta with
+
+```text
+2^(-22) min(eta^2,1) <= c_eta < eta/2.
+```
+
+Every canonical local limit at eta dominates that pure phase, so none has
+a vacuum component. More strongly, for each fixed epsilon>0, with probability
+tending to one, every cyclic arc of at least epsilon*N sites has positive
+mass and pile densities bounded below by explicit constants depending on eta.
+The longest pile-free arc is therefore o(N) in probability, at every positive
+density. A condensate above a positive background is still not excluded.
+
+The set of canonically selected pure-phase densities is closed and cofinal
+below eta_c. Every gap in this set is an affine interval of Q with selected
+endpoints. Consequently, every density where Q is not locally affine has
+a unique pure canonical local limit along arbitrary road-size sequences.
+Whether affine intervals exist, and selection inside any such interval,
+remain unresolved; an affine interval is not asserted to cause nonconvergence.
+
+The [audit](continuations/2026-10-25-affine-phase-selection/AUDIT.md),
+[exact verifier](continuations/2026-10-25-affine-phase-selection/verify.py), and
+[handoff](continuations/2026-10-25-affine-phase-selection/HANDOFF.md) preserve
+the arguments and their scope. No old verifier or stationary solver was rerun.
+
+## Previous continuation: positivity and critical mass retention
 
 The new proof gives, for N>=3 and H>=2,
 
@@ -183,15 +214,20 @@ For the canonical stationary law `pi_(N,H)` on an `N`-site ring, the target is
 lim_(N -> infinity) pi_(N,floor(eta*N))(g_0 >= 2),  0 < eta < 2.
 ```
 
-Scalar convergence and positivity are proved. The new critical-density
+Scalar convergence and positivity are proved. The critical-density
 theorem proves mass preservation below an intrinsic endpoint eta_c and
 selects the canonical law at upper supporting-line contact points and,
 if eta_c is finite, at and above that endpoint. Complete condensation is
 excluded at every density; an order-N pile is excluded at least for
 0<eta<=1/217 and more generally for every finite eta<=eta_c.
 
-Still open: whether eta_c is finite, arbitrary below-critical local phase
-selection, an explicit general Q or stationary traffic-flow formula,
+The latest continuation also excludes vacuum mixture components and proves
+a positive background on every macroscopic arc at every positive density.
+Pure canonical selection holds wherever Q is not locally affine; gaps in
+the selected set can occur only on affine intervals with selected endpoints.
+
+Still open: whether eta_c is finite, exclusion of affine selection gaps or
+selection within them, an explicit general Q or stationary traffic-flow formula,
 the original first-passage quantity `T_N`, and interchange of rare-braking
 and thermodynamic limits.
 
