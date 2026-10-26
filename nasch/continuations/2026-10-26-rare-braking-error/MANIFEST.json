@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-26",
+  "run": 19,
+  "scope": "Full-model error O_R((1-p)N+(1-p)^2N^3); joint limit under (1-p)N^(3/2)->0; zero-noise stationary classification and pathwise obstruction. General flow, remaining phase alternatives and unrestricted interchange unresolved; not peer-reviewed.",
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 9895,
+      "sha256": "bc43a6b16b3b7019df7b7982591bd377aa6f20b426c0b23f4b03c811540df150"
+    },
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 6791,
+      "sha256": "3113f0205ea0ab52ba54a3f485e7bff2e8f4e427ac185159107b56d4452475e0"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 6793,
+      "sha256": "635b5f638bac1803eac852b24bce50b1cdad897697392d01d2a2daec8cd46f22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19298,
+      "sha256": "ae83e91d31b4341578c2683182f31cde00e0bdeccf35e2ed8e509e477e0a65ef"
+    },
+    {
+      "path": "SHARP_WORKLOAD_BOUND.md",
+      "bytes": 12807,
+      "sha256": "b4d0336fe036afc11aa03d0f97dbdb19c3129af16fb132ebd50d606af7a9e247"
+    },
+    {
+      "path": "ZERO_NOISE_LIMITS.md",
+      "bytes": 5597,
+      "sha256": "6b0988a8c14f8224f979a941b125dbdee285c3cc5065dd0aeba5230dbc0c5856"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 113,
+      "sha256": "89026ffaae66c0f1c42649d2a347790bb70cec7c14e92935f2d796f01e01be00"
+    },
+    {
+      "path": "results/flow_bound_certificates.json",
+      "bytes": 3670,
+      "sha256": "1dadcfba963cfb1d3c3c8283b9c7c848498dead2aa19fc4fe21b7591f40a86b8"
+    },
+    {
+      "path": "results/sharp_flow_certificates.json",
+      "bytes": 3376,
+      "sha256": "1315fe52f3950f9c73b8775a090a68a47c83472a71803f89e0ea59198430bb89"
+    },
+    {
+      "path": "results/sharp_workloads.json",
+      "bytes": 8935,
+      "sha256": "28fea05736aed55e67ab740ba4314c8515450d981a187bd666b9a699966b8917"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 16622,
+      "sha256": "2fb692444e50f0884a1d3c1670e08ae756e18d23f8d4eb518f0244d9043bb9be"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 8959,
+      "sha256": "bb4e4f44f7b751136bb87519dac5d2b2aa5467e19540b728e63dc02999f75504"
+    },
+    {
+      "path": "verify_flow_bounds.py",
+      "bytes": 3646,
+      "sha256": "6df432d059f105632729c9666316760dfbf63a1ff13f33c8017158da1ae0c6a0"
+    },
+    {
+      "path": "verify_sharp_flow_bounds.py",
+      "bytes": 2649,
+      "sha256": "cee9641df566ab479ee1dc878335b61df19d8f2548f93be16cff5beb217c2b53"
+    },
+    {
+      "path": "verify_sharp_workloads.py",
+      "bytes": 7643,
+      "sha256": "4a03d5ccedb208256ce0eda84c34a35e85bf2e602ea270677d2ffe8c9e55334f"
+    }
+  ]
+}

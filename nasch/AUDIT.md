@@ -1,5 +1,36 @@
 # Proof audit and provenance
 
+## Latest result: polynomial full-model rare-braking error, 26 October 2026
+
+The [new proof](continuations/2026-10-26-rare-braking-error/README.md)
+constructs the exact full-braking projection and rest time R<=H for H<2N.
+It serializes all simultaneous nonbraking triggers from rest as a word of
+backchip moves and proves a stationary global nonrest-probability bound.
+Composing the inherited reduced current corrector with the projection gives
+an explicit full-model current error. The
+[sharper continuation](continuations/2026-10-26-rare-braking-error/SHARP_WORKLOAD_BOUND.md)
+uses individual and excess workloads to improve that error to
+O((1-p)*N+(1-p)^2*N^3) after division by 1-p at bounded vacancy density.
+This proves a joint limit when (1-p)*N^(3/2)->0, not unrestricted
+interchange of limits.
+
+New exact audits passed 529,232 original-rule update comparisons and
+projected-height shift bounds, 18,572 trigger serializations, 510,660
+workload perturbation bounds, 38,146 relaxation-step checks, 4,495 rational
+bounds, and 101 reachable counterexamples to pathwise acceleration.
+Eight Bernstein-polynomial certificates check the new error against four
+archived full-model current functions over complete epsilon intervals.
+The sharper argument adds a 529,232-mask workload audit, 495,976 dominating
+word checks, 88,528 single-coin comparisons, 14,510 commutation checks,
+5,394 rational constant checks, and eight further exact interval
+certificates. The old stationary and Poisson solvers were not rerun.
+
+The [detailed audit](continuations/2026-10-26-rare-braking-error/AUDIT.md)
+separates the new proofs from the inherited current-corrector and reduced
+scalar-limit theorems. Full stationary flow, remaining phase/condensate
+alternatives, and thermodynamic-first interchange are not claimed solved.
+Independent specialist peer review remains outstanding.
+
 ## Latest result: explicit first-passage boundary formula, 26 October 2026
 
 The [new proof](continuations/2026-10-26-first-passage-fourier/README.md)

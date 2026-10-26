@@ -1,0 +1,848 @@
+{
+  "status": "all_passed_exactly",
+  "arithmetic": "integers and Fraction",
+  "old_stationary_or_poisson_solvers_rerun": false,
+  "pairs": [
+    {
+      "N": 2,
+      "H": 1,
+      "counts": {
+        "initial_activity_states": 8,
+        "explicit_relaxation_steps": 6,
+        "rest_time_descent": 8,
+        "projected_invariance": 8,
+        "arbitrary_coin_updates": 32,
+        "projection_shift_bounds": 32,
+        "active_workload_perturbation_bounds": 24,
+        "rest_serializations": 8,
+        "rest_workload_bounds": 8
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "H": 2,
+      "counts": {
+        "initial_activity_states": 12,
+        "explicit_relaxation_steps": 13,
+        "rest_time_descent": 12,
+        "projected_invariance": 12,
+        "arbitrary_coin_updates": 48,
+        "projection_shift_bounds": 48,
+        "active_workload_perturbation_bounds": 36,
+        "rest_serializations": 12,
+        "rest_workload_bounds": 12
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "H": 3,
+      "counts": {
+        "initial_activity_states": 16,
+        "explicit_relaxation_steps": 24,
+        "rest_time_descent": 16,
+        "projected_invariance": 16,
+        "arbitrary_coin_updates": 64,
+        "projection_shift_bounds": 64,
+        "active_workload_perturbation_bounds": 48,
+        "rest_serializations": 16,
+        "rest_workload_bounds": 16
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 1,
+      "counts": {
+        "initial_activity_states": 24,
+        "explicit_relaxation_steps": 21,
+        "rest_time_descent": 24,
+        "projected_invariance": 24,
+        "arbitrary_coin_updates": 192,
+        "projection_shift_bounds": 192,
+        "active_workload_perturbation_bounds": 168,
+        "rest_serializations": 24,
+        "rest_workload_bounds": 24
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 2,
+      "counts": {
+        "initial_activity_states": 48,
+        "explicit_relaxation_steps": 54,
+        "rest_time_descent": 48,
+        "projected_invariance": 48,
+        "arbitrary_coin_updates": 384,
+        "projection_shift_bounds": 384,
+        "active_workload_perturbation_bounds": 336,
+        "rest_serializations": 48,
+        "rest_workload_bounds": 48
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 3,
+      "counts": {
+        "initial_activity_states": 80,
+        "explicit_relaxation_steps": 118,
+        "rest_time_descent": 80,
+        "projected_invariance": 80,
+        "arbitrary_coin_updates": 640,
+        "projection_shift_bounds": 640,
+        "active_workload_perturbation_bounds": 560,
+        "rest_serializations": 80,
+        "rest_workload_bounds": 80
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 4,
+      "counts": {
+        "initial_activity_states": 120,
+        "explicit_relaxation_steps": 225,
+        "rest_time_descent": 120,
+        "projected_invariance": 120,
+        "arbitrary_coin_updates": 960,
+        "projection_shift_bounds": 960,
+        "active_workload_perturbation_bounds": 840,
+        "rest_serializations": 120,
+        "rest_workload_bounds": 120
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 5,
+      "counts": {
+        "initial_activity_states": 168,
+        "explicit_relaxation_steps": 387,
+        "rest_time_descent": 168,
+        "projected_invariance": 168,
+        "arbitrary_coin_updates": 1344,
+        "projection_shift_bounds": 1344,
+        "active_workload_perturbation_bounds": 1176,
+        "rest_serializations": 168,
+        "rest_workload_bounds": 168
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 1,
+      "counts": {
+        "initial_activity_states": 64,
+        "explicit_relaxation_steps": 60,
+        "rest_time_descent": 64,
+        "projected_invariance": 64,
+        "arbitrary_coin_updates": 1024,
+        "projection_shift_bounds": 1024,
+        "active_workload_perturbation_bounds": 960,
+        "rest_serializations": 64,
+        "rest_workload_bounds": 64
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 2,
+      "counts": {
+        "initial_activity_states": 160,
+        "explicit_relaxation_steps": 182,
+        "rest_time_descent": 160,
+        "projected_invariance": 160,
+        "arbitrary_coin_updates": 2560,
+        "projection_shift_bounds": 2560,
+        "active_workload_perturbation_bounds": 2400,
+        "rest_serializations": 160,
+        "rest_workload_bounds": 160
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "counts": {
+        "initial_activity_states": 320,
+        "explicit_relaxation_steps": 460,
+        "rest_time_descent": 320,
+        "projected_invariance": 320,
+        "arbitrary_coin_updates": 5120,
+        "projection_shift_bounds": 5120,
+        "active_workload_perturbation_bounds": 4800,
+        "rest_serializations": 320,
+        "rest_workload_bounds": 320
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "counts": {
+        "initial_activity_states": 560,
+        "explicit_relaxation_steps": 997,
+        "rest_time_descent": 560,
+        "projected_invariance": 560,
+        "arbitrary_coin_updates": 8960,
+        "projection_shift_bounds": 8960,
+        "active_workload_perturbation_bounds": 8400,
+        "rest_serializations": 560,
+        "rest_workload_bounds": 560
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "counts": {
+        "initial_activity_states": 896,
+        "explicit_relaxation_steps": 1928,
+        "rest_time_descent": 896,
+        "projected_invariance": 896,
+        "arbitrary_coin_updates": 14336,
+        "projection_shift_bounds": 14336,
+        "active_workload_perturbation_bounds": 13440,
+        "rest_serializations": 896,
+        "rest_workload_bounds": 896
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "counts": {
+        "initial_activity_states": 1344,
+        "explicit_relaxation_steps": 3420,
+        "rest_time_descent": 1344,
+        "projected_invariance": 1344,
+        "arbitrary_coin_updates": 21504,
+        "projection_shift_bounds": 21504,
+        "active_workload_perturbation_bounds": 20160,
+        "rest_serializations": 1344,
+        "rest_workload_bounds": 1344
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 1,
+      "counts": {
+        "initial_activity_states": 160,
+        "explicit_relaxation_steps": 155,
+        "rest_time_descent": 160,
+        "projected_invariance": 160,
+        "arbitrary_coin_updates": 5120,
+        "projection_shift_bounds": 5120,
+        "active_workload_perturbation_bounds": 4960,
+        "rest_serializations": 160,
+        "rest_workload_bounds": 160
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 2,
+      "counts": {
+        "initial_activity_states": 480,
+        "explicit_relaxation_steps": 545,
+        "rest_time_descent": 480,
+        "projected_invariance": 480,
+        "arbitrary_coin_updates": 15360,
+        "projection_shift_bounds": 15360,
+        "active_workload_perturbation_bounds": 14880,
+        "rest_serializations": 480,
+        "rest_workload_bounds": 480
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 3,
+      "counts": {
+        "initial_activity_states": 1120,
+        "explicit_relaxation_steps": 1565,
+        "rest_time_descent": 1120,
+        "projected_invariance": 1120,
+        "arbitrary_coin_updates": 35840,
+        "projection_shift_bounds": 35840,
+        "active_workload_perturbation_bounds": 34720,
+        "rest_serializations": 1120,
+        "rest_workload_bounds": 1120
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 4,
+      "counts": {
+        "initial_activity_states": 2240,
+        "explicit_relaxation_steps": 3810,
+        "rest_time_descent": 2240,
+        "projected_invariance": 2240,
+        "arbitrary_coin_updates": 71680,
+        "projection_shift_bounds": 71680,
+        "active_workload_perturbation_bounds": 69440,
+        "rest_serializations": 2240,
+        "rest_workload_bounds": 2240
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 5,
+      "counts": {
+        "initial_activity_states": 4032,
+        "explicit_relaxation_steps": 8186,
+        "rest_time_descent": 4032,
+        "projected_invariance": 4032,
+        "arbitrary_coin_updates": 129024,
+        "projection_shift_bounds": 129024,
+        "active_workload_perturbation_bounds": 124992,
+        "rest_serializations": 4032,
+        "rest_workload_bounds": 4032
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 6,
+      "counts": {
+        "initial_activity_states": 6720,
+        "explicit_relaxation_steps": 15990,
+        "rest_time_descent": 6720,
+        "projected_invariance": 6720,
+        "arbitrary_coin_updates": 215040,
+        "projection_shift_bounds": 215040,
+        "active_workload_perturbation_bounds": 208320,
+        "rest_serializations": 6720,
+        "rest_workload_bounds": 6720
+      },
+      "status": "passed_exactly"
+    }
+  ],
+  "totals": {
+    "initial_activity_states": 18572,
+    "explicit_relaxation_steps": 38146,
+    "rest_time_descent": 18572,
+    "projected_invariance": 18572,
+    "arbitrary_coin_updates": 529232,
+    "projection_shift_bounds": 529232,
+    "active_workload_perturbation_bounds": 510660,
+    "rest_serializations": 18572,
+    "rest_workload_bounds": 18572,
+    "local_velocity_rules": 126,
+    "rational_probability_and_constant_checks": 4495,
+    "acceleration_counterexamples": 101
+  },
+  "acceleration_counterexamples": [
+    {
+      "N": 6,
+      "H": 6,
+      "travel_loss": 1
+    },
+    {
+      "N": 7,
+      "H": 7,
+      "travel_loss": 2
+    },
+    {
+      "N": 8,
+      "H": 8,
+      "travel_loss": 3
+    },
+    {
+      "N": 9,
+      "H": 9,
+      "travel_loss": 4
+    },
+    {
+      "N": 10,
+      "H": 10,
+      "travel_loss": 5
+    },
+    {
+      "N": 11,
+      "H": 11,
+      "travel_loss": 6
+    },
+    {
+      "N": 12,
+      "H": 12,
+      "travel_loss": 7
+    },
+    {
+      "N": 13,
+      "H": 13,
+      "travel_loss": 8
+    },
+    {
+      "N": 14,
+      "H": 14,
+      "travel_loss": 9
+    },
+    {
+      "N": 15,
+      "H": 15,
+      "travel_loss": 10
+    },
+    {
+      "N": 16,
+      "H": 16,
+      "travel_loss": 11
+    },
+    {
+      "N": 17,
+      "H": 17,
+      "travel_loss": 12
+    },
+    {
+      "N": 18,
+      "H": 18,
+      "travel_loss": 13
+    },
+    {
+      "N": 19,
+      "H": 19,
+      "travel_loss": 14
+    },
+    {
+      "N": 20,
+      "H": 20,
+      "travel_loss": 15
+    },
+    {
+      "N": 21,
+      "H": 21,
+      "travel_loss": 16
+    },
+    {
+      "N": 22,
+      "H": 22,
+      "travel_loss": 17
+    },
+    {
+      "N": 23,
+      "H": 23,
+      "travel_loss": 18
+    },
+    {
+      "N": 24,
+      "H": 24,
+      "travel_loss": 19
+    },
+    {
+      "N": 25,
+      "H": 25,
+      "travel_loss": 20
+    },
+    {
+      "N": 26,
+      "H": 26,
+      "travel_loss": 21
+    },
+    {
+      "N": 27,
+      "H": 27,
+      "travel_loss": 22
+    },
+    {
+      "N": 28,
+      "H": 28,
+      "travel_loss": 23
+    },
+    {
+      "N": 29,
+      "H": 29,
+      "travel_loss": 24
+    },
+    {
+      "N": 30,
+      "H": 30,
+      "travel_loss": 25
+    },
+    {
+      "N": 31,
+      "H": 31,
+      "travel_loss": 26
+    },
+    {
+      "N": 32,
+      "H": 32,
+      "travel_loss": 27
+    },
+    {
+      "N": 33,
+      "H": 33,
+      "travel_loss": 28
+    },
+    {
+      "N": 34,
+      "H": 34,
+      "travel_loss": 29
+    },
+    {
+      "N": 35,
+      "H": 35,
+      "travel_loss": 30
+    },
+    {
+      "N": 36,
+      "H": 36,
+      "travel_loss": 31
+    },
+    {
+      "N": 37,
+      "H": 37,
+      "travel_loss": 32
+    },
+    {
+      "N": 38,
+      "H": 38,
+      "travel_loss": 33
+    },
+    {
+      "N": 39,
+      "H": 39,
+      "travel_loss": 34
+    },
+    {
+      "N": 40,
+      "H": 40,
+      "travel_loss": 35
+    },
+    {
+      "N": 41,
+      "H": 41,
+      "travel_loss": 36
+    },
+    {
+      "N": 42,
+      "H": 42,
+      "travel_loss": 37
+    },
+    {
+      "N": 43,
+      "H": 43,
+      "travel_loss": 38
+    },
+    {
+      "N": 44,
+      "H": 44,
+      "travel_loss": 39
+    },
+    {
+      "N": 45,
+      "H": 45,
+      "travel_loss": 40
+    },
+    {
+      "N": 46,
+      "H": 46,
+      "travel_loss": 41
+    },
+    {
+      "N": 47,
+      "H": 47,
+      "travel_loss": 42
+    },
+    {
+      "N": 48,
+      "H": 48,
+      "travel_loss": 43
+    },
+    {
+      "N": 49,
+      "H": 49,
+      "travel_loss": 44
+    },
+    {
+      "N": 50,
+      "H": 50,
+      "travel_loss": 45
+    },
+    {
+      "N": 51,
+      "H": 51,
+      "travel_loss": 46
+    },
+    {
+      "N": 52,
+      "H": 52,
+      "travel_loss": 47
+    },
+    {
+      "N": 53,
+      "H": 53,
+      "travel_loss": 48
+    },
+    {
+      "N": 54,
+      "H": 54,
+      "travel_loss": 49
+    },
+    {
+      "N": 55,
+      "H": 55,
+      "travel_loss": 50
+    },
+    {
+      "N": 56,
+      "H": 56,
+      "travel_loss": 51
+    },
+    {
+      "N": 57,
+      "H": 57,
+      "travel_loss": 52
+    },
+    {
+      "N": 58,
+      "H": 58,
+      "travel_loss": 53
+    },
+    {
+      "N": 59,
+      "H": 59,
+      "travel_loss": 54
+    },
+    {
+      "N": 60,
+      "H": 60,
+      "travel_loss": 55
+    },
+    {
+      "N": 61,
+      "H": 61,
+      "travel_loss": 56
+    },
+    {
+      "N": 62,
+      "H": 62,
+      "travel_loss": 57
+    },
+    {
+      "N": 63,
+      "H": 63,
+      "travel_loss": 58
+    },
+    {
+      "N": 64,
+      "H": 64,
+      "travel_loss": 59
+    },
+    {
+      "N": 65,
+      "H": 65,
+      "travel_loss": 60
+    },
+    {
+      "N": 66,
+      "H": 66,
+      "travel_loss": 61
+    },
+    {
+      "N": 67,
+      "H": 67,
+      "travel_loss": 62
+    },
+    {
+      "N": 68,
+      "H": 68,
+      "travel_loss": 63
+    },
+    {
+      "N": 69,
+      "H": 69,
+      "travel_loss": 64
+    },
+    {
+      "N": 70,
+      "H": 70,
+      "travel_loss": 65
+    },
+    {
+      "N": 71,
+      "H": 71,
+      "travel_loss": 66
+    },
+    {
+      "N": 72,
+      "H": 72,
+      "travel_loss": 67
+    },
+    {
+      "N": 73,
+      "H": 73,
+      "travel_loss": 68
+    },
+    {
+      "N": 74,
+      "H": 74,
+      "travel_loss": 69
+    },
+    {
+      "N": 75,
+      "H": 75,
+      "travel_loss": 70
+    },
+    {
+      "N": 76,
+      "H": 76,
+      "travel_loss": 71
+    },
+    {
+      "N": 77,
+      "H": 77,
+      "travel_loss": 72
+    },
+    {
+      "N": 78,
+      "H": 78,
+      "travel_loss": 73
+    },
+    {
+      "N": 79,
+      "H": 79,
+      "travel_loss": 74
+    },
+    {
+      "N": 80,
+      "H": 80,
+      "travel_loss": 75
+    },
+    {
+      "N": 81,
+      "H": 81,
+      "travel_loss": 76
+    },
+    {
+      "N": 82,
+      "H": 82,
+      "travel_loss": 77
+    },
+    {
+      "N": 83,
+      "H": 83,
+      "travel_loss": 78
+    },
+    {
+      "N": 84,
+      "H": 84,
+      "travel_loss": 79
+    },
+    {
+      "N": 85,
+      "H": 85,
+      "travel_loss": 80
+    },
+    {
+      "N": 86,
+      "H": 86,
+      "travel_loss": 81
+    },
+    {
+      "N": 87,
+      "H": 87,
+      "travel_loss": 82
+    },
+    {
+      "N": 88,
+      "H": 88,
+      "travel_loss": 83
+    },
+    {
+      "N": 89,
+      "H": 89,
+      "travel_loss": 84
+    },
+    {
+      "N": 90,
+      "H": 90,
+      "travel_loss": 85
+    },
+    {
+      "N": 91,
+      "H": 91,
+      "travel_loss": 86
+    },
+    {
+      "N": 92,
+      "H": 92,
+      "travel_loss": 87
+    },
+    {
+      "N": 93,
+      "H": 93,
+      "travel_loss": 88
+    },
+    {
+      "N": 94,
+      "H": 94,
+      "travel_loss": 89
+    },
+    {
+      "N": 95,
+      "H": 95,
+      "travel_loss": 90
+    },
+    {
+      "N": 96,
+      "H": 96,
+      "travel_loss": 91
+    },
+    {
+      "N": 97,
+      "H": 97,
+      "travel_loss": 92
+    },
+    {
+      "N": 98,
+      "H": 98,
+      "travel_loss": 93
+    },
+    {
+      "N": 99,
+      "H": 99,
+      "travel_loss": 94
+    },
+    {
+      "N": 100,
+      "H": 100,
+      "travel_loss": 95
+    },
+    {
+      "N": 101,
+      "H": 101,
+      "travel_loss": 96
+    },
+    {
+      "N": 102,
+      "H": 102,
+      "travel_loss": 97
+    },
+    {
+      "N": 103,
+      "H": 103,
+      "travel_loss": 98
+    },
+    {
+      "N": 104,
+      "H": 104,
+      "travel_loss": 99
+    },
+    {
+      "N": 105,
+      "H": 105,
+      "travel_loss": 100
+    },
+    {
+      "N": 106,
+      "H": 106,
+      "travel_loss": 101
+    }
+  ]
+}

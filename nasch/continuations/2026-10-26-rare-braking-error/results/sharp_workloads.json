@@ -1,0 +1,317 @@
+{
+  "status": "all_passed_exactly",
+  "pairs": [
+    {
+      "N": 2,
+      "H": 1,
+      "counts": {
+        "mask_projection_upper": 32,
+        "remaining_workload_perturbation": 32,
+        "excess_workload_perturbation": 32,
+        "negative_coin_necessity": 32,
+        "dominating_word": 24,
+        "single_coin_structure": 16,
+        "rest_excess_bound": 8,
+        "isolated_word_commutations": 10
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "H": 2,
+      "counts": {
+        "mask_projection_upper": 48,
+        "remaining_workload_perturbation": 48,
+        "excess_workload_perturbation": 48,
+        "negative_coin_necessity": 48,
+        "dominating_word": 32,
+        "single_coin_structure": 24,
+        "rest_excess_bound": 12,
+        "isolated_word_commutations": 15
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "H": 3,
+      "counts": {
+        "mask_projection_upper": 64,
+        "remaining_workload_perturbation": 64,
+        "excess_workload_perturbation": 64,
+        "negative_coin_necessity": 64,
+        "dominating_word": 40,
+        "single_coin_structure": 32,
+        "rest_excess_bound": 16,
+        "isolated_word_commutations": 20
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 1,
+      "counts": {
+        "mask_projection_upper": 192,
+        "remaining_workload_perturbation": 192,
+        "excess_workload_perturbation": 192,
+        "negative_coin_necessity": 192,
+        "dominating_word": 168,
+        "single_coin_structure": 72,
+        "rest_excess_bound": 24,
+        "isolated_word_commutations": 48
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 2,
+      "counts": {
+        "mask_projection_upper": 384,
+        "remaining_workload_perturbation": 384,
+        "excess_workload_perturbation": 384,
+        "negative_coin_necessity": 384,
+        "dominating_word": 324,
+        "single_coin_structure": 144,
+        "rest_excess_bound": 48,
+        "isolated_word_commutations": 96
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 3,
+      "counts": {
+        "mask_projection_upper": 640,
+        "remaining_workload_perturbation": 640,
+        "excess_workload_perturbation": 640,
+        "negative_coin_necessity": 640,
+        "dominating_word": 524,
+        "single_coin_structure": 240,
+        "rest_excess_bound": 80,
+        "isolated_word_commutations": 160
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 4,
+      "counts": {
+        "mask_projection_upper": 960,
+        "remaining_workload_perturbation": 960,
+        "excess_workload_perturbation": 960,
+        "negative_coin_necessity": 960,
+        "dominating_word": 762,
+        "single_coin_structure": 360,
+        "rest_excess_bound": 120,
+        "isolated_word_commutations": 240
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "H": 5,
+      "counts": {
+        "mask_projection_upper": 1344,
+        "remaining_workload_perturbation": 1344,
+        "excess_workload_perturbation": 1344,
+        "negative_coin_necessity": 1344,
+        "dominating_word": 1038,
+        "single_coin_structure": 504,
+        "rest_excess_bound": 168,
+        "isolated_word_commutations": 336
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 1,
+      "counts": {
+        "mask_projection_upper": 1024,
+        "remaining_workload_perturbation": 1024,
+        "excess_workload_perturbation": 1024,
+        "negative_coin_necessity": 1024,
+        "dominating_word": 960,
+        "single_coin_structure": 256,
+        "rest_excess_bound": 64,
+        "isolated_word_commutations": 260
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 2,
+      "counts": {
+        "mask_projection_upper": 2560,
+        "remaining_workload_perturbation": 2560,
+        "excess_workload_perturbation": 2560,
+        "negative_coin_necessity": 2560,
+        "dominating_word": 2368,
+        "single_coin_structure": 640,
+        "rest_excess_bound": 160,
+        "isolated_word_commutations": 650
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "counts": {
+        "mask_projection_upper": 5120,
+        "remaining_workload_perturbation": 5120,
+        "excess_workload_perturbation": 5120,
+        "negative_coin_necessity": 5120,
+        "dominating_word": 4672,
+        "single_coin_structure": 1280,
+        "rest_excess_bound": 320,
+        "isolated_word_commutations": 1300
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "counts": {
+        "mask_projection_upper": 8960,
+        "remaining_workload_perturbation": 8960,
+        "excess_workload_perturbation": 8960,
+        "negative_coin_necessity": 8960,
+        "dominating_word": 8056,
+        "single_coin_structure": 2240,
+        "rest_excess_bound": 560,
+        "isolated_word_commutations": 2275
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "counts": {
+        "mask_projection_upper": 14336,
+        "remaining_workload_perturbation": 14336,
+        "excess_workload_perturbation": 14336,
+        "negative_coin_necessity": 14336,
+        "dominating_word": 12704,
+        "single_coin_structure": 3584,
+        "rest_excess_bound": 896,
+        "isolated_word_commutations": 3640
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "counts": {
+        "mask_projection_upper": 21504,
+        "remaining_workload_perturbation": 21504,
+        "excess_workload_perturbation": 21504,
+        "negative_coin_necessity": 21504,
+        "dominating_word": 18792,
+        "single_coin_structure": 5376,
+        "rest_excess_bound": 1344,
+        "isolated_word_commutations": 5460
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 1,
+      "counts": {
+        "mask_projection_upper": 5120,
+        "remaining_workload_perturbation": 5120,
+        "excess_workload_perturbation": 5120,
+        "negative_coin_necessity": 5120,
+        "dominating_word": 4960,
+        "single_coin_structure": 800,
+        "rest_excess_bound": 160,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 2,
+      "counts": {
+        "mask_projection_upper": 15360,
+        "remaining_workload_perturbation": 15360,
+        "excess_workload_perturbation": 15360,
+        "negative_coin_necessity": 15360,
+        "dominating_word": 14800,
+        "single_coin_structure": 2400,
+        "rest_excess_bound": 480,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 3,
+      "counts": {
+        "mask_projection_upper": 35840,
+        "remaining_workload_perturbation": 35840,
+        "excess_workload_perturbation": 35840,
+        "negative_coin_necessity": 35840,
+        "dominating_word": 34320,
+        "single_coin_structure": 5600,
+        "rest_excess_bound": 1120,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 4,
+      "counts": {
+        "mask_projection_upper": 71680,
+        "remaining_workload_perturbation": 71680,
+        "excess_workload_perturbation": 71680,
+        "negative_coin_necessity": 71680,
+        "dominating_word": 68160,
+        "single_coin_structure": 11200,
+        "rest_excess_bound": 2240,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 5,
+      "counts": {
+        "mask_projection_upper": 129024,
+        "remaining_workload_perturbation": 129024,
+        "excess_workload_perturbation": 129024,
+        "negative_coin_necessity": 129024,
+        "dominating_word": 121792,
+        "single_coin_structure": 20160,
+        "rest_excess_bound": 4032,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "H": 6,
+      "counts": {
+        "mask_projection_upper": 215040,
+        "remaining_workload_perturbation": 215040,
+        "excess_workload_perturbation": 215040,
+        "negative_coin_necessity": 215040,
+        "dominating_word": 201480,
+        "single_coin_structure": 33600,
+        "rest_excess_bound": 6720,
+        "isolated_word_commutations": 0
+      },
+      "status": "passed_exactly"
+    }
+  ],
+  "totals": {
+    "mask_projection_upper": 529232,
+    "remaining_workload_perturbation": 529232,
+    "excess_workload_perturbation": 529232,
+    "negative_coin_necessity": 529232,
+    "dominating_word": 495976,
+    "single_coin_structure": 88528,
+    "rest_excess_bound": 18572,
+    "isolated_word_commutations": 14510
+  },
+  "rational_constant_checks": 5394,
+  "scope": "New sharp-workload inequalities only; no stationary solves."
+}

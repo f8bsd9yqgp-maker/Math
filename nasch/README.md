@@ -1,4 +1,4 @@
-# NaSch project: canonical limits and an explicit first-passage representation
+# NaSch project: canonical limits and a quantitative full-model approximation
 
 Research record updated on 26 October 2026. Earlier structural notes were
 prepared from research runs 6–8 (20–21 October 2026).
@@ -17,7 +17,49 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: Fourier boundary formula for the original T_N
+## Latest continuation: quantitative full-model error and a joint limit
+
+The [new 26 October proof](continuations/2026-10-26-rare-braking-error/SHARP_WORKLOAD_BOUND.md)
+returns to the original parallel-update NaSch model. Write epsilon=1-p
+and let F be the reduced backchip current. For N>=2, 1<=H<2N, H/N<=R
+and epsilon*max(N,H)<=1/2, its strongest bound is
+
+```text
+|J(1-epsilon)/epsilon-N*F/(N+H)|
+ <= (12R^2+3R)*epsilon*N + (6R^3+10R^2)*epsilon^2*N^3.
+```
+
+Consequently, for every sequence with N->infinity,
+H/N->eta in (0,2), and epsilon*N^(3/2)->0,
+
+```text
+J_(N,H)(1-epsilon)/epsilon -> (eta-Q(eta))/(1+eta).
+```
+
+This is a restricted joint-limit theorem. It does not permit N->infinity
+at fixed epsilon and does not solve unrestricted limit interchange or the
+general stationary flow formula. No absence of condensates is assumed.
+
+The proof uses an exact full-braking projection, serialization of simultaneous
+triggers from rest, individual remaining workloads and their excess beyond
+one, and the inherited current corrector. A random-order comparison improves
+the rest-state error without changing the actual parallel model.
+An explicit reachable family shows that one extra nonbraking event can reduce
+eventual full-braking travel by N-5 at H=N, ruling out a proposed pathwise
+acceleration comparison. It is not a stationary-current counterexample.
+
+The [audit](continuations/2026-10-26-rare-braking-error/AUDIT.md) includes
+529,232 exact update/shift checks, a new 529,232-mask workload audit,
+18,572 serializations, and sixteen polynomial certificates against archived
+full-model flow formulas (eight for the original and eight for the sharper
+bound). The [zero-noise classification](continuations/2026-10-26-rare-braking-error/ZERO_NOISE_LIMITS.md)
+identifies possible zeroth-order local limits without assuming their
+spatial ergodicity. The
+[handoff](continuations/2026-10-26-rare-braking-error/HANDOFF.md) and
+[closure-attempt record](continuations/2026-10-26-rare-braking-error/CLOSURE_ATTEMPTS.md)
+preserve the remaining gaps. No old stationary or Poisson solver was rerun.
+
+## Previous continuation: Fourier boundary formula for the original T_N
 
 The [26 October proof](continuations/2026-10-26-first-passage-fourier/README.md)
 eliminates the two-dimensional interior of the original three-site unit-chip

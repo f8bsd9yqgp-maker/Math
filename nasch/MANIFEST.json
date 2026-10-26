@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Canonical scalar convergence and phase-selection results; explicit Fourier boundary determinants for original T_N and its first-passage transform. Unrestricted NaSch unresolved; not peer-reviewed.",
+  "scope": "Full-model error O_R((1-p)N+(1-p)^2N^3); joint limit under (1-p)N^(3/2)->0; zero-noise stationary classification and pathwise obstruction. General flow, remaining phase alternatives and unrestricted interchange unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 15860,
-      "sha256": "7570c31c9459c4b41b791dfdca6df618080125f0aaf84503ebae4e64a4b98444"
+      "bytes": 17955,
+      "sha256": "b460c91f371254bc8117295773d7d52528659e7c190c2485a3d6b1b84dbd02c9"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 17753,
-      "sha256": "894190fea7d7682006cbbb52611decc1fe3731169680730331a908f6675dc71b"
+      "bytes": 19619,
+      "sha256": "20031111a5100be4493018aca01941ce2b119664b390455759d5901e926cefb4"
     },
     {
       "path": "code/verify.py",
@@ -61,6 +61,11 @@
       "path": "continuations/2026-10-26-first-passage-fourier/MANIFEST.json",
       "bytes": 2199,
       "sha256": "4cdd436a474d9293d03e29599f0b9809dd23c6ef31c65da6fcb24f0085282378"
+    },
+    {
+      "path": "continuations/2026-10-26-rare-braking-error/MANIFEST.json",
+      "bytes": 2656,
+      "sha256": "d651014146d5a72c6177c4d81865303bea1ebd4f434806f117fb5256a4836333"
     }
   ],
   "last_updated": "2026-10-26"
