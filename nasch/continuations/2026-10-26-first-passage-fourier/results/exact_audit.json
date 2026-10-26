@@ -1,0 +1,212 @@
+{
+  "scope": "New spectral/boundary representation, N=2,...,12",
+  "arithmetic": "fractions.Fraction and exact cyclotomic polynomials",
+  "old_solvers_rerun": false,
+  "results": [
+    {
+      "N": 2,
+      "T_N": "1",
+      "boundary_unknowns": 0,
+      "boundary_values": [
+        "1"
+      ],
+      "harmonic_equations": 0,
+      "interior_polynomial_equations": 0,
+      "original_poisson_equations": 3,
+      "collision_multiplicity_checks": 0,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "T_N": "11/6",
+      "boundary_unknowns": 1,
+      "boundary_values": [
+        "11/6",
+        "7/3"
+      ],
+      "harmonic_equations": 1,
+      "interior_polynomial_equations": 1,
+      "original_poisson_equations": 7,
+      "collision_multiplicity_checks": 1,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "T_N": "14/5",
+      "boundary_unknowns": 2,
+      "boundary_values": [
+        "14/5",
+        "21/5",
+        "4"
+      ],
+      "harmonic_equations": 6,
+      "interior_polynomial_equations": 3,
+      "original_poisson_equations": 12,
+      "collision_multiplicity_checks": 8,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "T_N": "75/19",
+      "boundary_unknowns": 3,
+      "boundary_values": [
+        "75/19",
+        "118/19",
+        "134/19",
+        "6"
+      ],
+      "harmonic_equations": 18,
+      "interior_polynomial_equations": 6,
+      "original_poisson_equations": 18,
+      "collision_multiplicity_checks": 30,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 6,
+      "T_N": "37/7",
+      "boundary_unknowns": 4,
+      "boundary_values": [
+        "37/7",
+        "178/21",
+        "214/21",
+        "218/21",
+        "25/3"
+      ],
+      "harmonic_equations": 40,
+      "interior_polynomial_equations": 10,
+      "original_poisson_equations": 25,
+      "collision_multiplicity_checks": 80,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 7,
+      "T_N": "409/60",
+      "boundary_unknowns": 5,
+      "boundary_values": [
+        "409/60",
+        "331/30",
+        "68/5",
+        "221/15",
+        "851/60",
+        "11"
+      ],
+      "harmonic_equations": 75,
+      "interior_polynomial_equations": 15,
+      "original_poisson_equations": 33,
+      "collision_multiplicity_checks": 175,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 8,
+      "T_N": "6943/813",
+      "boundary_unknowns": 6,
+      "boundary_values": [
+        "6943/813",
+        "11297/813",
+        "14105/813",
+        "5240/271",
+        "16130/813",
+        "15008/813",
+        "14"
+      ],
+      "harmonic_equations": 126,
+      "interior_polynomial_equations": 21,
+      "original_poisson_equations": 42,
+      "collision_multiplicity_checks": 336,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 9,
+      "T_N": "296561/28365",
+      "boundary_unknowns": 7,
+      "boundary_values": [
+        "296561/28365",
+        "484129/28365",
+        "40597/1891",
+        "137815/5673",
+        "48590/1891",
+        "241222/9455",
+        "658394/28365",
+        "52/3"
+      ],
+      "harmonic_equations": 196,
+      "interior_polynomial_equations": 28,
+      "original_poisson_equations": 52,
+      "collision_multiplicity_checks": 588,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 10,
+      "T_N": "212937/16951",
+      "boundary_unknowns": 8,
+      "boundary_values": [
+        "212937/16951",
+        "348388/16951",
+        "440254/16951",
+        "502680/16951",
+        "540681/16951",
+        "554058/16951",
+        "538234/16951",
+        "482054/16951",
+        "21"
+      ],
+      "harmonic_equations": 288,
+      "interior_polynomial_equations": 36,
+      "original_poisson_equations": 63,
+      "collision_multiplicity_checks": 960,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 11,
+      "T_N": "64288181/4326262",
+      "boundary_unknowns": 9,
+      "boundary_values": [
+        "64288181/4326262",
+        "52674119/2163131",
+        "66770736/2163131",
+        "4035606/113849",
+        "515877/13394",
+        "4574098/113849",
+        "2356708/58463",
+        "83410476/2163131",
+        "147698657/4326262",
+        "25"
+      ],
+      "harmonic_equations": 405,
+      "interior_polynomial_equations": 45,
+      "original_poisson_equations": 75,
+      "collision_multiplicity_checks": 1485,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 12,
+      "T_N": "50671493/2920671",
+      "boundary_unknowns": 10,
+      "boundary_values": [
+        "50671493/2920671",
+        "27710300/973557",
+        "105608588/2920671",
+        "121745339/2920671",
+        "44385425/973557",
+        "140432131/2920671",
+        "15947708/324519",
+        "141866471/2920671",
+        "134164750/2920671",
+        "117753868/2920671",
+        "88/3"
+      ],
+      "harmonic_equations": 550,
+      "interior_polynomial_equations": 55,
+      "original_poisson_equations": 88,
+      "collision_multiplicity_checks": 2200,
+      "status": "passed_exactly"
+    }
+  ],
+  "totals": {
+    "harmonic_equations": 1705,
+    "interior_polynomial_equations": 220,
+    "original_poisson_equations": 418,
+    "collision_multiplicity_checks": 5863
+  },
+  "status": "all_passed_exactly"
+}

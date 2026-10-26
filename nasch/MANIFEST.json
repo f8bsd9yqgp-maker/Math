@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Canonical scalar convergence; positivity; critical mass retention; small selected phases and positive macroscopic backgrounds; pure selection outside affine gaps. Unrestricted NaSch unresolved; not peer-reviewed.",
+  "scope": "Canonical scalar convergence and phase-selection results; explicit Fourier boundary determinants for original T_N and its first-passage transform. Unrestricted NaSch unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 14365,
-      "sha256": "c4180575ac12c291af8f82fc425a8f26b29bf6b31a650ca3d3a02f88467a9b6d"
+      "bytes": 15860,
+      "sha256": "7570c31c9459c4b41b791dfdca6df618080125f0aaf84503ebae4e64a4b98444"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 16301,
-      "sha256": "2b080aee61e13574c6dd73aeda0017bc142ee88719eac737b9810b5fc8531222"
+      "bytes": 17753,
+      "sha256": "894190fea7d7682006cbbb52611decc1fe3731169680730331a908f6675dc71b"
     },
     {
       "path": "code/verify.py",
@@ -56,7 +56,12 @@
       "path": "continuations/2026-10-25-affine-phase-selection/MANIFEST.json",
       "bytes": 1547,
       "sha256": "d176af9c943f7197b7a6737a15de68cb79aa42c4f1d3c8ccb28f6c2cb8214940"
+    },
+    {
+      "path": "continuations/2026-10-26-first-passage-fourier/MANIFEST.json",
+      "bytes": 2199,
+      "sha256": "4cdd436a474d9293d03e29599f0b9809dd23c6ef31c65da6fcb24f0085282378"
     }
   ],
-  "last_updated": "2026-10-25"
+  "last_updated": "2026-10-26"
 }

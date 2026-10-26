@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-26",
+  "scope": "Exact Fourier boundary representation of original T_N and full first-passage Laplace transform; O(N^3) numerical evaluation. Unrestricted NaSch unresolved; not peer-reviewed.",
+  "files": [
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 4736,
+      "sha256": "cc96575a3d494dd8e80f493b99749112fcba9080383d7397003c0a1d2dc12f91"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 5974,
+      "sha256": "c4167eb8cbf24f3b6e4930610fe77cdb9b8c74223d4598dd73ffee2df06bf1ff"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4240,
+      "sha256": "a35fd8f9c5ee03f04ab14ebaa22adf562f1337fc9e72ee4b055b7049f20c1f10"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16121,
+      "sha256": "d75507fbcb1ef7888b61b8665e9f427176d23108b2840f499f3826e4802278eb"
+    },
+    {
+      "path": "exact_boundary.py",
+      "bytes": 7786,
+      "sha256": "569a79d01cf09f39684b176b22aec59b945b40bee23ee12a9a7a1979ef020940"
+    },
+    {
+      "path": "fft_boundary.py",
+      "bytes": 2755,
+      "sha256": "900b4b296fe1c4c2a334953436e8c431d65dada2ade0232945113f68302b3c54"
+    },
+    {
+      "path": "results/exact_audit.json",
+      "bytes": 5207,
+      "sha256": "da4a513e2b671f91e7985714a7323297d35c7c3ad5cab8fd638347713f3ca80f"
+    },
+    {
+      "path": "results/exact_environment.json",
+      "bytes": 112,
+      "sha256": "f6df55cfa1e83b39c8568a2b78252015eb75ed409f1eb96c2aa84515517f2bf6"
+    },
+    {
+      "path": "results/fft_audit.json",
+      "bytes": 3343,
+      "sha256": "502bf79fd51ce42e27463313b935a2251ae52369fb1f646757391440406f80eb"
+    },
+    {
+      "path": "results/laplace_audit.json",
+      "bytes": 5839,
+      "sha256": "0e53653e02b82abe29e4660784a727f0591e70aa83c7be8a881fc7f90624352d"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 5683,
+      "sha256": "178ff44768625db08386135bef80cafacd9bc1bf93d49aa15d08c6c981d9f468"
+    },
+    {
+      "path": "verify_fft.py",
+      "bytes": 1506,
+      "sha256": "f4b746205ea3c550e9f45c75578e447a4f43c8e1e840c28da1c121e052b58b71"
+    },
+    {
+      "path": "verify_laplace.py",
+      "bytes": 1989,
+      "sha256": "1f16d7ab514a4657eb539a2698a89c7980b0c92fce50d168c4a8adde76869ea4"
+    }
+  ]
+}

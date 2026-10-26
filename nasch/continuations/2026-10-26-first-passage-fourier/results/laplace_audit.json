@@ -1,0 +1,259 @@
+{
+  "results": [
+    {
+      "N": 2,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 3,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "discount": "1/2",
+      "laplace_B": "2/3",
+      "discounted_poisson_equations": 3,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "discount": "1",
+      "laplace_B": "1/2",
+      "discounted_poisson_equations": 3,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 2,
+      "discount": "2",
+      "laplace_B": "1/3",
+      "discounted_poisson_equations": 3,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 7,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "discount": "1/2",
+      "laplace_B": "70/127",
+      "discounted_poisson_equations": 7,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "discount": "1",
+      "laplace_B": "2/5",
+      "discounted_poisson_equations": 7,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 3,
+      "discount": "2",
+      "laplace_B": "10/37",
+      "discounted_poisson_equations": 7,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 12,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "discount": "1/2",
+      "laplace_B": "194/389",
+      "discounted_poisson_equations": 12,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "discount": "1",
+      "laplace_B": "23/62",
+      "discounted_poisson_equations": 12,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 4,
+      "discount": "2",
+      "laplace_B": "59/227",
+      "discounted_poisson_equations": 12,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 18,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "discount": "1/2",
+      "laplace_B": "1922/4053",
+      "discounted_poisson_equations": 18,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "discount": "1",
+      "laplace_B": "254/703",
+      "discounted_poisson_equations": 18,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 5,
+      "discount": "2",
+      "laplace_B": "127/493",
+      "discounted_poisson_equations": 18,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 6,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 25,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 6,
+      "discount": "1/2",
+      "laplace_B": "85990/185839",
+      "discounted_poisson_equations": 25,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 6,
+      "discount": "1",
+      "laplace_B": "14679/41018",
+      "discounted_poisson_equations": 25,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 6,
+      "discount": "2",
+      "laplace_B": "34337/133601",
+      "discounted_poisson_equations": 25,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 7,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 33,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 7,
+      "discount": "1/2",
+      "laplace_B": "35234202/77052689",
+      "discounted_poisson_equations": 33,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 7,
+      "discount": "1",
+      "laplace_B": "121246/340007",
+      "discounted_poisson_equations": 33,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 7,
+      "discount": "2",
+      "laplace_B": "526119/2048356",
+      "discounted_poisson_equations": 33,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 8,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 42,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 8,
+      "discount": "1/2",
+      "laplace_B": "7160275794/15747847709",
+      "discounted_poisson_equations": 42,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 8,
+      "discount": "1",
+      "laplace_B": "5220032/14657959",
+      "discounted_poisson_equations": 42,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 8,
+      "discount": "2",
+      "laplace_B": "200295135/779951681",
+      "discounted_poisson_equations": 42,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 9,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 52,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 9,
+      "discount": "1/2",
+      "laplace_B": "4589697489566/10121992572219",
+      "discounted_poisson_equations": 52,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 9,
+      "discount": "1",
+      "laplace_B": "235204103/660792101",
+      "discounted_poisson_equations": 52,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 9,
+      "discount": "2",
+      "laplace_B": "39552748013/154026323371",
+      "discounted_poisson_equations": 52,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 10,
+      "discount": "0",
+      "laplace_B": "1",
+      "discounted_poisson_equations": 63,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 10,
+      "discount": "1/2",
+      "laplace_B": "1963008385534094/4334921588546963",
+      "discounted_poisson_equations": 63,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 10,
+      "discount": "1",
+      "laplace_B": "37385646193/105052972602",
+      "discounted_poisson_equations": 63,
+      "status": "passed_exactly"
+    },
+    {
+      "N": 10,
+      "discount": "2",
+      "laplace_B": "8922473820379/34746363043081",
+      "discounted_poisson_equations": 63,
+      "status": "passed_exactly"
+    }
+  ],
+  "total_discounted_poisson_equations": 1020,
+  "status": "all_passed_exactly",
+  "old_solvers_rerun": false
+}

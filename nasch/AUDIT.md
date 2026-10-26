@@ -1,5 +1,29 @@
 # Proof audit and provenance
 
+## Latest result: explicit first-passage boundary formula, 26 October 2026
+
+The [new proof](continuations/2026-10-26-first-passage-fourier/README.md)
+represents the killed three-site unit-chip interior by three walkers on a
+circle. An exterior Fourier basis and a translation projection give its
+boundary exit kernel explicitly. Pinning the inherited value S_N leaves
+N-2 unknowns for T_N; the full Laplace transform requires N-1 unknowns.
+The dense numerical arithmetic count is O(N^3), with O(N^2) memory.
+No rational bit-complexity bound or numerical-conditioning claim is made.
+
+Exact audits passed 1,705 harmonic-measure equations, 220 interior-duration
+identities, 418 original mean Poisson equations, 5,863 exit-multiplicity
+checks, and 1,020 discounted Poisson equations. The 11 archived T_N values
+are regression fixtures for the new formula. The original full-state
+solvers were not rerun. Fourier/FFT coefficients were also compared against
+exact coefficients; numerical residuals are not forward-error certificates.
+
+The [detailed audit](continuations/2026-10-26-first-passage-fourier/AUDIT.md)
+records the circle signs, the N=3 multiplicities, zero-mode treatment,
+matrix invertibility and scholarly status. This is an internally audited
+proof and explicit representation, not independent peer review or a solution
+of the unrestricted NaSch stationary flow. The thermodynamic scalar
+convergence theorem below remains an inherited result.
+
 ## Latest result: affine phase gaps and macroscopic backgrounds, 25 October 2026
 
 The [new continuation](continuations/2026-10-25-affine-phase-selection/README.md)

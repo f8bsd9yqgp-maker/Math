@@ -1,12 +1,13 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
-Also in this repository: [NaSch/backchip canonical limits and phase-selection
-proofs](nasch/README.md) (updated 25 October 2026). The fixed-density pile
-probability converges and is positive. New proofs select every density where
-Q is not locally affine and establish a positive background on every
-macroscopic arc at every positive density. Affine intervals, the critical
-endpoint, and the unrestricted NaSch flow formula remain unresolved. These
-are AI-assisted, internally audited results, not independently peer-reviewed.
+Also in this repository: [NaSch/backchip research](nasch/README.md)
+(updated 26 October 2026). The fixed-density pile probability converges and
+is positive. The latest proof gives an explicit Fourier boundary determinant
+for the original three-hole first-passage mean T_N and its full Laplace
+transform, with a smaller, faster numerical algorithm. Affine phase
+intervals, the critical endpoint, and the unrestricted NaSch flow formula
+remain unresolved. These are AI-assisted, internally audited results,
+not independently peer-reviewed.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 

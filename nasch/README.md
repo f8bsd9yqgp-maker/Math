@@ -1,6 +1,6 @@
-# NaSch project: canonical convergence, phase selection, and positive backgrounds
+# NaSch project: canonical limits and an explicit first-passage representation
 
-Research record updated on 25 October 2026. Earlier structural notes were
+Research record updated on 26 October 2026. Earlier structural notes were
 prepared from research runs 6–8 (20–21 October 2026).
 
 **The fixed-density pile probability converges and is strictly positive.**
@@ -17,7 +17,31 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: affine phase gaps and a positive background everywhere
+## Latest continuation: Fourier boundary formula for the original T_N
+
+The [26 October proof](continuations/2026-10-26-first-passage-fourier/README.md)
+eliminates the two-dimensional interior of the original three-site unit-chip
+first-passage problem. Three walkers killed on collision have an explicit
+Fourier determinant Green function; projecting onto total momentum zero
+gives every boundary exit probability with the correct multiplicities.
+
+This gives an explicit `(N-2)`-dimensional system and determinant ratio for
+`T_N`, and an `(N-1)`-dimensional determinant ratio for the entire first-passage
+Laplace transform. A two-dimensional FFT assembles the boundary matrix,
+giving `O(N^3)` ordinary numerical arithmetic and `O(N^2)` storage. This is a
+spectral representation and algorithmic improvement, not an elementary
+scalar formula, a fixed-order recurrence, or a proved limit of `T_N/N^2`.
+
+The [exact audit](continuations/2026-10-26-first-passage-fourier/AUDIT.md)
+reconstructs the full original functions and checks their Poisson equations,
+without rerunning an old full-state solver. It includes 1,705 harmonic
+equations, 418 mean equations, 5,863 collision-multiplicity checks, and 1,020
+discounted equations, all passed with exact rational/cyclotomic arithmetic.
+The [handoff](continuations/2026-10-26-first-passage-fourier/HANDOFF.md) preserves
+the formulas, code and outstanding questions. The unrestricted NaSch flow
+and the remaining phase/condensate questions are still open.
+
+## Previous continuation: affine phase gaps and a positive background everywhere
 
 The [25 October proof](continuations/2026-10-25-affine-phase-selection/README.md)
 uses lower supporting contacts, now justified by preserved first moments,

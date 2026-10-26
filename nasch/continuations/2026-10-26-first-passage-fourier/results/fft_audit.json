@@ -1,0 +1,103 @@
+{
+  "scope": "Numerical implementation audit, not an asymptotic proof",
+  "checks": [
+    {
+      "N": 3,
+      "max_exact_kernel_difference": 1.190731821326978e-16,
+      "T_N_archived_difference": 2.220446049250313e-16
+    },
+    {
+      "N": 4,
+      "max_exact_kernel_difference": 1.127496123465887e-16,
+      "T_N_archived_difference": 4.440892098500626e-16
+    },
+    {
+      "N": 5,
+      "max_exact_kernel_difference": 1.1182660136146778e-16,
+      "T_N_archived_difference": 0.0
+    },
+    {
+      "N": 6,
+      "max_exact_kernel_difference": 2.852789812348739e-16,
+      "T_N_archived_difference": 7.993605777301127e-15
+    },
+    {
+      "N": 7,
+      "max_exact_kernel_difference": 1.675802865206392e-16,
+      "T_N_archived_difference": 7.993605777301127e-15
+    },
+    {
+      "N": 8,
+      "max_exact_kernel_difference": 1.1108219746188216e-16,
+      "T_N_archived_difference": 3.552713678800501e-15
+    },
+    {
+      "N": 9,
+      "max_exact_kernel_difference": 1.6653395011907327e-16,
+      "T_N_archived_difference": 1.0658141036401503e-14
+    },
+    {
+      "N": 10,
+      "max_exact_kernel_difference": 2.220510959702335e-16,
+      "T_N_archived_difference": 5.329070518200751e-15
+    },
+    {
+      "N": 11,
+      "max_exact_kernel_difference": 2.2501110100863975e-16,
+      "T_N_archived_difference": 1.4210854715202004e-14
+    },
+    {
+      "N": 12,
+      "max_exact_kernel_difference": 2.7895646843289724e-16,
+      "T_N_archived_difference": 1.1013412404281553e-13
+    }
+  ],
+  "benchmarks": [
+    {
+      "N": 40,
+      "T_N_approx": 164.66481507229025,
+      "seconds": 0.0009779150000213122,
+      "max_imaginary_kernel": 6.199541542199203e-17,
+      "max_kernel_row_sum_error": 6.93838604054138e-16,
+      "minimum_real_kernel_entry": 6.787792557489195e-05,
+      "max_boundary_residual": 4.600764214046649e-13,
+      "omitted_boundary_equation_residual": 9.322320693172514e-12,
+      "status": "floating_point_not_certified"
+    },
+    {
+      "N": 80,
+      "T_N_approx": 635.2105820639325,
+      "seconds": 0.002719579999848065,
+      "max_imaginary_kernel": 4.245918503791027e-17,
+      "max_kernel_row_sum_error": 4.444718950483764e-15,
+      "minimum_real_kernel_entry": 4.221282827766848e-06,
+      "max_boundary_residual": 2.7249313916399842e-12,
+      "omitted_boundary_equation_residual": 5.499032340594567e-10,
+      "status": "floating_point_not_certified"
+    },
+    {
+      "N": 160,
+      "T_N_approx": 2494.404003800524,
+      "seconds": 0.01662060900025608,
+      "max_imaginary_kernel": 5.749369240277228e-17,
+      "max_kernel_row_sum_error": 8.215782019143844e-15,
+      "minimum_real_kernel_entry": 2.6351465554075304e-07,
+      "max_boundary_residual": 2.2247093056648737e-11,
+      "omitted_boundary_equation_residual": 1.134594640461728e-08,
+      "status": "floating_point_not_certified"
+    },
+    {
+      "N": 320,
+      "T_N_approx": 9885.251731710714,
+      "seconds": 0.06708081899978424,
+      "max_imaginary_kernel": 7.439272321506308e-17,
+      "max_kernel_row_sum_error": 2.087940759155815e-14,
+      "minimum_real_kernel_entry": 1.646479235705341e-08,
+      "max_boundary_residual": 1.2651923952944344e-10,
+      "omitted_boundary_equation_residual": 2.6450470613781363e-07,
+      "status": "floating_point_not_certified"
+    }
+  ],
+  "numpy": "2.3.5",
+  "python": "3.12.14"
+}
