@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-26",
+  "run": 20,
+  "scope": "Full-model O_R((1-p)N) error and joint limit under (1-p)N->0; size-uniform one-speed flow lower bound and active-block geometry. General stationary flow, condensate alternatives and unrestricted interchange unresolved; not peer-reviewed.",
+  "files": [
+    {
+      "path": "ACTIVE_BLOCK_GEOMETRY.md",
+      "bytes": 6163,
+      "sha256": "21bde252417f88ec5cbc2b40db56aec2f05a6a67cf45cc27d9996156cb70d773"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 4150,
+      "sha256": "949c535f3833e0fa92e36826fa2fea5aad9d11b2349d2c8c6b81262543e2124b"
+    },
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 3782,
+      "sha256": "2a93de62936e300021d40f0d05c680acc030debf8287f563ee9caab4288bece0"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4228,
+      "sha256": "4261f4948a29dc0d050aadc9d6976ea4fb0d18285486b258d8fa785e17847598"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13576,
+      "sha256": "8fcdeb273fe6643297f9270468d9e105c896da6c0c054913f190d2b94978bad1"
+    },
+    {
+      "path": "UNIFORM_LOWER_BOUND.md",
+      "bytes": 6824,
+      "sha256": "4b5cabb92ebd9d2ced08b1a473660a963fdefd64ee0fc586dfc07e2c2192ea5d"
+    },
+    {
+      "path": "results/block_geometry.json",
+      "bytes": 1585,
+      "sha256": "262b0a0f3e1fd76e41e30ec003782934a628fef4df2bb3378a2d4d278e7b6636"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 126,
+      "sha256": "0cae7e2706d729373bb1264f413c5b21f016e8aeeb148c45d944d74589d54fca"
+    },
+    {
+      "path": "results/flow_fixtures.json",
+      "bytes": 3584,
+      "sha256": "7ee148b164e3be545958f7f0f2ee381b4ed3f462482e6b823ea1a3097d677a83"
+    },
+    {
+      "path": "results/independent.json",
+      "bytes": 278,
+      "sha256": "b85cd7443047843c4bc4aaba9e5fd81bb77930adea1d9786927449389aa62219"
+    },
+    {
+      "path": "results/unit_flow_fixtures.json",
+      "bytes": 1290,
+      "sha256": "86c8cad85a562e2cd38dce933538a65b2d0de470c74a68bf557322db7787b269"
+    },
+    {
+      "path": "results/unit_lower.json",
+      "bytes": 210,
+      "sha256": "8c4d43002438f40620219cd9809f3602142c89cd75a4c5f41a177dcde5f3f8d3"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 3907,
+      "sha256": "9b906c78bdec8badd174b112cf48c77c46355b1756a46b3b715b1229302cbe89"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 5672,
+      "sha256": "7d0503d14d8f9698b36cb9ba711f37aa0b76f00d7c54479ba7bb2753db3029ca"
+    },
+    {
+      "path": "verify_block_geometry.py",
+      "bytes": 2461,
+      "sha256": "19311ee0bf8218240dd2d0d31c9bb853ac923bd328305b649b3acc86631a81c8"
+    },
+    {
+      "path": "verify_flow_fixtures.py",
+      "bytes": 1791,
+      "sha256": "28065fa6d9b128e3fc1394cb7594f407880716b767e7f66cef8eb611b51df5d4"
+    },
+    {
+      "path": "verify_independent.py",
+      "bytes": 3801,
+      "sha256": "5ec74a6eb4e000662d14b821163d199f9bb12d0db6d1a54cb4452a3ec0bd6630"
+    },
+    {
+      "path": "verify_unit_flow_fixtures.py",
+      "bytes": 1398,
+      "sha256": "02fda1058e84567fad616f858813ac23d5b7bdebef75f81ed21784d066d00f31"
+    },
+    {
+      "path": "verify_unit_lower.py",
+      "bytes": 2868,
+      "sha256": "7d138e51fb76f9d0cb975cf7255aa72679aad34911dc42c0872d941bc9fd9429"
+    }
+  ]
+}

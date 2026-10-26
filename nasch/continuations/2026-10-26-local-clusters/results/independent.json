@@ -1,0 +1,11 @@
+{
+  "status": "all_passed_exactly",
+  "seed": 20261026,
+  "python": "3.12.14",
+  "scope": "Independent original four-step simulation and repeated full braking; no stationary solver.",
+  "totals": {
+    "trials": 6840,
+    "full_ring": 145,
+    "negative_projection": 1124
+  }
+}

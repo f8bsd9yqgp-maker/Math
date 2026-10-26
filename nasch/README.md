@@ -17,7 +17,45 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: quantitative full-model error and a joint limit
+## Latest continuation: local clusters and a size-uniform lower bound
+
+The [local-cluster proof](continuations/2026-10-26-local-clusters/README.md)
+improves the full-model joint-limit condition from
+`(1-p)N^(3/2)->0` to `(1-p)N->0`. When `epsilon=1-p`, `H/N<=R`,
+`1<=H<2N`, and `epsilon*max(N,H)<=1/4`, its explicit bound is
+
+```text
+|J(1-epsilon)/epsilon - N*F/(N+H)|
+  <= (5R/2+65R^2+20R^3)*epsilon*N.
+```
+
+The comparison with a rest-started auxiliary process changes only mixed
+clusters of qualified cars and marked coins. A new pair-minimum workload
+controls the second moment of the active-car count.
+
+A separate [one-speed comparison](continuations/2026-10-26-local-clusters/UNIFORM_LOWER_BOUND.md)
+gives, for all N>=2, H>=1, and 0<epsilon<1,
+
+```text
+J(1-epsilon)/epsilon >= N*H/[(N+H)(N+H-1)].
+```
+
+This lower bound does not require `epsilon N->0` and has a sharper
+fixed-epsilon thermodynamic liminf in the proof. It does not provide the
+matching upper bound. The full-model fixed-epsilon thermodynamic limit,
+general flow, phase alternatives, and unrestricted interchange remain open.
+
+The [qualified-block theorem](continuations/2026-10-26-local-clusters/ACTIVE_BLOCK_GEOMETRY.md)
+also proves `E b+epsilon E m<=epsilon H`, uniformly in road size. It
+describes the long moving blocks required for a nonzero unscaled current
+at small epsilon; it does not rule out moving vacancy condensates.
+
+The [audit](continuations/2026-10-26-local-clusters/AUDIT.md) records new
+exact structural checks, independent direct-relaxation checks, and eight
+polynomial interval certificates; the [handoff](continuations/2026-10-26-local-clusters/HANDOFF.md)
+preserves the next target. No old stationary or Poisson solver was rerun.
+
+## Previous continuation: quantitative full-model error and a joint limit
 
 The [new 26 October proof](continuations/2026-10-26-rare-braking-error/SHARP_WORKLOAD_BOUND.md)
 returns to the original parallel-update NaSch model. Write epsilon=1-p

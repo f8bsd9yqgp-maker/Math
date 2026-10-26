@@ -3,7 +3,8 @@
 Also in this repository: [NaSch/backchip research](nasch/README.md)
 (updated 26 October 2026). The latest proof bounds the full-model
 near-certain-braking error explicitly and proves a simultaneous limit when
-(1-p)N^(3/2) tends to zero. Earlier results establish the reduced fixed-density
+(1-p)N tends to zero. A one-sided traffic-flow lower bound holds for all
+N>=2, H>=1 and 0<1-p<1, with no size restriction. Earlier results establish the reduced fixed-density
 pile-probability limit and an explicit Fourier boundary formula for T_N.
 The general stationary flow, remaining phase/condensate alternatives, and
 unrestricted interchange of limits remain unresolved. These are AI-assisted,

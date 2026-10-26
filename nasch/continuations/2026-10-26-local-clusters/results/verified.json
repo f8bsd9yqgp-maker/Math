@@ -1,0 +1,169 @@
+{
+  "status": "all_passed_exactly",
+  "rows": [
+    {
+      "N": 2,
+      "H": 1,
+      "support_comparisons": 32,
+      "pair_workload_inequalities": 32,
+      "two_firing_domination": 32
+    },
+    {
+      "N": 2,
+      "H": 2,
+      "support_comparisons": 48,
+      "pair_workload_inequalities": 48,
+      "two_firing_domination": 40,
+      "full_ring_fallback": 8
+    },
+    {
+      "N": 2,
+      "H": 3,
+      "support_comparisons": 64,
+      "pair_workload_inequalities": 64,
+      "two_firing_domination": 48,
+      "full_ring_fallback": 16
+    },
+    {
+      "N": 3,
+      "H": 1,
+      "support_comparisons": 192,
+      "pair_workload_inequalities": 192,
+      "two_firing_domination": 192
+    },
+    {
+      "N": 3,
+      "H": 2,
+      "support_comparisons": 384,
+      "pair_workload_inequalities": 384,
+      "two_firing_domination": 360,
+      "full_ring_fallback": 24
+    },
+    {
+      "N": 3,
+      "H": 3,
+      "support_comparisons": 640,
+      "pair_workload_inequalities": 640,
+      "two_firing_domination": 568,
+      "full_ring_fallback": 72
+    },
+    {
+      "N": 3,
+      "H": 4,
+      "support_comparisons": 960,
+      "pair_workload_inequalities": 960,
+      "two_firing_domination": 816,
+      "full_ring_fallback": 144
+    },
+    {
+      "N": 3,
+      "H": 5,
+      "support_comparisons": 1344,
+      "pair_workload_inequalities": 1344,
+      "two_firing_domination": 1104,
+      "full_ring_fallback": 240
+    },
+    {
+      "N": 4,
+      "H": 1,
+      "support_comparisons": 1024,
+      "pair_workload_inequalities": 1024,
+      "two_firing_domination": 1024
+    },
+    {
+      "N": 4,
+      "H": 2,
+      "support_comparisons": 2560,
+      "pair_workload_inequalities": 2560,
+      "two_firing_domination": 2496,
+      "full_ring_fallback": 64
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "support_comparisons": 5120,
+      "pair_workload_inequalities": 5120,
+      "two_firing_domination": 4864,
+      "full_ring_fallback": 256
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "support_comparisons": 8960,
+      "pair_workload_inequalities": 8960,
+      "two_firing_domination": 8320,
+      "full_ring_fallback": 640
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "support_comparisons": 14336,
+      "pair_workload_inequalities": 14336,
+      "two_firing_domination": 13056,
+      "full_ring_fallback": 1280
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "support_comparisons": 21504,
+      "pair_workload_inequalities": 21504,
+      "two_firing_domination": 19248,
+      "full_ring_fallback": 2256
+    },
+    {
+      "N": 5,
+      "H": 1,
+      "support_comparisons": 5120,
+      "pair_workload_inequalities": 5120,
+      "two_firing_domination": 5120
+    },
+    {
+      "N": 5,
+      "H": 2,
+      "support_comparisons": 15360,
+      "pair_workload_inequalities": 15360,
+      "two_firing_domination": 15200,
+      "full_ring_fallback": 160
+    },
+    {
+      "N": 5,
+      "H": 3,
+      "support_comparisons": 35840,
+      "pair_workload_inequalities": 35840,
+      "two_firing_domination": 35040,
+      "full_ring_fallback": 800
+    },
+    {
+      "N": 5,
+      "H": 4,
+      "support_comparisons": 71680,
+      "pair_workload_inequalities": 71680,
+      "two_firing_domination": 69280,
+      "full_ring_fallback": 2400
+    },
+    {
+      "N": 5,
+      "H": 5,
+      "support_comparisons": 129024,
+      "pair_workload_inequalities": 129024,
+      "two_firing_domination": 123424,
+      "full_ring_fallback": 5600
+    },
+    {
+      "N": 5,
+      "H": 6,
+      "support_comparisons": 215040,
+      "pair_workload_inequalities": 215040,
+      "two_firing_domination": 203760,
+      "full_ring_fallback": 11280
+    }
+  ],
+  "totals": {
+    "support_comparisons": 529232,
+    "pair_workload_inequalities": 529232,
+    "two_firing_domination": 503992,
+    "full_ring_fallback": 25240
+  },
+  "exact_cluster_expectation_checks": 1503,
+  "exact_moment_constant_checks": 9996
+}

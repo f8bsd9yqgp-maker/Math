@@ -1,5 +1,27 @@
 # Proof audit and provenance
 
+## Latest result: local clusters and a uniform one-sided bound, 26 October 2026
+
+The [local-cluster continuation](continuations/2026-10-26-local-clusters/README.md)
+proves a full-model error of order `(1-p)N` at bounded vacancy density and
+therefore the joint current limit when `(1-p)N->0`. It uses the inherited
+projection and corrector, a new disagreement-cluster comparison, and a
+pair-minimum workload. A separate
+[one-speed comparison](continuations/2026-10-26-local-clusters/UNIFORM_LOWER_BOUND.md)
+gives an explicit full-model lower bound valid uniformly in N.
+The separate [block drift](continuations/2026-10-26-local-clusters/ACTIVE_BLOCK_GEOMETRY.md)
+proves `E b+epsilon E m<=epsilon H` for qualified moving blocks.
+
+New exact audits include 529,232 mixed-cluster mask comparisons, 503,992
+two-firing words, 25,240 full-ring cases, 6,840 independent direct
+relaxations, 470,240 one-speed order checks, 12,348 exact one-speed
+transition weights, 9,996 rational constant checks, and twelve additional
+Bernstein certificates. These support, but do not replace, the analytic
+proofs. The block drift has 529,232 mask and 55,716 rational expectation
+checks. No old stationary or Poisson solver was rerun. General stationary
+flow, the phase/condensate alternatives, and unrestricted interchange
+remain open; independent peer review remains outstanding.
+
 ## Latest result: polynomial full-model rare-braking error, 26 October 2026
 
 The [new proof](continuations/2026-10-26-rare-braking-error/README.md)

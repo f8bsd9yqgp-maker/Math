@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Full-model error O_R((1-p)N+(1-p)^2N^3); joint limit under (1-p)N^(3/2)->0; zero-noise stationary classification and pathwise obstruction. General flow, remaining phase alternatives and unrestricted interchange unresolved; not peer-reviewed.",
+  "scope": "Full-model O_R((1-p)N) error and joint limit under (1-p)N->0; size-uniform one-speed flow lower bound and active-block geometry. General stationary flow, condensate alternatives and unrestricted interchange unresolved; not peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 17955,
-      "sha256": "b460c91f371254bc8117295773d7d52528659e7c190c2485a3d6b1b84dbd02c9"
+      "bytes": 19681,
+      "sha256": "6e0d2d119a9e69ca04e5b13dd1118e8df0358dd12e8fcca3cffe044b957d7b6e"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 19619,
-      "sha256": "20031111a5100be4493018aca01941ce2b119664b390455759d5901e926cefb4"
+      "bytes": 20977,
+      "sha256": "93f7c7ea35c4cc06bcbf8a9c1a858e004ddc8f158af001f3e1b0d7d1e141d8aa"
     },
     {
       "path": "code/verify.py",
@@ -66,6 +66,11 @@
       "path": "continuations/2026-10-26-rare-braking-error/MANIFEST.json",
       "bytes": 2656,
       "sha256": "d651014146d5a72c6177c4d81865303bea1ebd4f434806f117fb5256a4836333"
+    },
+    {
+      "path": "continuations/2026-10-26-local-clusters/MANIFEST.json",
+      "bytes": 3265,
+      "sha256": "8468f43e56ec338840d353bfe5779c924b6988b8112318416d419751c7905067"
     }
   ],
   "last_updated": "2026-10-26"

@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "dependencies": "Python standard library",
+  "date": "2026-10-26"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "all_passed_exactly",
+  "product_invariance_transitions": 12348,
+  "ordered_one_step_checks": 470240,
+  "scope": "Direct transition identity and height comparison; no stationary-system solves."
+}

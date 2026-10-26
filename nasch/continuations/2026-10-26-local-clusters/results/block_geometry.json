@@ -1,0 +1,108 @@
+{
+  "status": "all_passed_exactly",
+  "mask_drift_checks": 529232,
+  "exact_conditional_drift_checks": 55716,
+  "cases": [
+    {
+      "N": 2,
+      "H": 1,
+      "masks_checked": 32
+    },
+    {
+      "N": 2,
+      "H": 2,
+      "masks_checked": 48
+    },
+    {
+      "N": 2,
+      "H": 3,
+      "masks_checked": 64
+    },
+    {
+      "N": 3,
+      "H": 1,
+      "masks_checked": 192
+    },
+    {
+      "N": 3,
+      "H": 2,
+      "masks_checked": 384
+    },
+    {
+      "N": 3,
+      "H": 3,
+      "masks_checked": 640
+    },
+    {
+      "N": 3,
+      "H": 4,
+      "masks_checked": 960
+    },
+    {
+      "N": 3,
+      "H": 5,
+      "masks_checked": 1344
+    },
+    {
+      "N": 4,
+      "H": 1,
+      "masks_checked": 1024
+    },
+    {
+      "N": 4,
+      "H": 2,
+      "masks_checked": 2560
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "masks_checked": 5120
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "masks_checked": 8960
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "masks_checked": 14336
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "masks_checked": 21504
+    },
+    {
+      "N": 5,
+      "H": 1,
+      "masks_checked": 5120
+    },
+    {
+      "N": 5,
+      "H": 2,
+      "masks_checked": 15360
+    },
+    {
+      "N": 5,
+      "H": 3,
+      "masks_checked": 35840
+    },
+    {
+      "N": 5,
+      "H": 4,
+      "masks_checked": 71680
+    },
+    {
+      "N": 5,
+      "H": 5,
+      "masks_checked": 129024
+    },
+    {
+      "N": 5,
+      "H": 6,
+      "masks_checked": 215040
+    }
+  ],
+  "scope": "New qualified-block drift identity; no stationary-system solve."
+}
