@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "dependencies": "Python standard library only",
+  "research_date": "2026-10-26",
+  "parent_commit": "3d8fe96af4cbd9644e3f565a376509d82bf00ada",
+  "old_stationary_solvers_rerun": false,
+  "audit_status": "All four new scripts passed; analytic proofs supplied."
+}

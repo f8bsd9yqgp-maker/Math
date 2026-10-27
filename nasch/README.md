@@ -17,7 +17,44 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: local clusters and a size-uniform lower bound
+## Latest continuation: uniform arrest and unrestricted local stationary reduction
+
+The [new proof](continuations/2026-10-26-gap-balance/README.md) establishes,
+for every full-model stationary law with N>=2, H/N<=R and epsilon=1-p<=1/2,
+
+```text
+U <= (3+6R)epsilon^(1/3).
+```
+
+This bound is independent of road size and also covers finite vacancy
+densities beyond H<2N. It proves that every bounded-density zero-noise
+local limit is entirely resting, without assuming spatial ergodicity.
+The exponent is an upper-bound exponent, not an asserted actual scaling.
+
+The [local stationary reduction](continuations/2026-10-26-gap-balance/LOCAL_STATIONARY_REDUCTION.md)
+further proves that, when H/N->eta in (0,2), every such local gap limit is
+stationary for the backchip process. There is no restriction on epsilon N.
+The proof bounds the number of projected gap coordinates affected by an
+interference event, then estimates the residual of every bounded cylinder
+generator uniformly in N.
+
+This closes the possible positive-velocity component at zero noise and
+establishes the local stationary reduction. It does not identify the
+selected density/phase mixture, preserve all gap mass, or determine
+J/epsilon. Unscaled currents tend uniformly to zero; unrestricted
+first-order interchange and the general stationary formula remain open.
+The [closure-attempt record](continuations/2026-10-26-gap-balance/CLOSURE_ATTEMPTS.md)
+gives an explicit obstruction to inferring mass retention from local
+generator convergence and isolates the moving-car conditional gap tail.
+
+The [audit](continuations/2026-10-26-gap-balance/AUDIT.md) records the full
+proof checks, including over twelve million exact threshold tests,
+independent original-rule projection checks, and twenty polynomial
+certificates. The [handoff](continuations/2026-10-26-gap-balance/HANDOFF.md)
+preserves the new argument and remaining targets. No old stationary or
+Poisson solver was rerun; independent peer review remains outstanding.
+
+## Previous continuation: local clusters and a size-uniform lower bound
 
 The [local-cluster proof](continuations/2026-10-26-local-clusters/README.md)
 improves the full-model joint-limit condition from
@@ -332,8 +369,10 @@ the selected set can occur only on affine intervals with selected endpoints.
 
 Still open: whether eta_c is finite, exclusion of affine selection gaps or
 selection within them, an explicit general Q or stationary traffic-flow formula,
-the original first-passage quantity `T_N`, and interchange of rare-braking
-and thermodynamic limits.
+an elementary formula or fixed-order recurrence for the original first-passage
+quantity `T_N`, and unrestricted interchange for the normalized current
+`J/(1-p)`. The new theorem proves unscaled current decay and reduced
+stationarity of local zero-noise limits, not that first-order interchange.
 
 For the established rare-braking-first reduction, the thermodynamic current
 coefficient therefore exists and equals `rho*(eta-Q(eta))`, with

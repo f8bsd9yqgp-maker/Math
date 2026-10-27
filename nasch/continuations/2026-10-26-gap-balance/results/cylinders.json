@@ -1,0 +1,44 @@
+{
+  "status": "all_passed_exactly",
+  "resting_cylinder_mask_checks": 75072,
+  "escaped_mass_obstruction_checks": 1840,
+  "pairs": [
+    {
+      "N": 5,
+      "H": 1
+    },
+    {
+      "N": 5,
+      "H": 2
+    },
+    {
+      "N": 5,
+      "H": 3
+    },
+    {
+      "N": 6,
+      "H": 1
+    },
+    {
+      "N": 6,
+      "H": 2
+    },
+    {
+      "N": 6,
+      "H": 3
+    },
+    {
+      "N": 7,
+      "H": 1
+    },
+    {
+      "N": 7,
+      "H": 2
+    },
+    {
+      "N": 7,
+      "H": 3
+    }
+  ],
+  "scope": "Exact finite structural tests; the one-pile examples are not stationary full-model laws."
+}

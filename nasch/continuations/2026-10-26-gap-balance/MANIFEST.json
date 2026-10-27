@@ -1,0 +1,77 @@
+{
+  "research_date": "2026-10-26",
+  "parent_commit": "3d8fe96af4cbd9644e3f565a376509d82bf00ada",
+  "scope": "Uniform zero-noise arrest and unrestricted local backchip stationarity; general stationary flow, phase selection and first-order interchange unresolved; not independently peer-reviewed.",
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 5377,
+      "sha256": "d8c3b95cbdd55538dde392cc61bce0862efadf9dd45a5da717a472fae982ed0d"
+    },
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 6425,
+      "sha256": "02aa6c0ae890d7dfda50ed04ee9c59072f3d700e00d938b285d893c7c2d921d3"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3326,
+      "sha256": "95248215f682c355aa98b69323ec38532025a0005e77d0cb87cf7e7a205f89c9"
+    },
+    {
+      "path": "LOCAL_STATIONARY_REDUCTION.md",
+      "bytes": 10962,
+      "sha256": "f079541638577569f4bf1c4cbf3259a7b553ac5687b3924fc18938114898c609"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9930,
+      "sha256": "2bf3325b5996018c0160e831244f9f227b77d1b181ba5d9a81bdef262cc0c250"
+    },
+    {
+      "path": "results/cylinders.json",
+      "bytes": 601,
+      "sha256": "b9b4dbd8aa6eb07602ee697c4c684dce82de3fe26d98f2c0b5649068b4b699eb"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 342,
+      "sha256": "49b210cbf6cebbb6f6d4c94456f4cf27bd52d7b0641a2704646e9fe1988e11b3"
+    },
+    {
+      "path": "results/flow_fixtures.json",
+      "bytes": 6476,
+      "sha256": "ac88df3202ce3bf78e791690eb28f344e3edf110595cf47937cb06ca300d358f"
+    },
+    {
+      "path": "results/local_reduction.json",
+      "bytes": 417,
+      "sha256": "242b7c8725929086395b7ee049d315a3ea3200164e7b2776697a3661b86eca8c"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 1715,
+      "sha256": "f67bb6b1895b4e5dd92dd2d60acd4f87972d47a4db1258b1ba9ecf205dc3ac41"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3168,
+      "sha256": "23853dd71009ec43b4ce33dc3e454769670fe84f9a3e750005156770463e07ee"
+    },
+    {
+      "path": "verify_cylinders.py",
+      "bytes": 2492,
+      "sha256": "881b2188d5751fbe5461d7c13acaaac517510e32c5687f4eef398bd1e399d1a6"
+    },
+    {
+      "path": "verify_flow_fixtures.py",
+      "bytes": 1594,
+      "sha256": "5a7cd6502d03860c1c871774aab354deeed320f2a2b1f08ce63c15d2b70ce54e"
+    },
+    {
+      "path": "verify_local_reduction.py",
+      "bytes": 5806,
+      "sha256": "e548344df71c18d6101d484e651ba9c088b469f634eb6e7e656b713d47e55a6b"
+    }
+  ]
+}

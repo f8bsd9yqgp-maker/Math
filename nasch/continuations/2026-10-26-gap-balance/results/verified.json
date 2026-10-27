@@ -1,0 +1,111 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "gap_threshold_tests": 12900352,
+    "mask_state_tests": 529232,
+    "rational_final_constants": 44091
+  },
+  "pairs": [
+    {
+      "N": 2,
+      "H": 1,
+      "threshold_tests": 64
+    },
+    {
+      "N": 2,
+      "H": 2,
+      "threshold_tests": 192
+    },
+    {
+      "N": 2,
+      "H": 3,
+      "threshold_tests": 384
+    },
+    {
+      "N": 3,
+      "H": 1,
+      "threshold_tests": 576
+    },
+    {
+      "N": 3,
+      "H": 2,
+      "threshold_tests": 2304
+    },
+    {
+      "N": 3,
+      "H": 3,
+      "threshold_tests": 5760
+    },
+    {
+      "N": 3,
+      "H": 4,
+      "threshold_tests": 11520
+    },
+    {
+      "N": 3,
+      "H": 5,
+      "threshold_tests": 20160
+    },
+    {
+      "N": 4,
+      "H": 1,
+      "threshold_tests": 4096
+    },
+    {
+      "N": 4,
+      "H": 2,
+      "threshold_tests": 20480
+    },
+    {
+      "N": 4,
+      "H": 3,
+      "threshold_tests": 61440
+    },
+    {
+      "N": 4,
+      "H": 4,
+      "threshold_tests": 143360
+    },
+    {
+      "N": 4,
+      "H": 5,
+      "threshold_tests": 286720
+    },
+    {
+      "N": 4,
+      "H": 6,
+      "threshold_tests": 516096
+    },
+    {
+      "N": 5,
+      "H": 1,
+      "threshold_tests": 25600
+    },
+    {
+      "N": 5,
+      "H": 2,
+      "threshold_tests": 153600
+    },
+    {
+      "N": 5,
+      "H": 3,
+      "threshold_tests": 537600
+    },
+    {
+      "N": 5,
+      "H": 4,
+      "threshold_tests": 1433600
+    },
+    {
+      "N": 5,
+      "H": 5,
+      "threshold_tests": 3225600
+    },
+    {
+      "N": 5,
+      "H": 6,
+      "threshold_tests": 6451200
+    }
+  ],
+  "scope": "One-step deterministic pair balance and rational constants; no stationary solves."
+}

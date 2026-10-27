@@ -1,14 +1,16 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
 Also in this repository: [NaSch/backchip research](nasch/README.md)
-(updated 26 October 2026). The latest proof bounds the full-model
-near-certain-braking error explicitly and proves a simultaneous limit when
-(1-p)N tends to zero. A one-sided traffic-flow lower bound holds for all
-N>=2, H>=1 and 0<1-p<1, with no size restriction. Earlier results establish the reduced fixed-density
-pile-probability limit and an explicit Fourier boundary formula for T_N.
-The general stationary flow, remaining phase/condensate alternatives, and
-unrestricted interchange of limits remain unresolved. These are AI-assisted,
-internally audited results, not independently peer-reviewed.
+(updated 26 October 2026). The latest proof gives a road-size-independent
+stationary velocity bound U <= (3+6R)(1-p)^(1/3) at vacancy density at most R.
+Every zero-noise local limit in the project's density range has resting cars
+and a gap law stationary for the backchip reduction, without a restriction
+on (1-p)N. Earlier results identify the scaled current when (1-p)N tends to
+zero, prove the reduced fixed-density pile-probability limit, and give a
+Fourier boundary formula for T_N. The general stationary flow, remaining
+phase/condensate alternatives, and unrestricted interchange for J/(1-p)
+remain unresolved. These are AI-assisted, internally audited results,
+not independently peer-reviewed.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 

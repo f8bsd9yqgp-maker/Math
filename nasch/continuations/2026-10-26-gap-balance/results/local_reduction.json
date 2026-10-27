@@ -1,0 +1,13 @@
+{
+  "status": "all_passed_exactly",
+  "seed": 20261027,
+  "counts": {
+    "mask_comparisons": 39024,
+    "single_coin_hamming_checks": 179168,
+    "random_projection_lipschitz": 3360,
+    "conditional_mixed_expectations": 756,
+    "independent_threshold_checks": 291452,
+    "high_density_drift_checks": 5280
+  },
+  "scope": "Exhaustive small structural checks and seeded larger checks, not statistical inference."
+}

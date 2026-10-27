@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Full-model O_R((1-p)N) error and joint limit under (1-p)N->0; size-uniform one-speed flow lower bound and active-block geometry. General stationary flow, condensate alternatives and unrestricted interchange unresolved; not peer-reviewed.",
+  "scope": "Uniform zero-noise arrest and unrestricted local backchip stationarity; general stationary flow, phase selection and first-order interchange unresolved; not independently peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 19681,
-      "sha256": "6e0d2d119a9e69ca04e5b13dd1118e8df0358dd12e8fcca3cffe044b957d7b6e"
+      "bytes": 21868,
+      "sha256": "686201b6da9d7a4a5d383f92ac56bc93b3e1ea3ce14e50f62c82693b7a1d6738"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 20977,
-      "sha256": "93f7c7ea35c4cc06bcbf8a9c1a858e004ddc8f158af001f3e1b0d7d1e141d8aa"
+      "bytes": 22616,
+      "sha256": "2cd5f2c9f1d09b7ff37612d91a97ec83701a01cc6678ad8b758b450e6e15d795"
     },
     {
       "path": "code/verify.py",
@@ -71,6 +71,11 @@
       "path": "continuations/2026-10-26-local-clusters/MANIFEST.json",
       "bytes": 3265,
       "sha256": "8468f43e56ec338840d353bfe5779c924b6988b8112318416d419751c7905067"
+    },
+    {
+      "path": "continuations/2026-10-26-gap-balance/MANIFEST.json",
+      "bytes": 2476,
+      "sha256": "ae168dd1ebbadc6257f6acad537e8780ce271abd06d4d5c65dd6c621762e9d32"
     }
   ],
   "last_updated": "2026-10-26"

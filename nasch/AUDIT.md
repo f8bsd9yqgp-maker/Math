@@ -1,5 +1,31 @@
 # Proof audit and provenance
 
+## Latest result: uniform zero-noise arrest and local reduction, 26 October 2026
+
+The [new continuation](continuations/2026-10-26-gap-balance/README.md)
+proves U <= (3+6R)(1-p)^(1/3), uniformly over all N>=2 and H/N<=R.
+Adjacent-pair threshold balance and an integrable block-work inequality
+exclude a moving component from every bounded-density zero-noise local
+limit. The [local reduction proof](continuations/2026-10-26-gap-balance/LOCAL_STATIONARY_REDUCTION.md)
+then proves that every local gap limit at eta in (0,2) is stationary for
+the backchip process, without requiring (1-p)N->0. It uses a new Hamming
+bound for resting projection and a bounded cylinder-generator estimate.
+
+New audits passed 12,900,352 threshold checks in 529,232 state/mask cases,
+44,091 rational constant checks, 39,024 projected comparisons, 179,168
+single-coin Hamming checks, 3,360 seeded projection perturbations, 756 exact
+conditional mixed-coin expectations, 291,452 independent threshold checks,
+5,280 block drifts including H>=2N, 75,072 cylinder expansion checks,
+1,840 escaped-mass obstruction checks, and twenty polynomial interval
+certificates. The [detailed audit](continuations/2026-10-26-gap-balance/AUDIT.md)
+distinguishes exhaustive checks, seeded examples, and the analytic proof.
+
+No prior stationary or Poisson solver was rerun. Local reduced stationarity
+does not establish the canonical phase or preserve its mean; current is
+an unbounded transport observable. General stationary flow, residual
+phase/condensate alternatives, and unrestricted first-order interchange
+remain open. Independent specialist peer review remains outstanding.
+
 ## Latest result: local clusters and a uniform one-sided bound, 26 October 2026
 
 The [local-cluster continuation](continuations/2026-10-26-local-clusters/README.md)
