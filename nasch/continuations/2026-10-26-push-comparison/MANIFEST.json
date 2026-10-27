@@ -1,0 +1,82 @@
+{
+  "research_date": "2026-10-27",
+  "parent_commit": "146dab8e50d54298b2a2fe019871e7290905dc06",
+  "scope": "Synchronous pushing upper bound and dense-traffic asymptotic uniform in noise; polynomial-time local dynamic reduction. General fixed-density stationary flow, residual phase/condensate alternatives and unrestricted first-order current interchange unresolved; not independently peer-reviewed.",
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 6859,
+      "sha256": "35fa8abee277544a0ad64f56e5d2b4e21d966149feabe29597d361b5684def49"
+    },
+    {
+      "path": "CLOSURE_ATTEMPTS.md",
+      "bytes": 7528,
+      "sha256": "304cc2576ec3840085204c7d40b5efe817b7ea317cf70112691c5a7c034cf402"
+    },
+    {
+      "path": "DYNAMIC_REDUCTION.md",
+      "bytes": 11138,
+      "sha256": "d97d3df190d699729985ce5f6705a171079742a4efd29b74dbd0907ff065b64d"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 5323,
+      "sha256": "7423dd583f2cf2ad39abae0aaace0dea2dc3f326bee6afaf86e5d82f2f5f41a3"
+    },
+    {
+      "path": "POISSON_PUSH.md",
+      "bytes": 10570,
+      "sha256": "6652c21201e17345dc361802b9e62ef6bb95808fd3573d247157b5c4a40f28b4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10806,
+      "sha256": "a62418e56390f72a42fabd6fd0d04842db248e7743695e702d0203fb118b86a6"
+    },
+    {
+      "path": "results/cones.json",
+      "bytes": 234,
+      "sha256": "8ce6aaec338497d21a5a0a1908403d2f9e5f5fd40fd214905ed29260e40609ee"
+    },
+    {
+      "path": "results/dynamic.json",
+      "bytes": 317,
+      "sha256": "7503f25c6ef7467c55c9fba970117ec57bd45ed3225f490d111701ad7f941430"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 342,
+      "sha256": "18ba78b835c9e48a2b6676a4e74f0362df14a4ab68977f102eb7d02cb2e20c2c"
+    },
+    {
+      "path": "results/parallel_push.json",
+      "bytes": 378,
+      "sha256": "bbabff8d6a03f7c32234862b9921e977bf6c74885649e97c5433ade844329a4b"
+    },
+    {
+      "path": "results/push.json",
+      "bytes": 394,
+      "sha256": "d73d04b9aec74cf75bacf146f5392e14e9faa466011ee5e866ac11dd39acda44"
+    },
+    {
+      "path": "verify_cones.py",
+      "bytes": 1932,
+      "sha256": "44f6be06e0c7df8f3623f1dfa2eee1e2672fbe58556083c23bcc31572a6802f9"
+    },
+    {
+      "path": "verify_dynamic.py",
+      "bytes": 3106,
+      "sha256": "f770fd25f48c558f483260a6a358a57933e47239c36ee3d7a00d274c34ee501e"
+    },
+    {
+      "path": "verify_parallel_push.py",
+      "bytes": 3865,
+      "sha256": "b8891828b7c71cf0cea8685e59cda3f5edb5e0aee5cd6e8d5da103915589de80"
+    },
+    {
+      "path": "verify_push.py",
+      "bytes": 4895,
+      "sha256": "a723562bbd8c8cd160f0591facfe84f25cbdecdaa034ef06a190528c95f1759d"
+    }
+  ]
+}

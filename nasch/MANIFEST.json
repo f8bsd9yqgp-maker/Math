@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Uniform zero-noise arrest and unrestricted local backchip stationarity; general stationary flow, phase selection and first-order interchange unresolved; not independently peer-reviewed.",
+  "scope": "Synchronous pushing upper bound and dense-traffic asymptotic uniform in noise; polynomial-time local dynamic reduction. General fixed-density stationary flow, residual phase/condensate alternatives and unrestricted first-order current interchange unresolved; not independently peer-reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 21868,
-      "sha256": "686201b6da9d7a4a5d383f92ac56bc93b3e1ea3ce14e50f62c82693b7a1d6738"
+      "bytes": 23972,
+      "sha256": "d55dca8628234c7540ccdda1cf23c0318bb17e8ea89602b7fd1a7981fdbf306e"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 22616,
-      "sha256": "2cd5f2c9f1d09b7ff37612d91a97ec83701a01cc6678ad8b758b450e6e15d795"
+      "bytes": 24396,
+      "sha256": "273a35d952304838cdb54bf81b4afdef0ecbc39051054096a9aae956e1fc21cd"
     },
     {
       "path": "code/verify.py",
@@ -76,7 +76,12 @@
       "path": "continuations/2026-10-26-gap-balance/MANIFEST.json",
       "bytes": 2476,
       "sha256": "ae168dd1ebbadc6257f6acad537e8780ce271abd06d4d5c65dd6c621762e9d32"
+    },
+    {
+      "path": "continuations/2026-10-26-push-comparison/MANIFEST.json",
+      "bytes": 2700,
+      "sha256": "73b5949f4108d000cb256792a81e6cc6602d3c63338d274f648aa6381dc5ca76"
     }
   ],
-  "last_updated": "2026-10-26"
+  "last_updated": "2026-10-27"
 }

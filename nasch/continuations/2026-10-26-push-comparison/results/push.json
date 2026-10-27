@@ -1,0 +1,13 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "pathwise_mask_order_checks": 297992,
+    "random_order_checks": 5440,
+    "uniform_stationary_states": 8166,
+    "uniform_transition_counts": 89958,
+    "exact_current_identities": 66,
+    "positive_amplification_families": 50
+  },
+  "seed": 20261027,
+  "scope": "Finite exact structural audits, not a proof by numerical extrapolation."
+}

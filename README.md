@@ -1,16 +1,17 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
 Also in this repository: [NaSch/backchip research](nasch/README.md)
-(updated 26 October 2026). The latest proof gives a road-size-independent
-stationary velocity bound U <= (3+6R)(1-p)^(1/3) at vacancy density at most R.
-Every zero-noise local limit in the project's density range has resting cars
-and a gap law stationary for the backchip reduction, without a restriction
-on (1-p)N. Earlier results identify the scaled current when (1-p)N tends to
-zero, prove the reduced fixed-density pile-probability limit, and give a
-Fourier boundary formula for T_N. The general stationary flow, remaining
-phase/condensate alternatives, and unrestricted interchange for J/(1-p)
-remain unresolved. These are AI-assisted, internally audited results,
-not independently peer-reviewed.
+(updated 27 October 2026). The latest proof uses an exactly solvable
+synchronous pushing process to bound U <= (1-p)eta/(1-p*eta) for eta=H/N<1,
+uniformly in road size. Together with an earlier lower bound, it proves
+J/[(1-p)*vacancy fraction] -> 1 as eta->0, uniformly over braking probability.
+A local dynamic reduction now has polynomial time error and requires no
+restriction on (1-p)N. Earlier results prove the reduced fixed-density
+pile-probability limit, identify the scaled current when (1-p)N tends to
+zero, and give a Fourier boundary formula for T_N. The general fixed-density
+stationary flow, residual phase/condensate alternatives, and unrestricted
+first-order interchange remain unresolved. These are AI-assisted,
+internally audited results, not independently peer-reviewed.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 

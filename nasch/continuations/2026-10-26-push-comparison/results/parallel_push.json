@@ -1,0 +1,13 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "domination_masks": 137312,
+    "random_domination_masks": 7800,
+    "uniform_states": 2026,
+    "transition_masks": 86516,
+    "bernstein_coefficients": 11188,
+    "reward_identities": 180
+  },
+  "seed": 20261027,
+  "scope": "All-probability invariant-law coefficients; exact original-rule domination and reward checks."
+}

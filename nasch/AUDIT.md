@@ -1,5 +1,35 @@
 # Proof audit and provenance
 
+## Latest result: synchronous pushing and dynamic reduction, 27 October 2026
+
+The [new continuation](continuations/2026-10-26-push-comparison/README.md)
+proves the full-model bound U<=epsilon eta/(1-p eta), eta=H/N<1,
+via an exactly uniform synchronous-pushing stationary law. With the
+inherited lower bound, it proves J/(epsilon delta)->1 as eta->0,
+uniformly over all epsilon in (0,1). The
+[dynamic theorem](continuations/2026-10-26-push-comparison/DYNAMIC_REDUCTION.md)
+couples local gap observations to reduced dynamics on the t/epsilon
+scale without restricting epsilon N. One-sided discrepancy cones give
+a polynomial-in-time bound, with an O(epsilon) coefficient below eta=1.
+
+New synchronous checks passed 137,312 exhaustive mask comparisons,
+7,800 seeded larger cases, 86,516 transition masks across 2,026 binary
+states, 11,188 invariant-law Bernstein coefficients, and 180 exact reward
+identities. The earlier Poisson upper comparison has its own exact audit.
+Dynamic checks passed 27,922 word comparisons, 52,804 Hamming-drift tests,
+5,280 seeded projected comparisons, 2,450 rational constant tests,
+362,529 one-sided cone words, and 303 telescoping identities. The
+[detailed audit](continuations/2026-10-26-push-comparison/AUDIT.md)
+separates finite checks, analytic arguments, established factorization
+methods, and new project deductions.
+
+An explicit positive-amplification family shows why the Hamming bounds
+do not bound projected transport by triggering mass. It is not a
+stationary counterexample. No old stationary or first-passage solver
+was rerun. Fixed-positive-density general flow, residual phase/condensate
+alternatives, and unrestricted first-order current interchange remain
+open. Independent peer review and publication-priority review are pending.
+
 ## Latest result: uniform zero-noise arrest and local reduction, 26 October 2026
 
 The [new continuation](continuations/2026-10-26-gap-balance/README.md)

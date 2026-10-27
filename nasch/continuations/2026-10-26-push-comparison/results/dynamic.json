@@ -1,0 +1,11 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "poisson_word_comparisons": 27922,
+    "coupled_hamming_drift": 52804,
+    "random_full_projection_to_word": 5280,
+    "rational_constants": 2450
+  },
+  "seed": 20261027,
+  "scope": "New deterministic coupling checks and exact rational bounds; no old solvers."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "all_passed_exactly",
+  "single_seed_event_words": 362529,
+  "rational_telescoping_identities": 303,
+  "scope": "Deterministic containment and exact constants; analytic Poisson-front proof is in DYNAMIC_REDUCTION.md."
+}

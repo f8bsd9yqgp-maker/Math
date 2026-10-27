@@ -1,6 +1,6 @@
 # NaSch project: canonical limits and a quantitative full-model approximation
 
-Research record updated on 26 October 2026. Earlier structural notes were
+Research record updated on 27 October 2026. Earlier structural notes were
 prepared from research runs 6–8 (20–21 October 2026).
 
 **The fixed-density pile probability converges and is strictly positive.**
@@ -17,7 +17,53 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: uniform arrest and unrestricted local stationary reduction
+## Latest continuation: synchronous pushing and uniform dense traffic
+
+The [new proof](continuations/2026-10-26-push-comparison/README.md) gives,
+for every full-model stationary law with N>=2, 1<=H<N, eta=H/N and
+epsilon=1-p in (0,1),
+
+```text
+epsilon H/(N+H-1) <= U
+ <= epsilon sum_(k=1)^H p^(k-1)(H)_k/(N)_k
+ <= epsilon eta/(1-p eta).
+```
+
+The lower bound is inherited; the new upper comparison uses the same
+Bernoulli masks in an exactly solvable synchronous pushing process.
+Its binary stationary law is uniform, proved through the zero-to-zero
+gap composition kernel. Thus U is of order epsilon uniformly in road
+size at every fixed eta<1. This does not identify its exact coefficient.
+
+Writing delta=H/(N+H), the bounds prove the new exact boundary regime
+
+```text
+J/(epsilon delta) -> 1 as H/N -> 0,
+uniformly over epsilon in (0,1), with relative error <= eta/(1-eta).
+```
+
+No condition on epsilon N, or even epsilon->0, is required for this
+vanishing-vacancy theorem. It does not solve fixed eta>0.
+
+The [dynamic reduction](continuations/2026-10-26-push-comparison/DYNAMIC_REDUCTION.md)
+extends the previous stationary local result to joint gap observations
+at finitely many times on the t/epsilon scale, throughout eta in (0,2)
+and without an epsilon N restriction. One-sided discrepancy propagation
+gives polynomial time error, of order epsilon^(1/3)(1+T+T^2), improved
+to epsilon(1+T+T^2) below eta=1. These are bounds for local observations,
+not unbounded current or full path convergence.
+
+The [audit](continuations/2026-10-26-push-comparison/AUDIT.md) includes
+coefficientwise stationary-law checks for every epsilon and exact
+original-rule domination checks. The
+[closure record](continuations/2026-10-26-push-comparison/CLOSURE_ATTEMPTS.md)
+proves a quadratic projected-travel amplification from one coin and
+explains why bounded local convergence does not yet determine current.
+The [handoff](continuations/2026-10-26-push-comparison/HANDOFF.md)
+preserves the proofs and remaining targets. No old stationary or
+first-passage solver was rerun. Independent peer review remains pending.
+
+## Previous continuation: uniform arrest and unrestricted local stationary reduction
 
 The [new proof](continuations/2026-10-26-gap-balance/README.md) establishes,
 for every full-model stationary law with N>=2, H/N<=R and epsilon=1-p<=1/2,
