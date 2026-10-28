@@ -1,0 +1,42 @@
+{
+  "research_date": "2026-10-27",
+  "parent_commit": "ae78d6f3897ef3560518ac38690d8346ede37273",
+  "scope": "Unrestricted local integrated-current distribution reduction by frozen anchors; lower mean-current bound and an exact uniform-integrability criterion. Required current tails and stationary-flux selection remain unproved; no general fixed-density flow formula; not independently peer-reviewed.",
+  "files": [
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 5710,
+      "sha256": "dd20904ef77ef8b4b58e3468bf4f857ac2552f531e864766ffc93d1859347651"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 3886,
+      "sha256": "c3bb0c67884bf58290a23371ad838c400233525ae21aa641aa8e98a88d7f0bad"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 4116,
+      "sha256": "fd3e2881ede0d58ccc36fb104b0c360a44cec1e0027c90b9ebfb205b067595f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10995,
+      "sha256": "46f9cf256cbb1e7d9b2746851721c26b875e034b4d3458d11b0776e259f823f9"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 357,
+      "sha256": "64a52e667bdf4da95ddee46af7d872eb5f3eadfe145771336f54a227bbf7ce03"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 347,
+      "sha256": "eff1085173e530713bb66f0026df632515c618b549974957a79605b054f44a5e"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4130,
+      "sha256": "1a55d857340773ac94fe3339f0edbd11f6b3c61fdd8a125447391d706b82311a"
+    }
+  ]
+}

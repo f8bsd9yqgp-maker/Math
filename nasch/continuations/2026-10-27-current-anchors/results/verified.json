@@ -1,0 +1,11 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "full_histories": 300608,
+    "full_frozen_anchor_checks": 196472,
+    "reduced_words": 27922,
+    "reduced_anchor_checks": 27200,
+    "anchor_probability_identities": 1548
+  },
+  "scope": "Deterministic anchor identities and exact rational probabilities, not a stationary-current closure."
+}

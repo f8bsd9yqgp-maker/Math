@@ -17,7 +17,40 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: synchronous pushing and uniform dense traffic
+## Latest continuation: frozen anchors and integrated-current distributions
+
+The [new proof](continuations/2026-10-27-current-anchors/README.md)
+extends the local dynamic reduction from gaps to actual car displacements
+over t/epsilon updates. An initially unqualified car receiving no
+nonbraking coin stays fixed; it is a common current anchor for the full
+and reduced processes. Conservation reconstructs nearby integrated
+currents from endpoint gaps.
+
+This proves joint local finite-dimensional convergence of gaps and
+integrated currents throughout eta in (0,2), with no epsilon N restriction.
+The finite-ring coupling has an explicit error bound and a logarithmic
+window choice. For a selected reduced-stationary local law mu, it yields
+
+```text
+liminf U/epsilon >= E_mu g_0 - mu(g_0>=2).
+```
+
+Equality with this limiting local flux is equivalent to uniform
+integrability of the actual integrated displacements over any one fixed
+positive rescaled interval. That tail condition is not proved. Nor is
+the selected local flux identified with eta-Q(eta) in unrestricted joint
+limits. Thus the current-distribution theorem is stronger than the
+previous gap theorem, but does not close the mean-current formula.
+
+The [audit](continuations/2026-10-27-current-anchors/AUDIT.md) records exact
+original-rule anchor and conservation checks. The
+[attempt record](continuations/2026-10-27-current-anchors/ATTEMPTS.md)
+separates the remaining tail and law-selection steps, and the
+[handoff](continuations/2026-10-27-current-anchors/HANDOFF.md) preserves
+the new argument. No stationary or first-passage solver was rerun.
+Independent peer review remains pending.
+
+## Previous continuation: synchronous pushing and uniform dense traffic
 
 The [new proof](continuations/2026-10-26-push-comparison/README.md) gives,
 for every full-model stationary law with N>=2, 1<=H<N, eta=H/N and

@@ -1,17 +1,18 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
 Also in this repository: [NaSch/backchip research](nasch/README.md)
-(updated 27 October 2026). The latest proof uses an exactly solvable
-synchronous pushing process to bound U <= (1-p)eta/(1-p*eta) for eta=H/N<1,
-uniformly in road size. Together with an earlier lower bound, it proves
-J/[(1-p)*vacancy fraction] -> 1 as eta->0, uniformly over braking probability.
-A local dynamic reduction now has polynomial time error and requires no
-restriction on (1-p)N. Earlier results prove the reduced fixed-density
-pile-probability limit, identify the scaled current when (1-p)N tends to
-zero, and give a Fourier boundary formula for T_N. The general fixed-density
+(updated 27 October 2026). The latest frozen-anchor argument identifies
+local integrated-current distributions in the rare-nonbraking limit,
+without restricting (1-p)N. It gives a lower bound on normalized mean
+current and an exact uniform-integrability criterion for passing to its
+expectation; that tail condition is not yet proved. Earlier results give
+the size-uniform bound U <= (1-p)eta/(1-p*eta) for eta=H/N<1, a dense-traffic
+asymptotic uniform over braking probability, the reduced fixed-density
+pile-probability limit, the scaled current when (1-p)N tends to zero,
+and a Fourier boundary formula for T_N. The general fixed-density
 stationary flow, residual phase/condensate alternatives, and unrestricted
-first-order interchange remain unresolved. These are AI-assisted,
-internally audited results, not independently peer-reviewed.
+first-order mean-current interchange remain unresolved. These are
+AI-assisted, internally audited results, not independently peer-reviewed.
 
 **Theorem.** The minimum length of a binary word containing each binary Lyndon word of length eight as a contiguous substring is **94**.
 

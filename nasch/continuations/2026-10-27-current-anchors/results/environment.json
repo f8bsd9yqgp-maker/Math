@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "dependencies": "Python standard library only",
+  "research_date": "2026-10-27",
+  "parent_commit": "ae78d6f3897ef3560518ac38690d8346ede37273",
+  "old_stationary_solvers_rerun": false,
+  "audit_status": "The new direct-rule anchor verifier passed; analytic proofs supplied."
+}

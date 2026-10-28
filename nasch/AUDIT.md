@@ -1,5 +1,27 @@
 # Proof audit and provenance
 
+## Latest result: frozen-anchor current reduction, 27 October 2026
+
+The [new proof](continuations/2026-10-27-current-anchors/README.md)
+uses initially unqualified cars with Poisson-empty future clock intervals
+as common frozen anchors. Summed gap conservation then upgrades endpoint
+gap coupling to exact integrated-current equality on a high-probability
+event. This proves current-distribution convergence with no epsilon N
+restriction, a lower bound on normalized mean current, and an equivalence
+between convergence to the selected local flux and uniform integrability
+of integrated displacements.
+
+The new direct-rule verifier passed 300,608 full histories, 196,472 full
+frozen-anchor identities, 27,922 reduced event words, 27,200 reduced-anchor
+identities, and 1,548 exact rational candidate-anchor probabilities. The
+[audit](continuations/2026-10-27-current-anchors/AUDIT.md) separates these
+checks from the analytic limiting arguments and inherited dynamic theorem.
+
+The required tail condition and stationary-flux selection are unproved.
+No general fixed-density mean-current formula or condensate classification
+is claimed. No old stationary solver was rerun. Independent peer review
+and publication-priority verification remain outstanding.
+
 ## Latest result: synchronous pushing and dynamic reduction, 27 October 2026
 
 The [new continuation](continuations/2026-10-26-push-comparison/README.md)
