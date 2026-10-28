@@ -1,0 +1,42 @@
+{
+  "research_date": "2026-10-27",
+  "parent_commit": "a4c2e15e77bf4770ca9a0a939a95a782794fe72e",
+  "scope": "Exact full-model flow identity, movement-episode total-variation reduction, two nonnegative mean-current defects, and localization of surviving pair defects to qualified runs with order 1/epsilon vacancy mass. Defect vanishing and stationary-flux selection remain unproved; no general flow closure; not independently peer reviewed.",
+  "files": [
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 4706,
+      "sha256": "631125fac03f8138ec63d5f16d2873eb34702c808680698b5f5ae4a28be8b72a"
+    },
+    {
+      "path": "AUDIT.md",
+      "bytes": 6261,
+      "sha256": "8b17cd2d3d0addd0543b386885565d61ba6c617211b394c688267b261db884c7"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 5143,
+      "sha256": "49541a519ba3bbfbee33fd232d675bed699ada00b81ad26cd65ffbd1261248b2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16720,
+      "sha256": "1e7f54d09cfa013eb356d3d21b1aeb6e4dadf506e41d42f274f39f7e6c6e8450"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 342,
+      "sha256": "fa8b0026c077919c83cc5e75bc2a5724a830a7c003abf531580002aa76860b87"
+    },
+    {
+      "path": "results/verified.json",
+      "bytes": 577,
+      "sha256": "2662f415dea37abfa59531f3ed74d17ebde2081a11bbf0ae13863ee80e8de037"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 8006,
+      "sha256": "ad9f62ea0a991421ba485ee1ec51bd5a6e2acb76ad23a4e0e3cf21acdd6d73f0"
+    }
+  ]
+}

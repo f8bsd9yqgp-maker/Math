@@ -1,11 +1,12 @@
 # The shortest superstring of the binary Lyndon words of length eight
 
 Also in this repository: [NaSch/backchip research](nasch/README.md)
-(updated 27 October 2026). The latest frozen-anchor argument identifies
-local integrated-current distributions in the rare-nonbraking limit,
-without restricting (1-p)N. It gives a lower bound on normalized mean
-current and an exact uniform-integrability criterion for passing to its
-expectation; that tail condition is not yet proved. Earlier results give
+(updated 27 October 2026). The latest exact flow identity separates any
+mean-current defect into escaped gap mass at unqualified cars and an
+adjacent-qualified-pair contribution. An entire movement episode reduces
+to a backchip transfer in total variation; any surviving pair defect
+requires a qualified run with order 1/(1-p) vacancies or more. Vanishing
+of those defects remains unproved. Earlier results give
 the size-uniform bound U <= (1-p)eta/(1-p*eta) for eta=H/N<1, a dense-traffic
 asymptotic uniform over braking probability, the reduced fixed-density
 pile-probability limit, the scaled current when (1-p)N tends to zero,

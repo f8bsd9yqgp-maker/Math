@@ -1,0 +1,15 @@
+{
+  "status": "all_passed_exactly",
+  "counts": {
+    "direct_local_masks": 10404,
+    "all_epsilon_drift_polynomials": 2601,
+    "remainder_endpoint_certificates": 5202,
+    "reward_mass_identities": 603,
+    "episode_conservation_and_gain": 38496,
+    "isolated_episode_reductions": 4459,
+    "cyclic_time_reward_words": 28500,
+    "frozen_boundary_transitions": 5832,
+    "frozen_boundary_pair_extinctions": 236
+  },
+  "scope": "Exact local drift, episode and reward-accounting identities. No stationary solver, no proof of defect vanishing, and no general flow closure."
+}

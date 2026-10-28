@@ -1,5 +1,29 @@
 # Proof audit and provenance
 
+## Latest result: exact flow defects and movement episodes, 27 October 2026
+
+The [new proof](continuations/2026-10-27-flow-defects/README.md) gives an
+exact stationary flow identity with a nonnegative remainder. It decomposes
+every limiting mean-current defect into escaped unqualified gap mass and
+adjacent-qualified-pair probability divided by epsilon. A separate time
+mass-transport identity represents U/epsilon as one eligible episode's
+mean reward; its entire distribution is coupled to a single backchip
+transfer with size-uniform error. A single frozen boundary localizes any
+surviving pair defect to qualified runs with order 1/epsilon vacancies.
+
+The [audit](continuations/2026-10-27-flow-defects/AUDIT.md) records 2,601
+coefficientwise conditional-drift identities valid for every epsilon,
+10,404 direct masks, 5,202 remainder certificates, 603 reward/mass
+identities, 38,496 episode histories, 4,459 isolated-episode reductions,
+28,500 cyclic time-reward words, and 5,832 frozen-boundary transitions
+for 236 initial states. All passed exactly. No stationary solver was
+rerun, and the combinatorial words are not portrayed as stationary laws.
+
+Neither defect is proved to vanish. The selected limiting flux is still
+not identified with eta-Q(eta) in unrestricted full-model limits. No
+general stationary-flow closure or stationary counterexample is claimed;
+independent specialist review remains pending.
+
 ## Latest result: frozen-anchor current reduction, 27 October 2026
 
 The [new proof](continuations/2026-10-27-current-anchors/README.md)

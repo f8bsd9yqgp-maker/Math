@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "dependencies": "Python standard library only",
+  "research_date": "2026-10-27",
+  "parent_commit": "a4c2e15e77bf4770ca9a0a939a95a782794fe72e",
+  "old_solvers_rerun": false,
+  "audit_status": "All new exact structural audits passed; analytic proofs supplied."
+}

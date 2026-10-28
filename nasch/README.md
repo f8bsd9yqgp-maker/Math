@@ -17,7 +17,46 @@ our Nagel–Schreckenberg `v_max = 2` project. A rate-one clock at site `i`
 retains `1` unit if its mass is at least `2`, retains `0` otherwise, and sends
 the rest to `i-1`. This is not the full discrete-time traffic process.
 
-## Latest continuation: frozen anchors and integrated-current distributions
+## Latest continuation: exact flow defects and movement episodes
+
+The [new proof](continuations/2026-10-27-flow-defects/README.md) keeps the
+exact activity-weighted gap drift and obtains, for the full stationary
+model with epsilon=1-p,
+
+```text
+U/epsilon = E[(1-c_0)g_0] - P(g_0>=2)
+            + P(c_0=c_1=1)/epsilon + C + R,
+0 <= R <= C+2B+epsilon.
+```
+
+Here c_i=1{v_i>0,g_i>=2}, C=E c_0, and B=P(c_0=1,c_1=0).
+The remainder tends uniformly to zero at bounded density. Every
+subsequential mean-current defect relative to its selected local reduced
+law is therefore the sum of two nonnegative contributions: escaped gap
+mass at unqualified cars and adjacent-pair probability on the epsilon
+scale. This is an exact correlation identity, not a closed flow formula.
+
+A separate time-reward argument represents U/epsilon as the mean distance
+in one eligible forced-start movement episode, with zero reward when the
+sampled state is ineligible. Its entire distribution is coupled to d(g_0)
+with error at most 2C+2epsilon(eta+1), independently of road size. Mean
+convergence is equivalent to uniform integrability of (1-c_0)g_0 together
+with P(c_0=c_1=1)=o(epsilon).
+
+The new single-frozen-boundary argument proves that a nonzero pair defect
+requires a qualified run with order 1/epsilon vacancies or more. It also
+bounds U/epsilon whenever epsilon H remains bounded. It does not exclude
+the rare large runs or identify the limiting coefficient.
+
+The [audit](continuations/2026-10-27-flow-defects/AUDIT.md) records exact
+all-parameter local polynomial checks and direct episode/boundary checks.
+The [attempt record](continuations/2026-10-27-flow-defects/ATTEMPTS.md)
+and [handoff](continuations/2026-10-27-flow-defects/HANDOFF.md) preserve
+the remaining stationary tails and flux-selection problem. No old solver
+was rerun. The general formula remains unproved; independent review is
+pending.
+
+## Previous continuation: frozen anchors and integrated-current distributions
 
 The [new proof](continuations/2026-10-27-current-anchors/README.md)
 extends the local dynamic reduction from gaps to actual car displacements
@@ -450,8 +489,9 @@ Still open: whether eta_c is finite, exclusion of affine selection gaps or
 selection within them, an explicit general Q or stationary traffic-flow formula,
 an elementary formula or fixed-order recurrence for the original first-passage
 quantity `T_N`, and unrestricted interchange for the normalized current
-`J/(1-p)`. The new theorem proves unscaled current decay and reduced
-stationarity of local zero-noise limits, not that first-order interchange.
+`J/(1-p)`. The full-model results prove local distributional reduction
+and exact mean-defect criteria, not unconditional vanishing of those
+defects or the required first-order interchange.
 
 For the established rare-braking-first reduction, the thermodynamic current
 coefficient therefore exists and equals `rho*(eta-Q(eta))`, with

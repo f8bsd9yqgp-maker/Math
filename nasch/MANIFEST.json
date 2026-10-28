@@ -1,11 +1,11 @@
 {
   "publication_date": "2026-10-22",
-  "scope": "Unrestricted local integrated-current distribution reduction by frozen anchors; lower mean-current bound and an exact uniform-integrability criterion. Required current tails and stationary-flux selection remain unproved; no general fixed-density flow formula; not independently peer-reviewed.",
+  "scope": "Exact full-model flow identity, movement-episode total-variation reduction, two nonnegative mean-current defects, and localization of surviving pair defects to qualified runs with order 1/epsilon vacancy mass. Defect vanishing and stationary-flux selection remain unproved; no general flow closure; not independently peer reviewed.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 25628,
-      "sha256": "259a895eaff8d329c6ef28e541efea49299c82c5eb799453b612e430fa0dff2e"
+      "bytes": 27564,
+      "sha256": "6663ce9785b738af788600cd6d1f186616413157b952fe8dab6e3e22fbb0d367"
     },
     {
       "path": "density_phases_proof.md",
@@ -14,8 +14,8 @@
     },
     {
       "path": "AUDIT.md",
-      "bytes": 25649,
-      "sha256": "44053b6930a13ecda7eba525ef7f817dc379558289d61db095d0e2403cc1ba68"
+      "bytes": 27066,
+      "sha256": "bfd584eaedef0b98c00c814c0102a473fa785329bd8482e5d17ea582f7e976d7"
     },
     {
       "path": "code/verify.py",
@@ -86,6 +86,11 @@
       "path": "continuations/2026-10-27-current-anchors/MANIFEST.json",
       "bytes": 1459,
       "sha256": "6d824a06f96bb317ec079c19b4f420f4dae11b822511d29957977ff4876f61cc"
+    },
+    {
+      "path": "continuations/2026-10-27-flow-defects/MANIFEST.json",
+      "bytes": 1498,
+      "sha256": "4e51b90c33a54a3b86ea1bac0b73d287be2e045c30fbbbf003940b5bc56eed57"
     }
   ],
   "last_updated": "2026-10-27"
